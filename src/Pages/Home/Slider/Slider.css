@@ -1,0 +1,87 @@
+
+.container {
+    position: relative;
+    width: 534px;
+    height: 296px;
+    border-radius: 15px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 534px;
+    height: 296px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .imgRange{
+    color: blue;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400;
+    width: 400;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #171c1e;
+    border-radius: 15px;
+    
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.8;
+    
+  }
+  
+  
+  .text {
+    color: white;
+    font-size: 18px;
+    margin-left: 250px;
+    font-weight: 400;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: .5s ease;
+    margin-top: 10px;
+
+   }
+   .textTow {
+    color: white;
+    font-size: 16px;
+    margin-left: 250px;
+    font-weight: 400;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: .5s ease;
+    margin-top: 10px;
+
+   }
+   .text:hover{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    background-color: rgb(252, 238, 238);
+    color: black;
+    padding: 5px;
+    
+
+   }
+   .textTow:hover{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+    background-color: rgb(252, 238, 238);
+    color: black;
+    padding: 5px;
+    
+
+   }
+   
+  

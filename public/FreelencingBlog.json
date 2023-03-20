@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "name": "Full Stack Web Development: Building Dynamic and Interactive Web Applications",
+        "date": "January 6, 2023",
+        "author": "Rokibul",
+        "view": "256",
+        "img": "https://i.ibb.co/wrXKY4n/back-view-female-itspecialists-working-two-modern-computers-during-evening-time-home-caucasian-woman.jpg",
+        "description": "Web development has come a long way since the days of static HTML pages. Today, web applications are more dynamic and interactive than ever before, and users expect seamless and intuitive experiences. Full stack web development is the process of building these types of web applications from start to finish.What is Full Stack Web Development? Full stack web development refers to the process of building web applications"
+    },
+    {
+        "id": "1",
+        "name": "The Power of Typography in Graphic Design",
+        "date": "February 26, 2023",
+        "author": "Sadik",
+        "view": "196",
+        "img": "https://i.ibb.co/2FwhF3r/young-woman-working-animation-studio.jpg",
+        "description": "Typography is a fundamental aspect of graphic design that has the power to transform a design from ordinary to extraordinary. Typography is the art and technique of arranging type to make written language legible, readable, and appealing when displayed. Typography can convey emotion, tone, and personality, and it can greatly impact the message and overall effectiveness of a design. In this blog post, we'll explore the power of typography in graphic design and"
+    },
+    {
+        "id": "1",
+        "name": "Creating User Personas: A Key Step in UI/UX Design",
+        "date": "March 13, 2023",
+        "author": "Ahmed",
+        "view": "366",
+        "img": "https://i.ibb.co/MgXhykZ/team-working-interface-design.jpg",
+        "description": "User personas are fictional characters that represent the ideal user of a product or service. They are created through research and analysis of user data and behavior to help designers and developers understand the needs and goals of their users. User personas are a critical component of user-centered design, as they help to ensure that the design of a product or service is tailored to the needs of its users. In this blog post, we'll explore the importance of creating"
+    },
+    {
+        "id": "1",
+        "name": "The Dark Side of Social Media: Cybersecurity Risks and Solutions",
+        "date": "December 10, 2022",
+        "author": "Nayeem Sheikh",
+        "view": "256",
+        "img": "https://i.ibb.co/rskrZJx/female-hacker-with-hoodie-front-computer-with-green-screen-male-criminal.jpg",
+        "description": "Social media has become an integral part of our lives. We use it to connect with friends and family, share our experiences, and stay up-to-date with the latest news and trends. However, the dark side of social media is the cybersecurity risks that come along with it. Cybercriminals are using social media to steal personal information, spread malware, and conduct phishing attacks. In this blog post, we'll explore the cybersecurity risks associated with social"
+    },
+    {
+        "id": "1",
+        "name": "Debugging and Troubleshooting Techniques for Front-End Development",
+        "date": "January 16, 2023",
+        "author": "Farzana",
+        "view": "256",
+        "img": "https://i.ibb.co/d28cnhz/side-view-portrait-contemporary-african-american-man-looking-computer-screen-while-working-late-nigh.jpg",
+        "description": "Debugging and troubleshooting are critical skills for front-end developers to have. When developing web applications, there are bound to be errors and issues that need to be resolved before the application can be released. In this blog post, we'll explore some of the debugging and troubleshooting techniques that front-end developers can use to identify and fix errors in their code."
+    },
+    {
+        "id": "1",
+        "name": "Marketing and Networking Strategies for Freelancers",
+        "date": "February 20, 2023",
+        "author": "Abir",
+        "view": "256",
+        "img": "https://i.ibb.co/SNjJpYt/young-caucasian-businessman-freelancer-working-home-office-concentrated-young-man-learning-online.jpg",
+        "description": "As a freelancer, your success depends on your ability to market your skills and services effectively and build a strong network of clients and contacts. In this blog post, we'll explore some marketing and networking strategies that freelancers can use to build their businesses and increase their opportunities for success."
+    }
+]

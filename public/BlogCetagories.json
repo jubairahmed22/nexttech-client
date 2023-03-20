@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "Freelancing"
+    },
+    {
+        "id": "2",
+        "name": "Full Stack Web Development"
+    },
+    {
+        "id": "3",
+        "name": "Cyber Security"
+    },
+    {
+        "id": "4",
+        "name": "UI & UX Design"
+    },
+    {
+        "id": "5",
+        "name": "Graphics Design"
+    },
+    {
+        "id": "6",
+        "name": "Front End Development"
+    },
+    {
+        "id": "7",
+        "name": "Backend Development"
+    }
+]

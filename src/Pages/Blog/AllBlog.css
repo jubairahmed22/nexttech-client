@@ -1,0 +1,28 @@
+.cardMajer {
+    width: 900px;
+
+}
+
+.title {
+
+    width: 800px;
+    height: 72px;
+    left: 140px;
+    top: 175px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100.4%;
+}
+
+.btnCol {
+    background-color: #F68920;
+    border: none;
+}
+
+.imgMegar {
+    height: 500px;
+
+}

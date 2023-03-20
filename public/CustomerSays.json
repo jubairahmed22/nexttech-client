@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "name": "Smith luka",
+        "subName": "Lecturar",
+        "description": "I recently used the IT services provided by this company, and I was blown away by their professionalism and expertise. They solved my computer issues quickly and efficiently, and their customer service was exceptional. I highly recommend them!",
+        "img": "https://img.freepik.com/free-photo/portrait-young-businessman_144627-21852.jpg?w=360&t=st=1679201847~exp=1679202447~hmac=0724696814d1aaf7143820a1cecd841fee51db03dd8ccb02276951fb3dc2316b"
+    },
+    {
+        "id": "2",
+        "name": "Fabin Que",
+        "subName": "Designer",
+        "description": "I've been using this company's cloud computing services for my small business, and I couldn't be happier with the results. Their platform is user-friendly and secure, and their customer support is always available when I need it. I highly recommend their services!",
+        "img": "https://media.npr.org/assets/img/2022/11/08/ap22312071681283-0d9c328f69a7c7f15320e8750d6ea447532dff66-s800-c85.webp"
+    },
+    {
+        "id": "4",
+        "name": "Ester Hower",
+        "subName": "Doctor",
+        "description": "I had a data security issue that needed immediate attention, and this company responded promptly and resolved the issue quickly. They were knowledgeable, professional, and easy to work with. I highly recommend them for any IT needs.",
+        "img": "https://img.freepik.com/free-photo/office-happy-man-work_144627-6324.jpg?w=360&t=st=1679201968~exp=1679202568~hmac=4d7237e4febffaa3e0e4e45a45d5d707745f91a5d53908d89209b709f83d55d1"
+    }
+]
