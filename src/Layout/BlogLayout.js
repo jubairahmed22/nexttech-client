@@ -7,7 +7,7 @@ const BlogLayout = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="grid grid-rows-3 grid-flow-col gap-4">
+            <div className="grid lg:grid-rows-3 gap-4">
 
                 <div className="row-span-full col-span-10 "><Outlet></Outlet></div>
                 <div className="row-span-full col-span-2 "><RightSideNav></RightSideNav>

@@ -1,14 +1,15 @@
-.background{
+.background {
     background-color: #f7e7e7;
 }
-.heading{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 800;
-font-size: 64px;
-line-height: 100%;
-/* or 64px */
 
-text-align: center;
+.mainBoldHeading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+    /* or 64px */
+
+    text-align: center;
 
 }

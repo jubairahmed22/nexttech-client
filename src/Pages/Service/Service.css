@@ -1,0 +1,93 @@
+.cerocelImg:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    display: inline-block;
+    background: #1E2452;
+    opacity: 0.5;
+    /* W3C */
+}
+
+.heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+.imageText {
+    top: 30%;
+    left: 10%;
+}
+
+.imagePera {
+    top: 45%;
+    left: 10%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+
+}
+
+.imageButton {
+    top: 70%;
+    left: 10%;
+}
+
+.OurServiceImg {
+    width: 560px;
+    height: 528.86px;
+}
+
+.OurServiceRec {
+    width: 1200px;
+    height: 528.86px;
+}
+
+.serviceHeading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+    /* identical to box height, or 64px */
+
+
+    /* Primary Blue */
+
+    color: #1E2452;
+
+}
+
+.Ourservicepera {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    /* or 42px */
+
+    text-align: justify;
+
+    color: #444444;
+}
+
+.bannerText {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+    /* identical to box height, or 84px */
+
+
+    /* Primary Blue */
+
+    color: #1E2452;
+}

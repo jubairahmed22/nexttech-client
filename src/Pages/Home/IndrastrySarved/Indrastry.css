@@ -1,22 +1,23 @@
-
-.background{
+.background {
     background-color: #f7e7e7;
 }
-.heading{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 800;
-font-size: 64px;
-line-height: 75px;
-}
-.subHeading{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-letter-spacing: 0.05em;
 
-color: #444444;
+.mainHeading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.subHeading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+
+    color: #444444;
 
 }
