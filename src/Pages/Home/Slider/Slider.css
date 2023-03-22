@@ -7,6 +7,9 @@
   color: #1E2452;
 
 }
+.cardIndex{
+  z-index: 500;
+}
 
 
 .container {

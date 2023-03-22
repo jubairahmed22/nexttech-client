@@ -1,3 +1,5 @@
+
+
 .cerocelImg:after {
     content: '';
     position: absolute;
@@ -12,13 +14,11 @@
     /* W3C */
 }
 
-.heading {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 75px;
-    color: #FFFFFF;
+.textHeading{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
 }
 
 .imageText {
@@ -31,7 +31,9 @@
     left: 10%;
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 35px;
+    font-family: 'Heebo', sans-serif;
+   
 
     color: #FFFFFF;
 
@@ -53,9 +55,9 @@
 }
 
 .serviceHeading {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 800;
+    font-family: 'Heebo', sans-serif;
+   
+    font-weight: lighter;
     font-size: 64px;
     line-height: 100%;
     /* identical to box height, or 64px */
@@ -90,4 +92,32 @@
     /* Primary Blue */
 
     color: #1E2452;
+}
+.progressMianWrapper{
+    background-color: black;
+    height: 15px;
+    position: sticky;
+    z-index: 1;
+    width: 100%;
+}
+.progressMainStyle{
+    height: 15px;
+    background-color: blue;
+    position: sticky;
+}
+.cardLogo{
+    width: 100px;
+    height: 100px;
+}
+.marginslider{
+    margin-top: 200px;
+}
+.toobal{
+    position: sticky;
+    margin-top: 220px;
+    margin-bottom: 100px;
+}
+.slidePic{
+    width: 500px;
+    height: 300px;
 }

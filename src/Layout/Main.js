@@ -6,8 +6,8 @@ import Navbar from '../Pages/Shared/Navbar/Navbar';
 const Main = () => {
     return (
         <div>
-            <Navbar></Navbar>
-            <Outlet></Outlet>
+            <Navbar zIndex={1000}></Navbar>
+            <Outlet zIndex={500}></Outlet>
             <Footer></Footer>
         </div>
     );
