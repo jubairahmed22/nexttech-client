@@ -17,8 +17,8 @@ const IndrastrySarved = () => {
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 place-items-center mt-10'>
                 {
                     indrustryData.slice(0, visible).map(indrustry =>
-                        <div className="card w-96 bg-base-100 shadow-xl mt-5 ">
-                            <div className="card-body">
+                        <div className=" w-96 h-96 shadow-xl mt-5 p-5">
+                            <div className="">
                                 <div className="avatar flex ">
                                     <div className="w-34 bg-gray-800 rounded-full p-5">
                                         <img src={indrustry.img} alt="" />

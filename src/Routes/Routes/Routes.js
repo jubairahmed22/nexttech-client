@@ -4,6 +4,7 @@ import Main from "../../Layout/Main"
 import AllBlog from "../../Pages/Blog/AllBlog";
 import BlogDetails from "../../Pages/Blog/BlogDetails";
 import BlogPost from "../../Pages/Blog/BlogPost";
+import Courses from "../../Pages/Courses/Courses";
 
 
 
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
             {
                 path: '/service',
                 element: <Service></Service>
+            },
+            {
+                path: '/courses',
+                element: <Courses></Courses>          
             },
         ]
     },

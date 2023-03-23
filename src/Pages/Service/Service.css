@@ -97,7 +97,7 @@
     background-color: black;
     height: 15px;
     position: sticky;
-    z-index: 1;
+    z-index: 1000;
     width: 100%;
 }
 .progressMainStyle{
@@ -121,3 +121,17 @@
     width: 500px;
     height: 300px;
 }
+/* 2nd banner start*/
+.bannerFont{
+
+    color: #1E2452;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+}
+.slideImg{
+    width: 415px;
+    height: 415px;
+}
+
+/* 2nd banner end*/

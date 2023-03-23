@@ -1,0 +1,15 @@
+.OurCourse{
+    font-family: 'Heebo', sans-serif;
+    font-weight: lighter;
+    font-size: 64px;
+    line-height: 100%;
+}
+
+.CourseArea {
+    width: 1200px;
+    height: 528.86px;
+}
+.CourseImgSize{
+    width: 200px;
+    height: 200px;
+}

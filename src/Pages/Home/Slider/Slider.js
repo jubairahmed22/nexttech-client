@@ -21,9 +21,9 @@ const Slider = () => {
       })
   }, [])
   return (
-    <div className='mt-5 m-20 mb-20 z-0'>
-      <h1 className='mainHading text-center z-0'>What we <span className='text-orange-500'>Do</span></h1>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-3 place-items-center mt-10 z-0'>
+    <div className='mt-5 m-20 mb-20 '>
+      <h1 className='mainHading text-center '>What we <span className='text-orange-500'>Do</span></h1>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-3 place-items-center mt-10 '>
 
 
         <div class="container mt-5 shadow-2xl">
