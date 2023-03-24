@@ -1,0 +1,64 @@
+[
+    {
+        "id": "1",
+        "name": "UI UX Design Course For Beginners",
+        "img": "https://i.ibb.co/GkpcqTB/5811308.jpg",
+        "description": "In this course, you will learn the fundamentals of user interface and user experience design. You will gain a strong understanding of user-centered design principles and processes, and develop skills in user research, information architecture, interaction design, visual design, and usability testing. Through hands-on projects and exercises, you will learn how to create effective and engaging designs for websites, mobile apps, and other digital products. By the end of the course, you will have a strong portfolio of work and the skills to succeed in the exciting field of UI/UX design.",
+        "outlineOneTittle": "Introduction to UI/UX Design",
+        "outlineTwoTittle": "User Research and Analysis",
+        "outlineThreeTittle": "Information Architecture and Interaction Design",
+        "outlineFourTittle": "Visual Design",
+        "outlineFiveTittle": "Usability Testing and Evaluation",
+        "outlineSixTittle": "Tools and Technologies",
+        "outlineSevenTittle": "Final Project",
+        "OutlineOnePeraOne": "Understanding the difference between UI and UX",
+        "OutlineOnePeraTwo": "Overview of the design process",
+        "OutlineOnePeraThree": "User-centered design approach",
+        "OutlineTwoPeraOne": "Understanding user needs and behaviors",
+        "OutlineTwoPeraTwo": "Conducting user interviews and surveys",
+        "OutlineTwoPeraThree": "Analyzing user data",
+        "OutlineTwoPeraFour": "Creating user personas and scenarios",
+        "OutlineThreePeraOne": "Organizing information and content",
+        "OutlineThreePeraTwo": "Creating site maps and user flows",
+        "OutlineThreePeraThree": "Developing interaction models",
+        "OutlineThreePeraFour": "Wireframing and prototyping",
+        "OutlineFourPeraOne": "Color theory and typography",
+        "OutlineFourPeraTwo": "Design principles and elements",
+        "OutlineFourPeraThree": "Branding and style guides",
+        "OutlineFourPeraFour": "Designing for multiple devices",
+        "OutlineFivePeraOne": "Conducting user testing and evaluation",
+        "OutlineFivePeraTwo": "Analyzing usability test data",
+        "OutlineFivePeraThree": "Iterative design process",
+        "OutlineFivePeraFour": "Continuous improvement and optimization",
+        "OutlineSixPeraOne": "Sketch, Adobe XD, Figma, InVision, etc.",
+        "OutlineSixPeraTwo": "HTML, CSS, and JavaScript basics",
+        "OutlineSixPeraThree": "Content Management Systems (CMS)",
+        "OutlineSevenPeraOne": "Applying all the skills learned in the course to design and create a final project",
+        "OutlineSevenPeraTow": "Presenting the final project and receiving feedback"
+    },
+    {
+        "id": "2",
+        "name": "Cyber Security",
+        "img": "https://i.ibb.co/d2Cbrw5/technology-security-concept-safety-digital-protection-system.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Full Stack Web Development ",
+        "img": "https://i.ibb.co/y6b47BY/417-Z-30-Converted.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Graphic Design",
+        "img": "https://i.ibb.co/QNj7Jk3/5817156.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Front End Development",
+        "img": "https://i.ibb.co/CsMNvKw/Rectangle-119-1.png"
+    },
+    {
+        "id": "6",
+        "name": "Backend Development",
+        "img": "https://i.ibb.co/zx7YtGx/abc.jpg"
+    }
+]

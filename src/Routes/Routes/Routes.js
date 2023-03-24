@@ -4,6 +4,7 @@ import Main from "../../Layout/Main"
 import AllBlog from "../../Pages/Blog/AllBlog";
 import BlogDetails from "../../Pages/Blog/BlogDetails";
 import BlogPost from "../../Pages/Blog/BlogPost";
+import CourseDetails from "../../Pages/Courses/CourseDetails";
 import Courses from "../../Pages/Courses/Courses";
 
 
@@ -31,7 +32,12 @@ const router = createBrowserRouter([
             },
             {
                 path: '/courses',
-                element: <Courses></Courses>          
+                element: <Courses></Courses>
+            },
+            {
+                path: '/courseDetails/:id',
+                element: <CourseDetails></CourseDetails>,
+                loader: ({ params }) => fetch(`http://localhost:5000/coursedetails/${params.id}`)
             },
         ]
     },
