@@ -4,6 +4,7 @@ import './Courses.css'
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/swiper.min.css";
+
 // import required modules
 
 // import required modules
@@ -53,7 +54,7 @@ const Courses = () => {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className='h-screen '>
+            <div className=''>
 
                 <h1 className='OurCourse text-center mt-20 mb-20'>Our Courses</h1>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 place-items-center mt-10'>
