@@ -138,7 +138,7 @@ const Courses = () => {
                             <h1 className="textHeading ">Take the first step towards your dreams with us.</h1>
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imagePera">
-                            <p>Explore our most popular and high-demand courses, a fast track to your independence</p>
+                            <p>Explore our  popular and high-demand courses, a fast track to your independence</p>
                         </div>
 
                     </SwiperSlide>
