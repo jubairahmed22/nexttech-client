@@ -25,12 +25,14 @@ const CourseDetails = () => {
         const name = form.name.value;
         const email = form.email.value;
         const phone = form.phone.value;
+        const course = form.course.value;
         const address = form.address.value;
         // [3, 4, 5].map((value, i) => console.log(value))
         const booking = {
             name: name,
             address,
             email,
+            course,
             phone,
 
         }
@@ -197,6 +199,8 @@ const CourseDetails = () => {
                         <h3 className='formName'>Email Address</h3>
                         <input name="email" type="email" placeholder="Type here" className="input w-full input-bordered" />
                         <h3 className='formName'>Phone Number</h3>
+                        <h3 className='formName'>Course Name</h3>
+                        <input name="course" type="course" placeholder="Type here" className="input w-full input-bordered" />
                         <input name="phone" type="phone" placeholder="Type here" className="input w-full input-bordered" />
                         <h3 className='formName'>Address</h3>
                         <input name="address" type="address" placeholder="Type here" className="input w-full input-bordered" />

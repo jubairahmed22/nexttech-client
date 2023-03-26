@@ -121,3 +121,78 @@
     background-color: #1E2452;
     color: white;
   }
+  .slideMejar{
+    height: 200px;
+  }
+  .cerocelImg{
+    height: 700px;
+  }
+.imageText{
+  font-weight: 400;
+font-size: 18px;
+line-height: 80px;
+margin-top: 280px;
+}
+.imagePera{
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+margin-top: 300px;
+color: #FFFFFF;
+}
+.imgCardIndian{
+  width: 430px;
+  height: 373px;
+}
+.cardIndianHeader{
+font-family: 'Heebo', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 100%;
+color: #1E2452;
+
+}
+.cardIndianPera{
+  font-family: 'Heebo', sans-serif;
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 124%;
+/* or 22px */
+
+text-align: justify;
+
+color: #666666;
+
+}
+.modalItemImg{
+  width: 500px;
+  height: 508px;
+}
+.modalItemHeading{
+  font-family: 'Heebo', sans-serif;
+  font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 100%;
+/* identical to box height, or 48px */
+
+
+/* Primary Blue */
+
+color: #1E2452;
+
+}
+.modalItemPera{
+  font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 150%;
+/* or 39px */
+
+text-align: justify;
+
+color: #666666;
+
+}
