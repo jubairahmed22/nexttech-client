@@ -30,8 +30,9 @@ const Home = () => {
             <div class="bg-purple-900 h-1.5 rounded-full "  style={{width: `${scrollTop}%`}}></div>
             </div>
            <Banner></Banner>
+   
            <Slider zIndex={500}></Slider>
-           
+           <Card></Card>
            <IndrastrySarved zIndex={500}></IndrastrySarved>
            <GlobalClients zIndex={500}></GlobalClients>
            <Brand zIndex={500}></Brand>

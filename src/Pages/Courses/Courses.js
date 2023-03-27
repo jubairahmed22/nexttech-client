@@ -130,8 +130,8 @@ const Courses = () => {
                     modules={[Pagination]}
                     className="mySwiper"
                 >
-                    <SwiperSlide className='slideMejar'>
-                        <div className="cerocelImg">
+                    <SwiperSlide className=''>
+                        <div className="courseSlideImg">
                             <img src={require('../image/course/course-img/multiethnic-startup-business-team-meeting-modern-night-office-interior-brainstorming-working-laptop.jpg')} alt="" />
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imageText">

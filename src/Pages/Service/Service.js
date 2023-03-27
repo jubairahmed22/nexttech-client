@@ -31,68 +31,78 @@ import './Service.css'
 
 const ServiceData = [
     {
-        image: hr,
+        image: "https://i.ibb.co/d6Pd95j/web-design-website-coding-concept.jpg",
         name: "HR & Payroll Software",
+        intro: "HR & Payroll software helps organizations streamline their HR and payroll processes, reduce errors, and save money.",
         prev: 6,
         id: 1,
         next: 2
     },
     {
-        image: business,
+        image: "https://i.ibb.co/12P9V8c/homepage-seen-computer-screen.jpg",
         name: "Business Portfolio Website",
+        intro: "A well-designed business portfolio website can help attract new customers, establish credibility, and showcase the company's expertise and achievements.",
         prev: 1,
         id: 2,
         next: 3
     },
     {
-        image: commarce,
+        image: "https://i.ibb.co/yBKL1xz/laptop-shopping-bags-online-shopping-concept.jpg",
         name: "E Commerce Website",
+        intro: "E-commerce websites provide convenience and accessibility to customers, as well as a broader reach, lower operational costs, and the ability to collect customer data for better decision-making.",
         prev: 2,
         id: 3,
         next: 4
     },
     {
-        image: RealState,
-        name: "Real Estate Management",
-        prev: 3,
-        id: 4,
-        next: 5
-    },
-    {
-        image: appointment,
+        image: "https://i.ibb.co/cD6QXLH/calendar-agenda-event-meeting-reminder-schedule-graphic-concept.jpg",
         name: "Appointment Management System",
+        intro: "An appointment management system is a software program designed to manage the scheduling and organization of appointments, allowing for efficient scheduling and improved customer satisfaction.",
+        prev: 2,
+        id: 3,
+        next: 4
+    },
+    {
+        image: "https://i.ibb.co/cNkndVD/man-giving-some-keys-woman.jpg",
+        name: "Real Estate Management",
+        intro: "An appointment management system is a software program designed to manage the scheduling and organization of appointments, allowing for efficient scheduling and improved customer satisfaction.",
         prev: 3,
         id: 4,
         next: 5
     },
     {
-        image: learning,
+        image: "https://i.ibb.co/wgsBX79/learning-education-ideas-insight-intelligence-study-concept.jpg",
         name: "Learning management System (LMS)",
+        intro: "Travel agency and tourism management software can improve efficiency, enhance customer experience, and increase revenue by providing integrations with third-party booking engines and suppliers.",
         prev: 3,
         id: 4,
         next: 5
     },
     {
-        image: travel,
+        image: "https://i.ibb.co/GdRRD0y/adventure-trip-travel-destination-hiking-nature-concept.jpg",
         name: "Travel Agency & Tourism Management",
+        intro: "Travel agency and tourism management software can improve efficiency, enhance customer experience, and increase revenue by providing integrations with third-party booking engines and suppliers.",
         prev: 3,
         id: 4,
         next: 5
     },
+
     {
-        image: enterprice,
+        image: "https://i.ibb.co/bsvYCqb/notebook-with-toolls-notes-about-erp-concept.jpg",
         name: "Enterprise Resource Planning System (ERP)",
+        intro: "Real Estate Management software helps property managers and agents manage their properties and clients more efficiently, providing features such as property listing management, client management, lease management, financial management, and reporting and analytics.",
         prev: 3,
         id: 4,
         next: 5
     },
     {
-        image: point,
+        image: "https://i.ibb.co/M5C8LV1/person-paying-with-its-smartphone-wallet-app.jpg",
         name: "Point Of Sale System (POS)",
+        intro: "POS systems are software and hardware systems used to manage transactions between customers and businesses, allowing for faster and more accurate processing, reducing errors, and better inventory management. They can help businesses improve customer experience, reduce costs, and increase revenue.",
         prev: 3,
         id: 4,
         next: 5
-    },
+    }
 ]
 
 const SlideData = [
@@ -176,18 +186,16 @@ const Service = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <div className="cerocelImg">
+                        <div className="ServiceImg">
                             <img src={require('../image/Service/img/Rectangle 3.png')} alt="" />
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imageText">
-                            <h1 className="textHeading ">Service We Offer</h1>
+                            <h1 className="textHeading mb-20">Service We Offer</h1>
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imagePera">
-                            <p>Discover the latest in IT with our comprehensive training programs. Gain the skills <br /> and knowledge you need to stay ahead in this dynamic field.</p>
+                            <p className="mb-20">Discover the latest in IT with our comprehensive training programs. Gain the skills <br /> and knowledge you need to stay ahead in this dynamic field.</p>
                         </div>
-                        <div className="absolute flex justify-end transform -translate-y-1/2 imageButton">
-                            <button className="btn btn-warning">Read More</button>
-                        </div>
+
                     </SwiperSlide>
                 </Swiper>
 
@@ -221,9 +229,18 @@ const Service = () => {
                         {
                             ServiceData.map((data =>
                                 <div>
-                                    <div className="w-96 h-56 bg-info rounded-2xl shadow-2xl mt-10 flex flex-col items-center justify-center text-center">
-
-                                        <img className="cardLogo " src={data.image} alt="" />
+                                    <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-10">
+                                        <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src={data.image} alt="" />
+                                        <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
+                                        <div class="absolute bg-gradient-to-t  from-indigo-900 via-indigo-900 to-indigo-900 opacity-90  w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
+                                            <div class="absolute w-full flex place-content-center">
+                                                <p class="capitalize font-heebo pb-10 font-bold text-2xl text-center shadow-2xl text-white mt-5">{data.name}</p>
+                                            </div>
+                                            <div class="absolute w-full flex place-content-center mt-20">
+                                                <p class="font-sans text-center w-4/5 text-white mt-5">{data.intro}</p>
+                                            </div>
+                                            
+                                        </div>
                                     </div>
                                 </div>
                             ))
