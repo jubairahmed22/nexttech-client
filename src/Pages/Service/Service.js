@@ -1,15 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import RealState from '../image/Service/icon/assets 1.svg'
-import business from '../image/Service/icon/profile 1.svg'
-import commarce from '../image/Service/icon/ecommerce 1.svg'
-import travel from '../image/Service/icon/booking 1.svg'
-import appointment from '../image/Service/icon/calendar 1.svg'
-import enterprice from '../image/Service/icon/erp 1.svg'
-import hr from '../image/Service/icon/Layer_1.svg'
-import learning from '../image/Service/icon/learning 1.svg'
-import point from '../image/Service/icon/point-of-sale 1.svg'
+
+import icon from '../image/Service/icon/material-symbols_check-circle-rounded.svg'
 // import slide1 from 'https://i.ibb.co/6WXds7H/Rectangle-129.png'
 // import slide2 from 'https://i.ibb.co/VQrpGWF/Rectangle-130.png'
 // import slide3 from 'https://i.ibb.co/YLv4nWr/Rectangle-131.png'
@@ -187,7 +180,7 @@ const Service = () => {
                 >
                     <SwiperSlide>
                         <div className="ServiceImg">
-                            <img src={require('../image/Service/img/Rectangle 3.png')} alt="" />
+                            <img src={require('../image/Service/img/group-young-people-business-meeting.jpg')} alt="" />
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imageText">
                             <h1 className="textHeading mb-20">Service We Offer</h1>
@@ -210,7 +203,7 @@ const Service = () => {
                                 <img src={require('../image/Service/img/Rectangle 86.png')} alt="" />
                             </div>
                             <div>
-                                <h1 className="serviceHeading ">Our Service</h1>
+
                                 <p className="Ourservicepera mt-5">Our IT training programs are designed to provide individuals and organizations with the latest skills and knowledge in the rapidly evolving field of Information Technology. We offer both in-person and online training options to accommodate various schedules and learning preferences.</p>
                             </div>
                         </div>
@@ -221,7 +214,8 @@ const Service = () => {
 
                 <div className="flex flex-col items-center justify-center">
                     <div className=" flex items-center justify-center">
-                        <h1 className="serviceHeading mt-5">All services are</h1>
+                        <h1 className="text-center aboutText mt-20">All services are</h1>
+
 
                     </div>
                     <p className="text-lg text-center">Next-level employee engagement ensures productivity retention, and alignment <br /> with organizational goal</p>
@@ -239,7 +233,7 @@ const Service = () => {
                                             <div class="absolute w-full flex place-content-center mt-20">
                                                 <p class="font-sans text-center w-4/5 text-white mt-5">{data.intro}</p>
                                             </div>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -250,19 +244,10 @@ const Service = () => {
             </div>
 
             {/* All Services End */}
-            {/* banner Start */}
-
-            <div className=" mt-10">
-                <div class="relative">
-                    <img src={require('../image/Service/img/image 5.png')} alt="" />
-
-                    <h3 class="absolute text-2xl top-24 left-24 text-white bannerFont">Our Portfolio</h3>
-                </div>
-            </div>
-            {/* banner End */}
+            <h1 className="text-center aboutText mt-20">Our Portfolio</h1>
 
             {/* slider start */}
-            <div>
+            <div className="mt-10">
                 <Swiper
                     effect={"coverflow"}
                     grabCursor={true}
@@ -301,7 +286,90 @@ const Service = () => {
             {/* slider end */}
 
 
+            {/* about site start */}
+            <div>
+                <h1 className="text-center aboutText mt-10">"Empowering innovation, together."
+                </h1>
+                <div>
 
+                    <div class="grid grid-cols-2 gap-2 mt-10">
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg" src={require('../image/Service/img/12.jpg')} alt="" />
+
+                        </div>
+                        <img class="h-auto max-w-full rounded-lg" src={require('../image/Service/img/63.jpg')} alt="" />
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            {/* about site end */}
+            {/* Experience site end */}
+            <div className="grid lg:grid-cols-2 place-items-center mt-10">
+                <div>
+                    <div className="inline-flex items-center">
+                        <div class="flex">
+                            <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-600">
+                                <p className="ml-24 text-2xl cicleText">5</p>
+
+                            </div>
+                        </div>
+                        <div>
+                            <p className="ml-10 text-2xl circlePera">Years Of Experiences</p>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div className="inline-flex items-center">
+                            <div class="flex">
+                                <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-600">
+                                    <p className="ml-24 text-2xl cicleText">25</p>
+
+                                </div>
+                            </div>
+                            <div>
+                                <p className="ml-10 text-2xl circlePera">Experienced Employees</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div className="inline-flex items-center">
+                            <div class="flex">
+                                <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-600">
+                                    <p className="ml-24 text-2xl cicleText">10</p>
+
+                                </div>
+                            </div>
+                            <div>
+                                <p className="ml-10 text-2xl circlePera">Success Story</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div className="grid lg:grid-cols-1">
+                    <div className="inline-flex items-center">
+                      <img className="fill-blue-500" src={icon} alt="" />
+                       <h1 className="tieckPera ml-3">Skilled instructor</h1>
+                    </div>
+                    <div className="inline-flex items-center mt-10">
+                      <img className="fill-blue-500" src={icon} alt="" />
+                       <h1 className="tieckPera ml-3">Online and offline courses</h1>
+                    </div>
+                    <div className="inline-flex items-center mt-10">
+                      <img className="fill-blue-500" src={icon} alt="" />
+                       <h1 className="tieckPera ml-3">Life-time support</h1>
+                    </div>
+                    
+                </div>
+            </div>
+            {/* Experience site end */}
 
 
         </>

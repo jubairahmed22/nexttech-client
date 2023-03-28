@@ -1,0 +1,66 @@
+.firstImg {
+    width: 668px;
+    height: 501px;
+}
+
+.firstImgPera {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 180%;
+    /* or 43px */
+
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #1E2452;
+}
+
+.nexttechSpan {
+    font-weight: 700;
+    color: #F68920;
+    font-size: 26px;
+
+}
+
+.xlogo {
+    color: #1E2452;
+}
+
+.secoundImg {
+    width: 520px;
+    height: 388px;
+}
+
+.thirdImg {
+    width: 459px;
+    height: 342px;
+}
+
+.missonVisson {
+    font-style: normal;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    /* identical to box height, or 64px */
+
+    /* Primary Blue */
+
+    color: #1E2452;
+}
+
+.fouthPera {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+    /* identical to box height, or 64px */
+
+
+
+    /* Primary Blue */
+
+    color: #1E2452;
+}

@@ -1,5 +1,3 @@
-
-
 .ServiceImg:after {
     content: '';
     position: absolute;
@@ -14,7 +12,7 @@
     /* W3C */
 }
 
-.textHeading{
+.textHeading {
     color: rgb(255, 255, 255);
     font-size: 80px;
     font-weight: bold;
@@ -33,7 +31,7 @@
     font-size: 24px;
     line-height: 35px;
     font-family: 'Heebo', sans-serif;
-   
+
 
     color: #FFFFFF;
 
@@ -56,7 +54,7 @@
 
 .serviceHeading {
     font-family: 'Heebo', sans-serif;
-   
+
     font-weight: lighter;
     font-size: 64px;
     line-height: 100%;
@@ -93,45 +91,119 @@
 
     color: #1E2452;
 }
-.progressMianWrapper{
+
+.progressMianWrapper {
     background-color: black;
     height: 15px;
     position: sticky;
     z-index: 1000;
     width: 100%;
 }
-.progressMainStyle{
+
+.progressMainStyle {
     height: 15px;
     background-color: blue;
     position: sticky;
 }
-.cardLogo{
+
+.cardLogo {
     width: 100px;
     height: 100px;
 }
-.marginslider{
+
+.marginslider {
     margin-top: 200px;
 }
-.toobal{
+
+.toobal {
     position: sticky;
     margin-top: 220px;
     margin-bottom: 100px;
 }
-.slidePic{
+
+.slidePic {
     width: 500px;
     height: 300px;
 }
+
 /* 2nd banner start*/
-.bannerFont{
+.bannerFont {
 
     color: #1E2452;
     font-size: 80px;
     font-weight: bold;
     font-family: 'Heebo', sans-serif;
 }
-.slideImg{
+
+.slideImg {
     width: 415px;
     height: 415px;
 }
 
 /* 2nd banner end*/
+
+.aboutText {
+    color: #1E2452;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+    font-family: 'Heebo', sans-serif;
+}
+
+.aboutImg {
+    width: 200px;
+    height: 200px;
+}
+
+.cicleText {
+    color: #1E2452;
+    font-weight: 800;
+    font-size: 64px;
+
+    /* or 64px */
+
+
+    /* Primary Blue */
+
+    color: #1E2452;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+
+
+    background: #EA821E;
+}
+
+.circlePera {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    /* or 24px */
+
+
+    /* Primary Blue */
+
+    color: #1E2452;
+}
+.CircleIcon{
+    color: #EA821E;
+}
+.tieckPera{
+    font-family: 'Heebo', sans-serif;
+
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+/* identical to box height, or 24px */
+
+
+/* Primary Blue */
+
+color: #1E2452;
+
+}

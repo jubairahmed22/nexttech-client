@@ -15,7 +15,7 @@ const Navbar = () => {
           </label>
           <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
             <li className='font-bold text-2xl'><Link to='/'>Home</Link></li>
-            <li><Link to='/blogLayout'>Blog</Link></li>
+           
             <li tabIndex={0}>
               <a className="justify-between">
                 <h1 className='font-bold text-2xl'>Products</h1>
@@ -37,7 +37,8 @@ const Navbar = () => {
                 <li><a>Submenu 2</a></li>
               </ul>
             </li>
-            <li><Link>Blog</Link></li>
+            <li><Link to='/blogLayout'>Blog</Link></li>
+            <li><Link to="/aboutUs">About Us</Link></li>
             <li><Link>Contact Us</Link></li>
           </ul>
         </div>
@@ -71,6 +72,7 @@ const Navbar = () => {
             </ul>
           </li>
           <li className='font-bold text-lg'><Link to='/blogLayout'>Blog</Link></li>
+          <li className='font-bold text-lg'><Link to='/aboutUs'>About Us</Link></li>
 
           <li className='font-bold text-lg'><Link>Contact</Link></li>
         </ul>
