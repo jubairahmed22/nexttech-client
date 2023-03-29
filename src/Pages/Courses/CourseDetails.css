@@ -26,8 +26,8 @@
 .courseDescription {
     font-style: normal;
     font-weight: 700;
-font-size: 36px;
-line-height: 100%;
+    font-size: 36px;
+    line-height: 100%;
 
     /* or 35px */
 
@@ -41,11 +41,11 @@ line-height: 100%;
 .courseDespera {
     width: 764px;
     height: 334px;
-    
+
 
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
-    
+
     font-size: 22px;
     line-height: 160%;
     /* or 35px */
@@ -56,73 +56,80 @@ line-height: 100%;
     color: #000000;
 
 }
-.tickmark{
+
+.tickmark {
     width: 20px;
     height: 20px;
-   
-  transition-duration:.6s;
-    
+
+    transition-duration: .6s;
+
 }
 
-.OutlineTittle{
+.OutlineTittle {
     font-size: 22px;
     font-family: 'Heebo', sans-serif;
     color: #1E2452;
     font-weight: 600;
 }
 
-.OutlilnePera{
-    font-family: 'Heebo', sans-serif;
-    font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 160%;
-/* or 35px */
-
-letter-spacing: 0.05em;
-
-color: #444444;
-
-}
-.logo{
-    width: 50px;
-    height: 50px;
-}
-.logoText{
-    font-family: 'Heebo', sans-serif;
-    font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 100%;
-/* identical to box height, or 24px */
-
-
-color: #000000;
-
-}
-.multiButtonSize{
-    width: 600px;
-}
-.formPera{
+.OutlilnePera {
     font-family: 'Heebo', sans-serif;
     font-style: normal;
     font-weight: 400;
-font-size: 20px;
-line-height: 100%;
-/* or 16px */
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
 
+    letter-spacing: 0.05em;
 
-color: #999999;
+    color: #444444;
+
 }
-.formName{
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.logoText {
     font-family: 'Heebo', sans-serif;
     font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 100%;
-/* identical to box height, or 16px */
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
 
 
-color: #666666;
+    color: #000000;
+
+}
+
+.multiButtonSize {
+    font-family: 'Heebo', sans-serif;
+    width: 600px;
+}
+
+.formPera {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 16px */
+
+
+    color: #999999;
+}
+
+.formName {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+
+    color: #666666;
 
 }

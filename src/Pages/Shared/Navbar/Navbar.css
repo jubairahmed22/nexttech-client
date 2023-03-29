@@ -1,6 +1,18 @@
-.navIndex{
+.navIndex {
     position: sticky;
     position: fixed;
     top: 0;
+    z-index: 999;
+}
+
+.navLogo {
+    width: 170px;
+    height: 65px;
+}
+
+.scroolNav {
+    position: sticky;
+    position: fixed;
+    width: 1445px;
     z-index: 999;
 }

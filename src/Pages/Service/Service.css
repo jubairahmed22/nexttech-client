@@ -42,9 +42,9 @@
     left: 10%;
 }
 
-.OurServiceImg {
-    width: 560px;
-    height: 528.86px;
+.ServiceImg {
+    width: 1440px;
+    height: 600px;
 }
 
 .OurServiceRec {
@@ -174,7 +174,7 @@
     height: 100px;
 
 
-    background: #EA821E;
+    background: #F79536;
 }
 
 .circlePera {
@@ -189,21 +189,76 @@
 
     color: #1E2452;
 }
-.CircleIcon{
+
+.CircleIcon {
     color: #EA821E;
 }
-.tieckPera{
+
+.tieckPera {
     font-family: 'Heebo', sans-serif;
 
     font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 100%;
-/* identical to box height, or 24px */
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
 
 
-/* Primary Blue */
+    /* Primary Blue */
 
-color: #1E2452;
+    color: #1E2452;
 
+}
+
+.slideBg {
+    background: #F4F9FB;
+}
+
+.TogetherCardTitle {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+    background: #F79536;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.TogetherCardTitleTwo {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 115%;
+    /* or 34px */
+
+
+    /* Primary Blue */
+
+    color: #1E2452;
+}
+
+.aboutIcon {
+    width: 70px;
+}
+
+.TogetherCardTitleThree {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+    background: #1E2452;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.ItImg {
+    width: 636px;
+    height: 357px;
 }

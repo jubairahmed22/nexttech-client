@@ -37,7 +37,7 @@ const CourseDetails = () => {
 
         }
         console.log(booking);
-        fetch('http://localhost:5000/mail', {
+        fetch('https://jubair-portfolio-server-jubairahmed22.vercel.app/mail', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -63,15 +63,15 @@ const CourseDetails = () => {
     }
     return (
         <div className="grid lg:grid-rows-3 gap-4 ">
-            <div className="row-span-full col-span-10 leftLayOut ">
+            <div className="lg:row-span-full lg:col-span-10 leftLayOut sm:row-start-1  ">
                 {
                     allCourses.map(details =>
                         <div>
                             <img className='courseImg' src={details.img} alt="" />
                             <h1 className='courseName mt-5'>{details.name}</h1>
                             <h1 className='courseDescription mt-10'>Course Description</h1>
-                            <p className='courseDespera mt-5'>{details.description}</p>
-                            <h1 className='courseDescription mt-10'>Course Outline</h1>
+                            <p className='courseDespera mt-5 mb-20'>{details.description}</p>
+                            <h1 className='courseDescription mt-20'>Course Outline</h1>
 
                             <div className='inline-flex items-center mt-5'>
                                 <img src={tick} className="tickmark " alt=''></img>
@@ -131,6 +131,7 @@ const CourseDetails = () => {
                                     <li className='OutlilnePera'>{details.OutlineSixPeraOne}</li>
                                     <li className='OutlilnePera'>{details.OutlineSixPeraTwo}</li>
                                     <li className='OutlilnePera'>{details.OutlineSixPeraThree}</li>
+                                    <li className='OutlilnePera'>{details.OutlineSixPeraFour}</li>
                                 </div>
                                 <div className='inline-flex items-center mt-5'>
                                     <img src={tick} className="tickmark " alt=''></img>
@@ -138,8 +139,25 @@ const CourseDetails = () => {
                                 </div>
                                 <div className=' items-center mt-3 ml-5'>
                                     <li className='OutlilnePera'>{details.OutlineSevenPeraOne}</li>
+                                    <li className='OutlilnePera'>{details.OutlineSevenPeraTwo}</li>
+                                    <li className='OutlilnePera'>{details.OutlineSevenPeraThree}</li>
+                                    <li className='OutlilnePera'>{details.OutlineSevenPeraFour}</li>
 
                                 </div>
+                                <div className='inline-flex items-center mt-5'>
+                                    <img src={tick} className="tickmark " alt=''></img>
+                                    <p className='OutlineTittle ml-3'>{details.outlineEightTittle}</p>
+                                </div>
+                                <div className=' items-center mt-3 ml-5'>
+                                    <li className='OutlilnePera'>{details.OutlineEightPeraOne}</li>
+                                    <li className='OutlilnePera'>{details.OutlineEightPeraTwo}</li>
+                                    <li className='OutlilnePera'>{details.OutlineEightPeraThree}</li>
+                                    <li className='OutlilnePera'>{details.OutlineEightPeraFour}</li>
+
+                                </div>
+
+
+
                                 <h1 className='courseDescription mt-5'>Software that will be taught</h1>
                                 <div className='mt-8'>
                                     <div className='inline-flex items-center mt-5'>
@@ -164,31 +182,35 @@ const CourseDetails = () => {
                 <nav>
                     <div className='multiButtonSize'>
                         <div class="multi-button">
-                        <button onClick={() => setActive("FirstCard")}>Online</button>
-                        <button onClick={() => setActive("SecoundCard")}>Offline</button>
+                            <button onClick={() => setActive("FirstCard")}>Online</button>
+                            <button onClick={() => setActive("SecoundCard")}>Offline</button>
 
-                    </div>
+                        </div>
                     </div>
 
                 </nav>
                 <div className='mb-10 shadow-xl rounded-lg'>
-                    {active === "FirstCard" && <DetailsOnline cardIndex={0} />}
-                    {active === "SecoundCard" && <DetailsOffline cardIndex={1}></DetailsOffline>}
-                <hr className="w-100 h-1 mx-auto my-4 bg-orange-500 border-0 rounded md:my-10 dark:bg-orange-500"/>
-               
-                <h1 className='courseDescription ml-10'>Skill You Will Gain</h1>
-                <div className='grid lg:grid-cols-3 gap-5 p-10'>
-                    <div className='p-2 text-lg font-bold rounded-full capsul transform transition duration-500 hover:scale-110 text-center tracking-wide items-center col-span-2'>User Experience (UX)</div>
-                    <div className='p-2 text-lg font-bold rounded-full capsul text-center transform transition duration-500 hover:scale-110 '>UX Research</div>
-                    <div className='p-2 text-lg font-bold rounded-full capsul text-center transform transition duration-500 hover:scale-110 '>Wireframe</div>
-                    <div className='p-2 text-lg font-bold rounded-full capsul text-center col-span-2 tracking-wide transform transition duration-500 hover:scale-110 '>Usability Testing</div>
-                    <div className='p-2 text-lg font-bold rounded-full capsul text-center transform transition duration-500 hover:scale-110 '>Prototype</div>
+                    {active === "FirstCard" && <DetailsOnline allCourses={allCourses} cardIndex={0} />}
+                    {active === "SecoundCard" && <DetailsOffline allCourses={allCourses} cardIndex={1}></DetailsOffline>}
+                    <hr className="w-100 h-1 mx-auto my-4 bg-orange-500 border-0 rounded md:my-10 dark:bg-orange-500" />
 
-                    <div className='p-2 text-lg font-bold rounded-full capsul text-center transform transition duration-500 hover:scale-110 '>Mockup</div>
-                    <div className='p-2 text-lg font-bold rounded-full capsul text-center transform transition duration-500 hover:scale-110 '>Figma</div>
-                    <div className='p-2 text-lg font-bold rounded-full capsul text-center transform transition duration-500 hover:scale-110 '>Adobe XD</div>
-                    <div className='p-2 text-lg font-bold rounded-full capsul text-center col-span-2 transform transition duration-500 hover:scale-110 '>UX design jobs</div>
-                </div>
+                    <h1 className='courseDescription ml-10'>Skill You Will Gain</h1>
+                    {
+                        allCourses.map(skill =>
+                            <div className='grid lg:grid-cols-3 gap-5 p-10'>
+                                <div className='p-2 text-lg font-bold rounded-full capsul transform transition duration-500 hover:scale-110 text-center tracking-wide items-center col-span-2'>{skill.skill1}</div>
+                                <div className='p-2 text-lg font-bold rounded-full capsul text-center transform transition duration-500 hover:scale-110 '>{skill.skill2}</div>
+                                <div className='p-2 text-lg font-bold rounded-full capsul text-center transform transition duration-500 hover:scale-110 '>{skill.skill3}</div>
+                                <div className='p-2 text-lg font-bold rounded-full capsul text-center col-span-2 tracking-wide transform transition duration-500 hover:scale-110 '>{skill.skill4}</div>
+                                <div className='p-2 text-lg font-bold rounded-full capsul text-center transform transition duration-500 hover:scale-110 '>{skill.skill5}</div>
+
+                                <div className='p-2 text-lg font-bold rounded-full capsul text-center transform transition duration-500 hover:scale-110 '>{skill.skill6}</div>
+                                <div className='p-2 text-lg font-bold rounded-full capsul text-center transform transition duration-500 hover:scale-110 '>{skill.skill7}</div>
+                                <div className='p-2 text-lg font-bold rounded-full capsul text-center transform transition duration-500 hover:scale-110 '>{skill.skill8}</div>
+                                <div className='p-2 text-lg font-bold rounded-full capsul text-center col-span-2 transform transition duration-500 hover:scale-110 '>{skill.skill9}</div>
+                            </div>
+                        )
+                    }
                 </div>
                 <div className='rounded-lg shadow-2xl p-5'>
                     <h1 className='courseDescription'>Please fill out the form below with correct information</h1>
@@ -198,9 +220,17 @@ const CourseDetails = () => {
                         <input name="name" type="text" placeholder="Type here" className="input w-full input-bordered" />
                         <h3 className='formName'>Email Address</h3>
                         <input name="email" type="email" placeholder="Type here" className="input w-full input-bordered" />
+                        <h3 className='formName'>Select Course Name</h3>
+                        <select name="course" type="course" className="select text-black w-full text-xl max-w-xs">
+                            <option disabled selected>Choose Your Course Name</option>
+                            <option value="UI UX Design">UI UX Design</option>
+                            <option value="Cyber Security">Cyber Security</option>
+                            <option value="Graphic Design">Graphic Design</option>
+                            <option value="Full Stack Web Development">Full Stack Web Development</option>
+                            <option value="Front End Development">Front End Development</option>
+                            <option value="Backend Development">Backend Development</option>
+                        </select>
                         <h3 className='formName'>Phone Number</h3>
-                        <h3 className='formName'>Course Name</h3>
-                        <input name="course" type="course" placeholder="Type here" className="input w-full input-bordered" />
                         <input name="phone" type="phone" placeholder="Type here" className="input w-full input-bordered" />
                         <h3 className='formName'>Address</h3>
                         <input name="address" type="address" placeholder="Type here" className="input w-full input-bordered" />

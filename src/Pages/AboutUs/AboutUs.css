@@ -64,3 +64,50 @@
 
     color: #1E2452;
 }
+
+.slideDes {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #666666;
+}
+
+.slideName {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #333333;
+}
+
+.subName {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #777777;
+}
+
+.slideBackGround {
+    background: #F3F9FD;
+    border-radius: 5px;
+}

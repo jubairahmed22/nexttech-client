@@ -3,13 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import icon from '../image/Service/icon/material-symbols_check-circle-rounded.svg'
-// import slide1 from 'https://i.ibb.co/6WXds7H/Rectangle-129.png'
-// import slide2 from 'https://i.ibb.co/VQrpGWF/Rectangle-130.png'
-// import slide3 from 'https://i.ibb.co/YLv4nWr/Rectangle-131.png'
-// import slide4 from 'https://i.ibb.co/5kndmYV/Rectangle-132.png'
-// import slide5 from 'https://i.ibb.co/rQrYN0f/Rectangle-133.png'
-// import slide6 from 'https://i.ibb.co/qyjjBbb/Rectangle-134.png'
-
+import { FaLongArrowAltRight } from 'react-icons/fa';
 
 
 
@@ -20,6 +14,7 @@ import "swiper/swiper.min.css";
 // import required modules
 import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 import './Service.css'
+import { Link } from "react-router-dom";
 
 
 const ServiceData = [
@@ -148,28 +143,11 @@ const SlideData = [
 
 const Service = () => {
 
-    const [scrollTop, setScroolTop] = useState(0);
 
-    const onScrool = () => {
-        const winScrool = document.documentElement.scrollTop;
-        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-
-        const scrooled = (winScrool / height) * 100;
-
-        setScroolTop(scrooled)
-    }
-
-    useEffect(() => {
-        window.addEventListener("scroll", onScrool)
-
-        return () => window.removeEventListener("scroll", onScrool);
-    }, [])
     return (
         <>
             <div className="">
-                <div class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-200  sticky z-5 top-24">
-                    <div class="bg-purple-900 h-1.5 rounded-full t" style={{ width: `${scrollTop}%` }}></div>
-                </div>
+
 
                 <Swiper
                     pagination={{
@@ -183,38 +161,23 @@ const Service = () => {
                             <img src={require('../image/Service/img/group-young-people-business-meeting.jpg')} alt="" />
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imageText">
-                            <h1 className="textHeading mb-20">Service We Offer</h1>
+                            <h1 className="textHeading mb-56">Service We Offer</h1>
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imagePera">
-                            <p className="mb-20">Discover the latest in IT with our comprehensive training programs. Gain the skills <br /> and knowledge you need to stay ahead in this dynamic field.</p>
+                            <p className="mb-48">Discover the latest in IT with our comprehensive training programs. Gain the skills <br /> and knowledge you need to stay ahead in this dynamic field.</p>
                         </div>
 
                     </SwiperSlide>
                 </Swiper>
 
-                {/* Our Service Start */}
 
 
 
-                <div className="flex items-center justify-center h-screen">
-                    <div className="OurServiceRec">
-                        <div className="grid lg:grid-cols-2">
-                            <div className="OurServiceImg shadow-2xl  ">
-                                <img src={require('../image/Service/img/Rectangle 86.png')} alt="" />
-                            </div>
-                            <div>
-
-                                <p className="Ourservicepera mt-5">Our IT training programs are designed to provide individuals and organizations with the latest skills and knowledge in the rapidly evolving field of Information Technology. We offer both in-person and online training options to accommodate various schedules and learning preferences.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* Our Service End */}
                 {/* All Services Start */}
 
                 <div className="flex flex-col items-center justify-center">
                     <div className=" flex items-center justify-center">
-                        <h1 className="text-center aboutText mt-20">All services are</h1>
+                        <h1 className="text-center aboutText mt-20">Our <span className="text-orange-500">Services</span></h1>
 
 
                     </div>
@@ -247,7 +210,7 @@ const Service = () => {
             <h1 className="text-center aboutText mt-20">Our Portfolio</h1>
 
             {/* slider start */}
-            <div className="mt-10">
+            <div className="mt-10 slideBg p-5">
                 <Swiper
                     effect={"coverflow"}
                     grabCursor={true}
@@ -292,15 +255,36 @@ const Service = () => {
                 </h1>
                 <div>
 
-                    <div class="grid grid-cols-2 gap-2 mt-10">
+                    <div class="grid grid-cols-2 gap-2 mt-10 place-items-center ">
                         <div>
-                            <img class="h-auto max-w-full rounded-lg" src={require('../image/Service/img/12.jpg')} alt="" />
+                            <div className="card card-compact  ">
+                                <img className="ItImg" src={require('../image/Service/img/45.jpg')} alt="" />
+                                <div className="card-body">
+
+                                    <div>
+                                        <h2 className="TogetherCardTitle p-5">IT Training Center</h2>
+                                        <Link to="/aboutUs">
+                                            <div className="inline-flex items-center">
+                                                <h2 className="TogetherCardTitleTwo p-5">More About Us</h2>
+                                                <div >
+                                                    <FaLongArrowAltRight className="w-10 h-10"></FaLongArrowAltRight>
+
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+
+                                </div>
+                            </div>
 
                         </div>
-                        <img class="h-auto max-w-full rounded-lg" src={require('../image/Service/img/63.jpg')} alt="" />
+                        <div className="card  ">
+                            <div className="mb-3">
+                                <h2 className="TogetherCardTitleThree p-5">IT Solution</h2>
 
-
-
+                            </div>
+                            <img className="ItImg" src={require('../image/Service/img/58.jpg')} alt="" />
+                        </div>
                     </div>
 
                 </div>
@@ -312,8 +296,8 @@ const Service = () => {
                 <div>
                     <div className="inline-flex items-center">
                         <div class="flex">
-                            <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-600">
-                                <p className="ml-24 text-2xl cicleText">5</p>
+                            <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-400">
+                                <p className="ml-20 text-2xl cicleText">5</p>
 
                             </div>
                         </div>
@@ -325,7 +309,7 @@ const Service = () => {
                     <div>
                         <div className="inline-flex items-center">
                             <div class="flex">
-                                <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-600">
+                                <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-400">
                                     <p className="ml-24 text-2xl cicleText">25</p>
 
                                 </div>
@@ -339,7 +323,7 @@ const Service = () => {
                     <div>
                         <div className="inline-flex items-center">
                             <div class="flex">
-                                <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-600">
+                                <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-400">
                                     <p className="ml-24 text-2xl cicleText">10</p>
 
                                 </div>
@@ -350,23 +334,23 @@ const Service = () => {
 
                         </div>
                     </div>
-                    
-                    
+
+
                 </div>
                 <div className="grid lg:grid-cols-1">
                     <div className="inline-flex items-center">
-                      <img className="fill-blue-500" src={icon} alt="" />
-                       <h1 className="tieckPera ml-3">Skilled instructor</h1>
+                        <img className="fill-blue-500" src={icon} alt="" />
+                        <h1 className="tieckPera ml-3">Skilled instructor</h1>
                     </div>
                     <div className="inline-flex items-center mt-10">
-                      <img className="fill-blue-500" src={icon} alt="" />
-                       <h1 className="tieckPera ml-3">Online and offline courses</h1>
+                        <img className="fill-blue-500" src={icon} alt="" />
+                        <h1 className="tieckPera ml-3">Online and offline courses</h1>
                     </div>
                     <div className="inline-flex items-center mt-10">
-                      <img className="fill-blue-500" src={icon} alt="" />
-                       <h1 className="tieckPera ml-3">Life-time support</h1>
+                        <img className="fill-blue-500" src={icon} alt="" />
+                        <h1 className="tieckPera ml-3">Life-time support</h1>
                     </div>
-                    
+
                 </div>
             </div>
             {/* Experience site end */}

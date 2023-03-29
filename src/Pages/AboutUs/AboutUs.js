@@ -18,61 +18,55 @@ import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 
 const SlideData = [
     {
-        image: "https://i.ibb.co/6WXds7H/Rectangle-129.png",
-        name: "HR & Payroll Software",
+
+        name: "Abu Saeed Mohammad",
+        subName: "Full Stack Developer",
+        description: "For me, NextTech ITC is a name of blessings. I was a student of NextTech ITC now an Alumni. I have learned all the latest tools technologies during our course and my course instructor Khandaker Nayeem Akbar is a good teacher. His explanation made things easy to understand and practice. If you want to make a really big career move in your life, and if you are ready to take control of your life, NextTech ITC is here to help you. Even with minimum knowledge and qualification, you can take this course. NextTech ITC's course curriculum will make you knowledgeable and qualified. You just need to pay proper attention and time to it.",
         prev: 6,
         id: 1,
         next: 2
     },
     {
-        image: "https://i.ibb.co/VQrpGWF/Rectangle-130.png",
-        name: "Business Portfolio Website",
-        prev: 1,
-        id: 2,
-        next: 3
+
+        name: "Ashequr Rahman",
+        subName: "Software Engineer",
+        description: "Hi There! I am taking a chance to share my feelings regarding NextTech ITC. They are the best. They are working for community development, creating skills person and many more. They changed my life. Now I recommend everyone to enroll NextTech. Now I am Alumni of NextTech. I got job but still they are helping me whenever I need help. Their teaching system, grooming, interview prep and job searching process are well developed. If you enrolled once you will be life time member. Thanks",
+        prev: 6,
+        id: 1,
+        next: 2
     },
     {
-        image: "https://i.ibb.co/YLv4nWr/Rectangle-131.png",
-        name: "E Commerce Website",
-        prev: 2,
-        id: 3,
-        next: 4
+
+        name: "Abu Saeed Mohammad",
+        subName: "Full Stack Developer",
+        description: "For me, NextTech ITC is a name of blessings. I was a student of NextTech ITC now an Alumni. I have learned all the latest tools technologies during our course and my course instructor Khandaker Nayeem Akbar is a good teacher. His explanation made things easy to understand and practice. If you want to make a really big career move in your life, and if you are ready to take control of your life, NextTech ITC is here to help you. Even with minimum knowledge and qualification, you can take this course. NextTech ITC's course curriculum will make you knowledgeable and qualified. You just need to pay proper attention and time to it.",
+        prev: 6,
+        id: 1,
+        next: 2
     },
     {
-        image: "https://i.ibb.co/5kndmYV/Rectangle-132.png",
-        name: "Real Estate Management",
-        prev: 3,
-        id: 4,
-        next: 5
-    },
-    {
-        image: "https://i.ibb.co/rQrYN0f/Rectangle-133.png",
-        name: "",
-        prev: 3,
-        id: 4,
-        next: 5
+
+        name: "Abu Saeed Mohammad",
+        subName: "Full Stack Developer",
+        description: "Nayeem Bhai and Jahan bhai are doing a great job for the Bangladeshi community in encouraging people to get into IT sector because if it’s huge demand. Nonetheless, my experience was great starting from learning the materials and participating in the bootcamp. Definitely, I would recommend others to give it a shot.",
+        prev: 6,
+        id: 1,
+        next: 2
     },
 
-    {
-        image: "https://i.ibb.co/rQrYN0f/Rectangle-133.png",
-        name: "",
-        prev: 3,
-        id: 4,
-        next: 5
-    }
 ]
 
 
 const AboutUs = () => {
     return (
-        <div className='mt-28'>
+        <div className=''>
             <div className='grid lg:grid-cols-2 place-items-center'>
                 <div>
-                    <p className='firstImgPera'><span className='nexttechSpan'>NE<span className='xlogo'>X</span>TTECH ITC</span> is a highly regarded IT school and IT Solution provider located in Irving, TX. Since 2018, we have been at the forefront of cutting-edge technology education and comprehensive IT services, generating for individuals and businesses alike. Our team of experienced professionals is dedicated to providing personalized services that exceed even the most discerning expectations. Whether you are looking to develop your skills or require expert solutions, NEXTTECH ITC is
+                    <p className='firstImgPera  mt-28'><span className='nexttechSpan'>NE<span className='xlogo'>X</span>TTECH ITC</span> is a highly regarded IT school and IT Solution provider located in Irving, TX. Since 2018, we have been at the forefront of cutting-edge technology education and comprehensive IT services, generating for individuals and businesses alike. Our team of experienced professionals is dedicated to providing personalized services that exceed even the most discerning expectations. Whether you are looking to develop your skills or require expert solutions, NEXTTECH ITC is
                         the optimal choice for those who demand the best in technology education and services.</p>
                 </div>
                 <div>
-                    <img class="firstImg rounded-lg" src={require('../image/About Us Page/img/15.jpg')} alt="" />
+                    <img class="firstImg rounded-lg mt-24" src={require('../image/About Us Page/img/15.jpg')} alt="" />
 
                 </div>
             </div>
@@ -110,8 +104,8 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div>
-                   <div class="grid grid-rows-3 grid-flow-col gap-4 ml-5 mt-10">
-                      <div class="row-start-2 row-span-2 ...">
+                    <div class="grid grid-rows-3 grid-flow-col gap-4 ml-5 mt-10">
+                        <div class="row-start-2 row-span-2 ...">
                             <img className='secoundImg rounded-lg' src={require('../image/About Us Page/img/36.jpg')} alt="" />
 
                         </div>
@@ -119,16 +113,16 @@ const AboutUs = () => {
                             <img className='secoundImg rounded-lg' src={require('../image/About Us Page/img/42.jpg')} alt="" />
 
                         </div>
-                     </div>
-                 </div>
-            
-                
-               
+                    </div>
+                </div>
+
+
+
             </div>
-                {/* 4th grid */}
+            {/* 4th grid */}
             <div className='grid lg:grid-cols-2 place-items-center mt-20'>
                 <div className=''>
-                    
+
                     <div>
                         <h1 className='fouthPera text-center'>Why Choose Us!</h1>
                         <img className='firstImg rounded-lg ' src={require('../image/About Us Page/img/32.jpg')} alt="" />
@@ -138,9 +132,9 @@ const AboutUs = () => {
                 <div>
                     <p className='firstImgPera mt-20'>At NEXTTECH ITC, we believe that the future belongs to those who are willing to embrace innovation and cutting-edge technology. That's why we offer the most comprehensive and innovative technology education and IT solutions. Our team of experienced professionals is dedicated to providing personalized, tailored solutions that exceed your expectations. Whether you're a beginner looking to develop your skills or an expert in need of premium solutions, NEXTTECH ITC is the optimal choice. Join our community of forward-thinking innovators and unlock your potential with NEXTTECH ITC. Let's build the future together.</p>
                 </div>
-          </div>
-          <h1 className='fouthPera text-center mt-20'>Testimonial</h1>
-          <div className="mt-10">
+            </div>
+            <h1 className='fouthPera text-center mt-20'>Testimonial</h1>
+            <div className="mt-10">
                 <Swiper
                     effect={"coverflow"}
                     grabCursor={true}
@@ -162,14 +156,20 @@ const AboutUs = () => {
                     className="bookSwiper  ">
 
                     {
-                        SlideData.map(slideSS => <SwiperSlide className='ml-10 mb-12 mt-10'>
+                        SlideData.map(slideSS => <SwiperSlide className='ml-5 mb-12 mt-10'>
 
-                            <div class="relative  overflow-hidden bg-cover bg-no-repeat">
-                                <img
-                                    src={slideSS.image}
-                                    class="transition duration-300 ease-in-out hover:scale-110 slideImg"
-                                    alt="Louvre" />
+
+                            <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                <div className='p-5'>
+                                    <div className='slideBackGround p-5'>
+                                        <h1 className='slideDes '>{slideSS.description}</h1>
+                                    </div>
+                                    <h1 className='slideName mt-10'>{slideSS.name}</h1>
+                                    <p className='subName'>{slideSS.subName}</p>
+                                </div>
+
                             </div>
+
 
 
                         </SwiperSlide>)

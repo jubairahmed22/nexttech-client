@@ -1,198 +1,215 @@
 .OurCourse {
-    font-family: 'Heebo', sans-serif;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 100%;
-    text-align: center;
-    color: #1E2452;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 100%;
+  text-align: center;
+  color: #1E2452;
 }
 
 .CourseArea {
-    width: 1200px;
-    height: 528.86px;
+  width: 1200px;
+  height: 528.86px;
 }
 
 .CourseImgSize {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
-.courseSlideImg:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 12px;
-    display: inline-block;
-    background: linear-gradient(#171515 0%, rgba(121, 73, 255, 0) 100%);
-    /* W3C */
+.courseBannerImg:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  display: inline-block;
+  background: linear-gradient(#171515 0%, rgba(121, 73, 255, 0) 100%);
+  /* W3C */
+}
+
+.courseBannerImg {
+  width: 1440;
+  height: 700;
 }
 
 .courseCard {
-    width: 425px;
-    height: 390px;
+  width: 425px;
+  height: 390px;
 }
 
 .courseCardImg {
-    width: 425px;
+  width: 425px;
 }
 
 .courseCardText {
 
-    font-weight: 700;
-    font-size: 24px;
-    font-family: 'Heebo', sans-serif;
-    color: #1E2452;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Heebo', sans-serif;
+  color: #1E2452;
 }
 
 :root {
-    --border-size: 0.125rem;
-    --duration: 250ms;
-    --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
-    --font-family: monospace;
-    --color-primary: white;
-    --color-secondary: #1E2452;;
-    --color-tertiary: dodgerblue;
-    --shadow: rgba(0, 0, 0, 0.1);
-    --space: 1rem;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
+  --border-size: 0.125rem;
+  --duration: 250ms;
+  --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --font-family: monospace;
+  --color-primary: white;
+  --color-secondary: #1E2452;
+  ;
+  --color-tertiary: dodgerblue;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --space: 1rem;
+}
 
-  .multi-button {
-    display: flex;
-    width: 100%;
-    box-shadow: var(--shadow) 4px 4px;
-  }
-  
-  .multi-button button {
-    flex-grow: 1;
-    cursor: pointer;
-    position: relative;
-    padding:
-      calc(var(--space) / 1.125)
-      var(--space)
-      var(--space);
-    border: var(--border-size) solid #1E2452;;
-    color: var(--color-secondary);
-    background-color: var(--color-primary);
-    font-size: 1.5rem;
-    font-family: var(--font-family);
-    text-transform: lowercase;
-    text-shadow: var(--shadow) 2px 2px;
-    transition: flex-grow var(--duration) var(--ease);
-  }
-  
-  .multi-button button + button {
-    border-left: var(--border-size) solid #1E2452;;
-    margin-left: calc(var(--border-size) * -1);
-  }
-  
-  .multi-button button:hover,
-  .multi-button button:focus {
-    flex-grow: 2;
-    color: white;
-    outline: none;
-    text-shadow: none;
-    background-color: var(--color-secondary);
-  }
-  
-  .multi-button button:focus {
-    outline: var(--border-size) dashed var(--color-primary);
-    outline-offset: calc(var(--border-size) * -2);
-  }
-  
-  .multi-button:hover button:focus:not(:hover) {
-    flex-grow: 1;
-    color: var(--color-secondary);
-    background-color: var(--color-primary);
-    outline-color: var(--color-tertiary);
-  }
-  
-  .multi-button button:active {
-    transform: translateY(var(--border-size));
-  }
-  .capsul{
-    background-color: #1E2452;
-    color: white;
-  }
-  .slideMejar{
-    height: 200px;
-  }
-  .cerocelImg{
-    height: 700px;
-  }
-.imageText{
+* {
+  box-sizing: border-box;
+}
+
+
+.multi-button {
+  display: flex;
+  width: 100%;
+  box-shadow: var(--shadow) 4px 4px;
+}
+
+.multi-button button {
+  flex-grow: 1;
+  cursor: pointer;
+  position: relative;
+  padding:
+    calc(var(--space) / 1.125) var(--space) var(--space);
+  border: var(--border-size) solid #1E2452;
+  ;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  font-size: 1.5rem;
+  font-family: 'Heebo', sans-serif;
+  text-transform: lowercase;
+  text-shadow: var(--shadow) 2px 2px;
+  transition: flex-grow var(--duration) var(--ease);
+}
+
+.multi-button button+button {
+  border-left: var(--border-size) solid #1E2452;
+  ;
+  margin-left: calc(var(--border-size) * -1);
+}
+
+.multi-button button:hover,
+.multi-button button:focus {
+  flex-grow: 2;
+  color: white;
+  outline: none;
+  text-shadow: none;
+  background-color: var(--color-secondary);
+}
+
+.multi-button button:focus {
+  outline: var(--border-size) dashed var(--color-primary);
+  outline-offset: calc(var(--border-size) * -2);
+}
+
+.multi-button:hover button:focus:not(:hover) {
+  flex-grow: 1;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  outline-color: var(--color-tertiary);
+}
+
+.multi-button button:active {
+  transform: translateY(var(--border-size));
+}
+
+.capsul {
+  background-color: #1E2452;
+  color: white;
+}
+
+.slideMejar {
+  height: 200px;
+}
+
+.cerocelImg {
+  height: 700px;
+}
+
+.imageText {
   font-weight: 400;
-font-size: 18px;
-line-height: 80px;
-margin-top: 280px;
+  font-size: 18px;
+  line-height: 80px;
+  margin-top: 280px;
 }
-.imagePera{
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 100%;
-margin-top: 300px;
-color: #FFFFFF;
+
+.imagePera {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  margin-top: 300px;
+  color: #FFFFFF;
 }
-.imgCardIndian{
+
+.imgCardIndian {
   width: 430px;
   height: 373px;
 }
-.cardIndianHeader{
-font-family: 'Heebo', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 100%;
-color: #1E2452;
+
+.cardIndianHeader {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  color: #1E2452;
 
 }
-.cardIndianPera{
+
+.cardIndianPera {
   font-family: 'Heebo', sans-serif;
   font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 124%;
-/* or 22px */
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 124%;
+  /* or 22px */
 
-text-align: justify;
+  text-align: justify;
 
-color: #666666;
+  color: #666666;
 
 }
-.modalItemImg{
+
+.modalItemImg {
   width: 500px;
-  height: 508px;
+  height: 470px;
 }
-.modalItemHeading{
+
+.modalItemHeading {
   font-family: 'Heebo', sans-serif;
   font-style: normal;
-font-weight: 800;
-font-size: 48px;
-line-height: 100%;
-/* identical to box height, or 48px */
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 100%;
+  /* identical to box height, or 48px */
 
 
-/* Primary Blue */
+  /* Primary Blue */
 
-color: #1E2452;
+  color: #1E2452;
 
 }
-.modalItemPera{
+
+.modalItemPera {
   font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 150%;
-/* or 39px */
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 150%;
+  /* or 39px */
 
-text-align: justify;
+  text-align: justify;
 
-color: #666666;
+  color: #666666;
 
 }

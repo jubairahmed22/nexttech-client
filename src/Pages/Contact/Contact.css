@@ -1,0 +1,42 @@
+.emailCard {
+
+    width: 1440px;
+    height: 536px;
+
+
+    background: #40456C;
+    box-shadow: 0px 4px 30px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.emialcardText {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 115%;
+    /* or 55px */
+
+
+    color: #FFFFFF;
+}
+
+.emialCardPera {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 115%;
+    /* or 32px */
+
+
+    color: #FFFFFF;
+}
+
+.ourTeam {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+}

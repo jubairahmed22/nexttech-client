@@ -70,7 +70,7 @@ const Courses = () => {
 
     const [courses, setCourses] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/courses')
+        fetch('https://jubair-portfolio-server-jubairahmed22.vercel.app/courses')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
@@ -94,7 +94,7 @@ const Courses = () => {
 
         }
         console.log(booking);
-        fetch('http://localhost:5000/mail', {
+        fetch('https://jubair-portfolio-server-jubairahmed22.vercel.app/mail', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -131,8 +131,8 @@ const Courses = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide className=''>
-                        <div className="courseSlideImg">
-                            <img src={require('../image/course/course-img/multiethnic-startup-business-team-meeting-modern-night-office-interior-brainstorming-working-laptop.jpg')} alt="" />
+                        <div className="courseBannerImg">
+                            <img src={require('../image/course/course-img/courseCoveriMG.jpg')} alt="" />
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imageText">
                             <h1 className="textHeading ">Take the first step towards your dreams with us.</h1>
@@ -157,10 +157,11 @@ const Courses = () => {
                                     <h1 className='m-5 courseCardText'>{course.name}</h1>
                                     <div className="rating m-5 mt-5">
                                         <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
                                         <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+
                                     </div>
                                 </div>
                             </Link>
@@ -203,7 +204,7 @@ const Courses = () => {
                     <div className='bg-base-200 rounded-xl'>
                         <div className="hero   mt-20 py-5">
                             <div className="hero-content flex-col lg:flex-row-reverse">
-                                <img className='modalItemImg rounded-3xl' src={require('../image/course/course-img/beautiful-young-woman-working-with-audience.jpg')} alt="" />
+                                <img className='modalItemImg rounded-3xl ' src={require('../image/course/course-img/beautiful-young-woman-working-with-audience.jpg')} alt="" />
                                 <div>
                                     <h1 className="modalItemHeading">Participate our free seminar</h1>
                                     <p className="py-6 modalItemPera pr-20">
@@ -221,13 +222,13 @@ const Courses = () => {
 
                         </div>
                         <h1 className="modalItemHeading pl-24 pt-20 text-center">Upcoming Seminar Schedule</h1>
-                            <p className='modalItemPera pl-24 pr-32 pt-5'>You may have many questions about NextTech ITC Institute enrollment,
-                                 course options, and benefits. Weekly free course-based seminars answer your queries.
-                                 Course mentors can advise you during these sessions.</p>
+                        <p className='modalItemPera pl-24 pr-32 pt-5'>You may have many questions about NextTech ITC Institute enrollment,
+                            course options, and benefits. Weekly free course-based seminars answer your queries.
+                            Course mentors can advise you during these sessions.</p>
                         <div className='px-24 pt-5 pb-20'>
 
                             {/* section join seminar start */}
-                           
+
                             {
                                 SeminarData.map(seminar =>
                                     <div class="block w-full">
@@ -258,7 +259,7 @@ const Courses = () => {
                                                             <h3 className='formName'>Phone Number</h3>
                                                             <input name="phone" type="phone" placeholder="Type here" className="input w-full input-bordered text-black" />
                                                             <h3 className='formName'>Course Name</h3>
-                                                            <select name="course" type="course" className="select text-black w-full max-w-xs">
+                                                            <select name="course" type="course" className="select text-black w-full text-xl max-w-xs">
                                                                 <option disabled selected>Choose Your Course Name</option>
                                                                 <option value="UI UX Design">UI UX Design</option>
                                                                 <option value="Cyber Security">Cyber Security</option>

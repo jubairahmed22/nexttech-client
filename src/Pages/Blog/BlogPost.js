@@ -21,7 +21,7 @@ const BlogPost = () => {
     const [size, setSize] = useState(4);
 
     useEffect(() => {
-        const url = `http://localhost:5000/blogs?page=${page}&size=${size}`;
+        const url = `https://jubair-portfolio-server-jubairahmed22.vercel.app/blogs?page=${page}&size=${size}`;
         console.log(page, size);
         fetch(url)
             .then(res => res.json())
@@ -42,7 +42,7 @@ const BlogPost = () => {
     return (
         <div>
 
-            <div className='mt-10'>
+            <div className='mt-32'>
                 {
                     allBlogs.length === 0 ? <div><SpinLoading /></div> : allBlogs.map(blogs =>
                         <div className="card cardMajer bg-base-100 shadow-xl mt-5">
