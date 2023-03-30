@@ -155,6 +155,8 @@ const Contact = () => {
                         kind of information
                     </h1>
                     <p className='emialCardPera mt-5'>Call us for query</p>
+                    <h1 className='text-3xl mt-3 text-white'>+1 (682) 283 3319,</h1>
+                    <h1 className='text-3xl mt-3 text-white'>+1 (682) 283 4734,</h1>
                     <h1 className='text-3xl mt-3 text-white'>+880 1941 460 114</h1>
                     <div className='inline-flex items-center mt-5 gap-5'>
                         <AiOutlineInstagram className='w-10 h-10 text-white'></AiOutlineInstagram>

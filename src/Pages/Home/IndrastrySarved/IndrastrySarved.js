@@ -33,7 +33,7 @@ const IndrastrySarved = () => {
 
             </div>
             <div className='flex items-center justify-center mt-5'>
-                <button className="btn btn-primary" onClick={details}>Explore More</button>
+                <button className="btn btn-warning" onClick={details}>Explore More</button>
             </div>
             
             <div className='mt-20'>

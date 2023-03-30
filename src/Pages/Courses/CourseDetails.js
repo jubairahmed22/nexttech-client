@@ -70,8 +70,8 @@ const CourseDetails = () => {
                             <img className='courseImg' src={details.img} alt="" />
                             <h1 className='courseName mt-5'>{details.name}</h1>
                             <h1 className='courseDescription mt-10'>Course Description</h1>
-                            <p className='courseDespera mt-5 mb-20'>{details.description}</p>
-                            <h1 className='courseDescription mt-20'>Course Outline</h1>
+                            <p className='courseDespera mt-5 '>{details.description}</p>
+                            <h1 className='courseDescription mt-5'>Course Outline</h1>
 
                             <div className='inline-flex items-center mt-5'>
                                 <img src={tick} className="tickmark " alt=''></img>
