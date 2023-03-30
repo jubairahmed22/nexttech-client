@@ -1,0 +1,50 @@
+.footerBackground {
+    background-color: #1E2452;
+    height: 350px;
+
+}
+
+.Maintittle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 32px */
+
+    font-family: 'Heebo', sans-serif;
+    color: #FFFFFF;
+
+}
+
+.mainPera {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+
+
+    color: #FFFFFF;
+}
+
+.mainPeraTwo {
+    color: #1E2452;
+}
+
+.footerPipe {
+
+    background: #222222;
+}
+
+.mainPeraThree {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+
+
+    color: #FFFFFF;
+}

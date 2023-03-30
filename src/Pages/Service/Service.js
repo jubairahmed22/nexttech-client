@@ -160,8 +160,8 @@ const Service = () => {
                         <div className="ServiceImg">
                             <img src={require('../image/Service/img/group-young-people-business-meeting.jpg')} alt="" />
                         </div>
-                        <div className="absolute flex justify-end transform -translate-y-1/2 imageText">
-                            <h1 className="textHeading mb-56">Service We Offer</h1>
+                        <div className="absolute flex justify-end transform -translate-y-1/2 slideHeadingTwo">
+                            <h1 className="textHeading mb-56">Service <span className="weOffer">we offer</span></h1>
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imagePera">
                             <p className="mb-48">Discover the latest in IT with our comprehensive training programs. Gain the skills <br /> and knowledge you need to stay ahead in this dynamic field.</p>
@@ -181,13 +181,13 @@ const Service = () => {
 
 
                     </div>
-                    <p className="text-lg text-center">Next-level employee engagement ensures productivity retention, and alignment <br /> with organizational goal</p>
+                    <p className="text-center nextLvl mt-5">Next-level employee engagement ensures productivity retention, and alignment <br /> with organizational goal</p>
                     <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-5 ">
                         {
                             ServiceData.map((data =>
                                 <div>
                                     <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-10">
-                                        <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src={data.image} alt="" />
+                                        <img class="object-cover imgBackground w-full h-full transform duration-700 backdrop-opacity-100 " src={data.image} alt="" />
                                         <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
                                         <div class="absolute bg-gradient-to-t  from-indigo-900 via-indigo-900 to-indigo-900 opacity-90  w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
                                             <div class="absolute w-full flex place-content-center">
@@ -207,10 +207,10 @@ const Service = () => {
             </div>
 
             {/* All Services End */}
-            <h1 className="text-center aboutText mt-20">Our Portfolio</h1>
+            <h1 className="text-center aboutText">Our Portfolio</h1>
 
             {/* slider start */}
-            <div className="mt-10 slideBg p-5">
+            <div className="slideBg p-5 mt-20">
                 <Swiper
                     effect={"coverflow"}
                     grabCursor={true}
@@ -255,35 +255,36 @@ const Service = () => {
                 </h1>
                 <div>
 
-                    <div class="grid grid-cols-2 gap-2 mt-10 place-items-center ">
+                    <div class="grid grid-cols-2 gap-2 mt-20 place-items-center ">
                         <div>
-                            <div className="card card-compact  ">
-                                <img className="ItImg" src={require('../image/Service/img/45.jpg')} alt="" />
-                                <div className="card-body">
+                            <div className="">
+                                <img className="ItImg shadow-2xl" src={require('../image/Service/img/45.jpg')} alt="" />
+                              
 
-                                    <div>
-                                        <h2 className="TogetherCardTitle p-5">IT Training Center</h2>
+                                    <div className="">
+                                        <h2 className="TogetherCardTitle p-5 mt-5">IT Training Center</h2>
                                         <Link to="/aboutUs">
                                             <div className="inline-flex items-center">
-                                                <h2 className="TogetherCardTitleTwo p-5">More About Us</h2>
+                                                <h2 className="TogetherCardTitleTwo py-5">More About Us</h2>
                                                 <div >
                                                     <FaLongArrowAltRight className="w-10 h-10"></FaLongArrowAltRight>
 
                                                 </div>
                                             </div>
+                                            <hr class="w-64 h-1 bg-orange-500 rounded  items-start"/>
                                         </Link>
                                     </div>
 
-                                </div>
+                             
                             </div>
 
                         </div>
-                        <div className="card  ">
-                            <div className="mb-3">
+                        <div className="">
+                            <div className="mb-5">
                                 <h2 className="TogetherCardTitleThree p-5">IT Solution</h2>
 
                             </div>
-                            <img className="ItImg" src={require('../image/Service/img/58.jpg')} alt="" />
+                            <img className="ItImg shadow-2xl" src={require('../image/Service/img/58.jpg')} alt="" />
                         </div>
                     </div>
 
