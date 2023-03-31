@@ -73,7 +73,7 @@ const CourseDetails = () => {
                             <p className='courseDespera mt-5 mb-20'>{details.description}</p>
                             <h1 className='courseDescription mt-20'>Course Outline</h1>
 
-                            <div className='inline-flex items-center mt-5'>
+                            <div className='inline-flex items-center mt-3'>
                                 <img src={tick} className="tickmark " alt=''></img>
                                 <p className='OutlineTittle ml-3'>{details.outlineOneTittle}</p>
                             </div>
@@ -275,7 +275,7 @@ const CourseDetails = () => {
                         <input name="email" type="email" placeholder="Type here" className="input w-full input-bordered" />
                         <h3 className='formName'>Select Course Name</h3>
                         <select name="course" type="course" className="select text-black w-full text-xl max-w-xs">
-                            <option disabled selected>Choose Your Course Name</option>
+                            <option disabled selected>Choose Your Course </option>
                             <option value="UI UX Design">UI UX Design</option>
                             <option value="Cyber Security">Cyber Security</option>
                             <option value="Graphic Design">Graphic Design</option>
