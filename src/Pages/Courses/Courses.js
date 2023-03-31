@@ -3,7 +3,7 @@ import './Courses.css'
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/swiper.min.css";
+
 
 // import required modules
 
@@ -13,7 +13,7 @@ import "swiper/swiper.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 
-import "swiper/swiper.min.css";
+
 import { Link } from 'react-router-dom';
 import CourseModal from './CourseModal';
 import { toast } from 'react-hot-toast';
@@ -132,26 +132,26 @@ const Courses = () => {
                 >
                     <SwiperSlide className=''>
                         <div className="courseBannerImg">
-                            <img src={require('../image/course/course-img/courseCoveriMG.jpg')} alt="" />
+                            <img src={require('../image/course/course-img/coursBannerTwo.png')} alt="" />
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imageText">
-                            <h1 className="textHeading ">Take the first step towards your dreams with us.</h1>
+                            <h1 className="slideFontHeading ml-10">Take the first step towards your dreams with us.</h1>
                         </div>
-                        <div className="absolute flex justify-end transform -translate-y-1/2 imagePera">
-                            <p>Explore our most popular and high-demand courses, a fast track to your independence</p>
+                        <div className="absolute flex justify-end transform -translate-y-1/2 slideFontPera">
+                            <p className='slideFontPeraTwo ml-10'>Explore our most popular and high-demand courses, a fast track to your independence</p>
                         </div>
 
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className=''>
+            <div className='courseBackground pt-10'>
 
-                <h1 className='OurCourse text-center mt-20 mb-20'>Our Courses</h1>
+                <h1 className='OurCourse  text-center mt-20 mb-20'>Our Courses</h1>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 place-items-center mt-10'>
                     {
                         courses.map(course =>
                             <Link to={`/courseDetails/${course.id}`}>
-                                <div className='courseCard shadow-xl gap-5 mb-20 transform transition duration-500 hover:scale-110 '>
+                                <div className='courseCard shadow-lg gap-5 mb-20 transform transition duration-500 hover:scale-110 hover:shadow-2xl'>
 
                                     <img className='courseCardImg w-96 h-56' src={course.img} alt="" />
                                     <h1 className='m-5 courseCardText'>{course.name}</h1>
@@ -204,7 +204,7 @@ const Courses = () => {
                     <div className='bg-base-200 rounded-xl'>
                         <div className="hero   mt-20 py-5">
                             <div className="hero-content flex-col lg:flex-row-reverse">
-                                <img className='modalItemImg rounded-3xl ' src={require('../image/course/course-img/beautiful-young-woman-working-with-audience.jpg')} alt="" />
+                                <img className='modalItemImg rounded-3xl ' src={require('../image/course/course-img/67.jpg')} alt="" />
                                 <div>
                                     <h1 className="modalItemHeading">Participate our free seminar</h1>
                                     <p className="py-6 modalItemPera pr-20">

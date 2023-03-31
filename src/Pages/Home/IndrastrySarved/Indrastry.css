@@ -1,17 +1,6 @@
-.background {
-    background-color: #f7e7e7;
-}
-
-.mainHeading {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 75px;
-}
-
 .subHeading {
-    font-family: 'Roboto';
+    font-family: 'Heebo', sans-serif;
+
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -20,4 +9,115 @@
 
     color: #444444;
 
+}
+
+.boxCard {
+    width: 340px;
+    height: 480px;
+}
+
+.mainHeading {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+
+    /* Primary Blue */
+
+    color: #1E2452;
+}
+
+.cardTittle {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+
+    /* Primary Blue */
+
+    color: #1E2452;
+}
+
+.cardPera {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+
+    color: #666666;
+}
+.Support{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 87px;
+text-align: left;
+
+/* Primary Blue */
+
+color: #1E2452;
+}
+.supportPera{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.05em;
+
+color: #999999;
+
+}
+.boxImgOne{
+width: 590px;
+height: 390px;
+}
+.boxImgOnelist{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+letter-spacing: 0.05em;
+
+color: #333333;
+
+}
+.boxImgTwo{
+width: 749px;
+height: 390px;
+}
+.workTittle{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 87px;
+
+
+/* Primary Blue */
+
+color: #1E2452;
+}
+.workText{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 150%;
+/* or 57px */
+
+letter-spacing: 0.03em;
+
+/* Primary Blue */
+
+color: #1E2452;
 }

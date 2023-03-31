@@ -11,6 +11,13 @@
     opacity: 0.5;
     /* W3C */
 }
+.imgBackground:after{
+
+    border-radius: 12px;
+    display: inline-block;
+    background: #1E2452;
+    opacity: 0.5;
+}
 
 .textHeading {
     color: rgb(255, 255, 255);
@@ -19,8 +26,8 @@
     font-family: 'Heebo', sans-serif;
 }
 
-.imageText {
-    top: 30%;
+.slideHeadingTwo {
+    top: 80%;
     left: 10%;
 }
 
@@ -149,6 +156,7 @@
     font-size: 64px;
     line-height: 100%;
     font-family: 'Heebo', sans-serif;
+    margin-top: 150px;
 }
 
 .aboutImg {
@@ -212,6 +220,7 @@
 
 .slideBg {
     background: #F4F9FB;
+    
 }
 
 .TogetherCardTitle {
@@ -261,4 +270,20 @@
 .ItImg {
     width: 636px;
     height: 357px;
+}
+
+.weOffer {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: lighter;
+    font-family: 'Heebo', sans-serif;
+}
+
+.nextLvl {
+    font-family: 'Heebo', sans-serif;
+    color: #999999;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
 }

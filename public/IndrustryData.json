@@ -8,49 +8,25 @@
     {
         "id": "2",
         "name": "Business Portfolio Softaware",
-        
-        
-        
-        
-        
-        
         "description": "A company portfolio website displays an organization's goods, services, and projects. It's a digital portfolio that shows potential clients the company's skills and experience. The website usually has a portfolio, client testimonials, staff profiles, and contact information. A business portfolio website attracts new clients and showcases the company's strengths.",
         "img": "https://i.ibb.co/bLQsg6N/Business-Portfolio-Website-1.png"
     },
     {
         "id": "4",
         "name": "Appointment Management System",
-        
-        
-        
-        
-        
-        
         "description": "Business appointment management software schedules and manages appointments. Online booking, calendar management, automated reminders, and appointment monitoring are typical. The technology streamlines appointment booking, reduces no-shows, and improves client satisfaction in healthcare, beauty, education, and professional services.",
         "img": "https://i.ibb.co/Q8BwPVh/HR-Payroll-Software-1.png"
     },
     {
         "id": "5",
-        "name": "Brain Station 23",
-        
-        
-        
-        
-        
-        
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem  ",
+        "name": "ERP System",
+        "description": "An ERP (Enterprise Resource Planning) system is a software solution that integrates various business functions, such as finance, human resources, inventory management, procurement, production, and sales, into a single system to improve productivity and decision-making.",
         "img": "https://i.ibb.co/2KWBt3G/Full-Stack-Web-Devolvement-1.png"
     },
     {
         "id": "6",
-        "name": "Red Dot IT",
-        
-        
-        
-        
-        
-        
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem  ",
+        "name": "POS System",
+        "description": "A POS (Point of Sale) system is a software solution that enables businesses to manage sales transactions, inventory, and customer data in real-time. It includes a software application and hardware components such as a barcode scanner, cash drawer, and receipt printer, and is commonly used in retail stores, restaurants, and other businesses that sell products or services directly to customers.",
         "img": "https://i.ibb.co/bLQsg6N/Business-Portfolio-Website-1.png"
     }
 ]

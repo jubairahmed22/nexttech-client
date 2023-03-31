@@ -62,7 +62,7 @@ const AboutUs = () => {
         <div className=''>
             <div className='grid lg:grid-cols-2 place-items-center'>
                 <div>
-                    <p className='firstImgPera  mt-28'><span className='nexttechSpan'>NE<span className='xlogo'>X</span>TTECH ITC</span> is a highly regarded IT school and IT Solution provider located in Irving, TX. Since 2018, we have been at the forefront of cutting-edge technology education and comprehensive IT services, generating for individuals and businesses alike. Our team of experienced professionals is dedicated to providing personalized services that exceed even the most discerning expectations. Whether you are looking to develop your skills or require expert solutions, NEXTTECH ITC is
+                    <p className='firstImgPera mr-5  mt-28'><span className='nexttechSpan'>NE<span className='xlogo'>X</span>TTECH ITC</span> is a highly regarded IT school and IT Solution provider located in Irving, TX. Since 2018, we have been at the forefront of cutting-edge technology education and comprehensive IT services, generating for individuals and businesses alike. Our team of experienced professionals is dedicated to providing personalized services that exceed even the most discerning expectations. Whether you are looking to develop your skills or require expert solutions, NEXTTECH ITC is
                         the optimal choice for those who demand the best in technology education and services.</p>
                 </div>
                 <div>
@@ -130,7 +130,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div>
-                    <p className='firstImgPera mt-20'>At NEXTTECH ITC, we believe that the future belongs to those who are willing to embrace innovation and cutting-edge technology. That's why we offer the most comprehensive and innovative technology education and IT solutions. Our team of experienced professionals is dedicated to providing personalized, tailored solutions that exceed your expectations. Whether you're a beginner looking to develop your skills or an expert in need of premium solutions, NEXTTECH ITC is the optimal choice. Join our community of forward-thinking innovators and unlock your potential with NEXTTECH ITC. Let's build the future together.</p>
+                    <p className='firstImgPera mt-20 ml-5'>At <span className='nexttechSpan'>NE<span className='xlogo'>X</span>TTECH ITC</span>, we believe that the future belongs to those who are willing to embrace innovation and cutting-edge technology. That's why we offer the most comprehensive and innovative technology education and IT solutions. Our team of experienced professionals is dedicated to providing personalized, tailored solutions that exceed your expectations. Whether you're a beginner looking to develop your skills or an expert in need of premium solutions, NEXTTECH ITC is the optimal choice. Join our community of forward-thinking innovators and unlock your potential with NEXTTECH ITC. Let's build the future together.</p>
                 </div>
             </div>
             <h1 className='fouthPera text-center mt-20'>Testimonial</h1>

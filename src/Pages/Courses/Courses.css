@@ -6,6 +6,9 @@
   text-align: center;
   color: #1E2452;
 }
+.courseBackground{
+  background-color: #F3F8FB;
+}
 
 .CourseArea {
   width: 1200px;
@@ -26,13 +29,14 @@
   height: 100%;
   border-radius: 12px;
   display: inline-block;
-  background: linear-gradient(#171515 0%, rgba(121, 73, 255, 0) 100%);
+  background: #1E2452;
+  opacity: 0.5;
   /* W3C */
 }
 
 .courseBannerImg {
   width: 1440;
-  height: 700;
+  height: 200;
 }
 
 .courseCard {
@@ -139,9 +143,41 @@
 
 .imageText {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 80px;
-  margin-top: 280px;
+  top: 60%;
+}
+
+.slideFontPera {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 80px;
+  top: 75%;
+}
+
+.slideFontHeading {
+  font-family: 'Heebo', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.slideFontPeraTwo {
+  font-family: 'Heebo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  
+  /* identical to box height, or 24px */
+
+
+  color: #FFFFFF;
 }
 
 .imagePera {
@@ -155,7 +191,7 @@
 
 .imgCardIndian {
   width: 430px;
-  height: 373px;
+  height: 365px;
 }
 
 .cardIndianHeader {
@@ -212,4 +248,7 @@
 
   color: #666666;
 
+}
+.logoColor{
+  color: white;
 }

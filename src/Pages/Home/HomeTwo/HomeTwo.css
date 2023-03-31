@@ -1,0 +1,73 @@
+.imgSizeTool {
+    width: 1440px;
+}
+
+.imgOverlyOut {
+    z-index: -1;
+}
+
+.imgSizeTool2 {
+    top: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.imgOverlyOut:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    display: inline-block;
+    background: #1E2452;
+    opacity: 0.5;
+
+
+}
+
+.homeTwoText {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    top: 30%;
+}
+
+.slideOne {
+    z-index: -1;
+}
+
+.slideFont {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.13em;
+
+    color: #FFFFFF;
+
+}
+
+.clientDot {
+    font-family: 'Heebo', sans-serif;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+
+}
+.slideBox{
+    margin-top: 100px;
+}

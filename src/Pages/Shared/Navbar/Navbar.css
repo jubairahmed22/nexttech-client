@@ -13,6 +13,6 @@
 .scroolNav {
     position: sticky;
     position: fixed;
-    width: 1445px;
+    width: 1345px;
     z-index: 999;
 }

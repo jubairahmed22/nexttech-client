@@ -12,6 +12,7 @@ import Courses from "../../Pages/Courses/Courses";
 
 
 import Home from "../../Pages/Home/Home/Home"
+import HomeTwo from "../../Pages/Home/HomeTwo/HomeTwo";
 import Login from "../../Pages/Login/Login";
 import Service from "../../Pages/Service/Service";
 
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home></Home>
+                element: <HomeTwo></HomeTwo>
             },
             {
                 path: '/login',
