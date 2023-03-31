@@ -1,13 +1,13 @@
 .leftLayOut {
-    margin-top: 150px;
+    margin-top: 30px;
 
-    width: 830px;
+    width: 740px;
 }
 
 .rightLayOut {
-    margin-top: 150px;
+    margin-top: 30px;
     height: 500px;
-    width: 600px;
+    width: 590px;
 }
 
 .courseImg {
@@ -29,6 +29,7 @@
     font-size: 36px;
     line-height: 100%;
 
+
     /* or 35px */
 
     text-align: justify;
@@ -39,8 +40,8 @@
 }
 
 .courseDespera {
-    width: 764px;
-    height: 334px;
+    width: 740px;
+    height: 340px;
 
 
     font-family: 'Heebo', sans-serif;
@@ -106,7 +107,7 @@
 
 .multiButtonSize {
     font-family: 'Heebo', sans-serif;
-    width: 600px;
+    width: 585px;
 }
 
 .formPera {

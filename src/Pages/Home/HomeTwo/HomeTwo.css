@@ -68,6 +68,94 @@
     color: #FFFFFF;
 
 }
-.slideBox{
+
+.slideBox {
     margin-top: 100px;
+}
+
+@media only screen and (max-width:588px) {
+    .homeTwoText {
+        margin-top: 40px;
+        font-family: 'Heebo', sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        text-align: center;
+        line-height: 75px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+        top: 30%;
+    }
+
+    .slideFont {
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.13em;
+
+        color: #FFFFFF;
+
+    }
+
+    .clientDot {
+        font-family: 'Heebo', sans-serif;
+
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 10px;
+
+        color: #FFFFFF;
+        margin-bottom: 5px;
+
+    }
+}
+
+@media only screen and (min-width: 588px) and (max-width:992px) {
+
+    .homeTwoText {
+        font-family: 'Heebo', sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 75px;
+        /* identical to box height */
+        margin-left: 20px;
+
+        color: #FFFFFF;
+        top: 10%;
+    }
+
+
+    .slideFont {
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0.13em;
+
+        color: #FFFFFF;
+
+    }
+
+    .clientDot {
+        font-family: 'Heebo', sans-serif;
+        margin-top: 10px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+
+        color: #FFFFFF;
+
+    }
 }

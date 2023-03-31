@@ -15,7 +15,7 @@ const AllBlog = () => {
 
     return (
         <div>
-            <div className='mt-10'>
+            <div className='mt-10 place-items-center'>
                 {
                     allBlogs.map(blogs =>
                         <div className="card cardMajer bg-base-100 shadow-xl mt-5">
@@ -34,7 +34,7 @@ const AllBlog = () => {
                             <img className='imgMegar' src={blogs.img} alt="blogs" />
                             <div className="card-body">
 
-                                <p>{blogs.description}</p>
+                                <p className='blogDes'>{blogs.description}</p>
                                 <div className="card-actions justify-start">
                                     <button onClick={() => handleRouting(blogs._id)} className="btn btnCol">Details</button>
                                 </div>

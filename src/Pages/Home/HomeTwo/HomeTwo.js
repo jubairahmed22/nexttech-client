@@ -42,7 +42,7 @@ const HomeTwo = () => {
                 className="bookSwiper ">
 
                 {
-                    SlideData.map(slideSS => <SwiperSlide className='mb-12 mt-10 slideOne'>
+                    SlideData.map(slideSS => <SwiperSlide className='mb-12 slideOne'>
 
                         <div class="relative  overflow-hidden bg-cover bg-no-repeat ">
                             <div className='imgOverlyOut'>
@@ -53,9 +53,9 @@ const HomeTwo = () => {
                             </div>
                             <div className="absolute flex slideBox justify-end transform -translate-y-1/2 homeTwoText ">
                                 <div className='flex-col'>
-                                    <h1 className=" ml-32 z-40">NE<span className='text-orange-500'>X</span>TTECH ITC manages</h1>
-                                    <p className='ml-32 slideFont'>the workforce from the onboarding to exit interviews</p>
-                                    <div className='ml-32 mt-5 flex flex-col text-xl'>
+                                    <h1 className=" lg:ml-32 z-40">NE<span className='text-orange-500'>X</span>TTECH ITC manages</h1>
+                                    <p className='lg:ml-32 slideFont'>the workforce from the onboarding to exit interviews</p>
+                                    <div className='lg:ml-32 lg:mt-5 flex flex-col text-xl'>
                                         <div className='inline-flex items-center'>
                                             <BsDot className='text-white' />
                                             <h1 className='clientDot'>Client Based</h1>
@@ -82,7 +82,7 @@ const HomeTwo = () => {
 
             <Slider zIndex={500}></Slider>
 
-<IndrastrySarved zIndex={500}></IndrastrySarved>
+            <IndrastrySarved zIndex={500}></IndrastrySarved>
         </div>
     );
 };

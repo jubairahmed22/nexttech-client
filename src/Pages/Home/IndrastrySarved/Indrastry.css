@@ -53,71 +53,149 @@
 
     color: #666666;
 }
-.Support{
+
+.Support {
     font-family: 'Heebo', sans-serif;
     font-style: normal;
-font-weight: 800;
-font-size: 64px;
-line-height: 87px;
-text-align: left;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: left;
 
-/* Primary Blue */
+    /* Primary Blue */
 
-color: #1E2452;
+    color: #1E2452;
 }
-.supportPera{
+
+.supportPera {
     font-family: 'Heebo', sans-serif;
     font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-letter-spacing: 0.05em;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
 
-color: #999999;
+    color: #999999;
 
 }
-.boxImgOne{
-width: 590px;
-height: 390px;
+
+.boxImgOne {
+    width: 590px;
+    height: 390px;
 }
-.boxImgOnelist{
+
+.boxImgOnelist {
     font-family: 'Heebo', sans-serif;
     font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 30px;
-letter-spacing: 0.05em;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
 
-color: #333333;
+    color: #333333;
 
 }
-.boxImgTwo{
-width: 749px;
-height: 390px;
+
+.boxImgTwo {
+    width: 1049px;
+    height: 390px;
 }
-.workTittle{
+
+.workTittle {
     font-family: 'Heebo', sans-serif;
     font-style: normal;
-font-weight: 800;
-font-size: 64px;
-line-height: 87px;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 87px;
 
 
-/* Primary Blue */
+    /* Primary Blue */
 
-color: #1E2452;
+    color: #1E2452;
 }
-.workText{
+
+.workText {
     font-family: 'Heebo', sans-serif;
     font-style: normal;
-font-weight: 600;
-font-size: 28px;
-line-height: 150%;
-/* or 57px */
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 150%;
+    /* or 57px */
 
-letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 
-/* Primary Blue */
+    /* Primary Blue */
 
-color: #1E2452;
+    color: #1E2452;
 }
+
+@media only screen and (max-width:588px) {
+    .mainHeading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .workTittle {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .workText {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .Support {
+        font-size: 40px;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .supportPera {
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #999999;
+
+    }
+
+    .subHeading {
+        font-family: 'Heebo', sans-serif;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 0.05em;
+
+        color: #444444;
+
+    }
+
+    .boxImgOne {
+        width: 400px;
+        height: 300px;
+    }
+
+    .boxImgTwo {
+        width: 400px;
+        height: 300px;
+    }
+
+    .boxImgOnelist {
+
+        font-size: 16px;
+
+
+        color: #333333;
+
+    }
+
+}
+
+@media only screen and (min-width: 588px) and (max-width:992px) {}

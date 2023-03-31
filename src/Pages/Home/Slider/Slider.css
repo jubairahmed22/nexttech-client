@@ -7,7 +7,8 @@
   color: #1E2452;
 
 }
-.cardIndex{
+
+.cardIndex {
   z-index: 500;
 }
 
@@ -98,4 +99,21 @@
   color: black;
   padding: 5px;
 
+}
+
+@media only screen and (max-width:588px) {
+  .mainHading {
+
+    font-size: 40px;
+
+  }
+
+}
+
+@media only screen and (min-width: 588px) and (max-width:992px) {
+  .mainHading {
+
+    font-size: 50px;
+
+  }
 }

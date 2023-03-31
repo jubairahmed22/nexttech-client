@@ -5,7 +5,7 @@ import RecentPostCetegory from '../../Blog/RecentPostCetegory';
 
 const RightSideNav = () => {
     return (
-        <div className='m-5 sticky top-0'>
+        <div className='m-5 sticky w-96 top-28'>
             <CourseCetagory></CourseCetagory>
             <RecentPostCetegory></RecentPostCetegory>
         </div>

@@ -4,7 +4,7 @@
 }
 
 .title {
-
+    font-family: 'Heebo', sans-serif;
     width: 800px;
     height: 72px;
     left: 140px;
@@ -25,4 +25,74 @@
 .imgMegar {
     height: 500px;
 
+}
+
+.blogDes {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    text-align: justify;
+    letter-spacing: 0.05em;
+
+    color: #555555;
+}
+
+@media only screen and (max-width:588px) {
+    .cardMajer {
+        width: 400px;
+        place-items: center;
+
+
+    }
+
+    .title {
+        font-family: 'Heebo', sans-serif;
+        width: 400px;
+        height: 72px;
+        left: 140px;
+        top: 175px;
+
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100.4%;
+    }
+
+    .imgMegar {
+        height: 300px;
+
+    }
+}
+
+@media only screen and (min-width: 588px) and (max-width:992px) {
+    .cardMajer {
+        width: 680px;
+        place-items: center;
+
+
+    }
+
+    .title {
+        font-family: 'Heebo', sans-serif;
+        width: 800px;
+        height: 72px;
+        left: 140px;
+        top: 175px;
+
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100.4%;
+    }
+
+    .imgMegar {
+        height: 500px;
+
+    }
 }
