@@ -10,6 +10,7 @@ import { BsDot } from 'react-icons/bs';
 import DetailsOnline from './DetailsOnline';
 import { useState } from 'react';
 import DetailsOffline from './DetailsOffline';
+import CourseModal from './CourseModal';
 
 const CourseDetails = () => {
 
@@ -49,7 +50,8 @@ const CourseDetails = () => {
                 console.log(data);
                 if (data.acknowledged) {
 
-                    alert('Your message is sent to admin')
+                    alert('message sent successfully');
+                    window.location.reload()
 
                 }
                 else {
@@ -62,8 +64,8 @@ const CourseDetails = () => {
 
     }
     return (
-        <div className="grid lg:grid-rows-3 gap-4 ">
-            <div className="lg:row-span-full lg:col-span-10 leftLayOut sm:row-start-1  ">
+        <div className="grid lg:grid-cols-2   gap-4  ">
+            <div className=" leftLayOut ">
                 {
                     allCourses.map(details =>
                         <div>
@@ -71,7 +73,7 @@ const CourseDetails = () => {
                             <h1 className='courseName mt-5'>{details.name}</h1>
                             <h1 className='courseDescription mt-10'>Course Description</h1>
                             <p className='courseDespera mt-5 '>{details.description}</p>
-                            <h1 className='courseDescription mt-5'>Course Outline</h1>
+                            <h1 className='courseDescription courseDescriptionTwo mt-5'>Course Outline</h1>
 
                             <div className='inline-flex items-center mt-3'>
                                 <img src={tick} className="tickmark " alt=''></img>
@@ -158,8 +160,8 @@ const CourseDetails = () => {
 
 
 
-                                <h1 className='courseDescription mt-5'>Software that will be taught</h1>
-                                <div className='mt-8'>
+                                <h1 className='courseDescription courseDescriptioThree mt-5'>Software that will be taught</h1>
+                                <div className='mt-8 grid lg:grid-cols-3 sm:grid-cols-1 '>
                                     <div className='inline-flex items-center mt-5'>
                                         <img src={xd} className="logo" alt=''></img>
                                         <h1 className='logoText ml-5'>Adobe XD</h1>
@@ -178,7 +180,7 @@ const CourseDetails = () => {
                     )
                 }
             </div>
-            <div className="row-span-full col-span-2  rightLayOut">
+            <div className="lg:ml-20  rightLayOut">
                 <nav>
                     <div className='multiButtonSize'>
                         <div class="multi-button">
@@ -195,9 +197,10 @@ const CourseDetails = () => {
                     <hr className="w-100 h-1 mx-auto my-4 bg-orange-500 border-0 rounded md:my-10 dark:bg-orange-500" />
 
                     <h1 className='courseDescription ml-10'>Skill You Will Gain</h1>
+                    
                     {
                         allCourses.map(skill =>
-                            <div className='grid lg:grid-cols-3 gap-5 p-10'>
+                            <div className='grid skillPart lg:grid-cols-3 gap-5 p-10 buttonAll'>
                                 <a href="#_" class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-orange-500 rounded-xl group">
                                     <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-orange-700 rounded group-hover:-mr-4 group-hover:-mt-4">
                                         <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
@@ -266,7 +269,7 @@ const CourseDetails = () => {
                     }
                 </div>
                 <div className='rounded-lg shadow-2xl p-5'>
-                    <h1 className='courseDescription'>Please fill out the form below with correct information</h1>
+                    <h1 className='courseDescription courseDescriptionFive'>Please fill out the form below with correct information</h1>
                     <p className='formPera mt-5'>After filling out the form, our representative will contact you shortly.</p>
                     <form onSubmit={handleBooking} className='grid grid-cols-1 gap-3 mt-10'>
                         <h3 className='formName'>Your Name</h3>
@@ -289,7 +292,7 @@ const CourseDetails = () => {
                         <input name="address" type="address" placeholder="Type here" className="input w-full input-bordered" />
                         <br />
 
-                        <input className='relative rounded px-5 py-2.5 overflow-hidden group bg-green-500 relative hover:bg-gradient-to-r hover:from-orange-500 hover:to-orange-600 text-white hover:ring-2 hover:ring-offset-2 hover:ring-orange-600 transition-all ease-out duration-300 btn bg-orange-600 w-24 ' type="submit" value="Submit" />
+                        <input className="bg-orange-500 hover:bg-orange-600 text-white text-lg font-bold py-4 px-6 border border-orange-500 rounded z-0 w-32" type="submit" value="Submit" />
                     </form>
                 </div>
             </div>

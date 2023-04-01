@@ -97,3 +97,28 @@
     opacity: 0.5;
     /* W3C */
 }
+
+@media only screen and (max-width:588px) {
+.emailCard{
+    width: 370px;
+    height: 1000px;
+}
+.usBox{
+    width: 370px;
+    height: 800px;
+    padding: 10px;
+}
+}
+
+@media only screen and (min-width: 588px) and (max-width:992px) {
+ 
+    .emailCard{
+     
+        height: 1000px;
+    }
+    .usBox{
+    
+        height: 800px;
+        padding: 10px;
+    }
+}

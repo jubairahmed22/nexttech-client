@@ -17,6 +17,7 @@ import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 import { Link } from 'react-router-dom';
 import CourseModal from './CourseModal';
 import { toast } from 'react-hot-toast';
+import SpinLoading from '../Shared/SpinLoading/SpinLoading';
 
 const SeminarData = [
     {
@@ -106,7 +107,8 @@ const Courses = () => {
                 console.log(data);
                 if (data.acknowledged) {
 
-                    alert('Your message is sent to admin')
+                    alert('Your message is sent to admin');
+                    window.location.reload()
 
                 }
                 else {
@@ -135,7 +137,7 @@ const Courses = () => {
                             <img src={require('../image/course/course-img/coursBannerTwo.png')} alt="" />
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imageText">
-                            <h1 className="slideFontHeading ml-10">Take the first step towards your dreams with us.</h1>
+                            <h1 className="slideFontHeading lg:ml-8">Take the first step towards your dreams with us.</h1>
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 slideFontPera">
                             <p className='slideFontPeraTwo ml-10'>Explore our most popular and high-demand courses, a fast track to your independence</p>
@@ -149,7 +151,7 @@ const Courses = () => {
                 <h1 className='OurCourse  text-center mt-20 mb-20'>Our Courses</h1>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 place-items-center mt-10'>
                     {
-                        courses.map(course =>
+                        courses.length === 0 ? <div><SpinLoading /></div>: courses.map(course =>
                             <Link to={`/courseDetails/${course.id}`}>
                                 <div className='courseCard shadow-lg gap-5 mb-20 transform transition duration-500 hover:scale-110 hover:shadow-2xl'>
 
@@ -207,7 +209,7 @@ const Courses = () => {
                                 <img className='modalItemImg rounded-3xl ' src={require('../image/course/course-img/67.jpg')} alt="" />
                                 <div>
                                     <h1 className="modalItemHeading">Participate our free seminar</h1>
-                                    <p className="py-6 modalItemPera pr-20">
+                                    <p className="lg:py-6 modalItemPera lg:pr-20">
                                         Join us for our upcoming IT Training Free Seminar, where you will
                                         get vital skills and insights to advance your career in the technology sector.
                                         Our skilled instructors will cover a variety of topics, including programming
@@ -221,11 +223,11 @@ const Courses = () => {
                             </div>
 
                         </div>
-                        <h1 className="modalItemHeading pl-24 pt-20 text-center">Upcoming Seminar Schedule</h1>
-                        <p className='modalItemPera pl-24 pr-32 pt-5'>You may have many questions about NextTech ITC Institute enrollment,
+                        <h1 className="modalItemHeading lg:pl-24 pt-20 text-center">Upcoming Seminar Schedule</h1>
+                        <p className='modalItemPera lg:pl-24 lg:pr-32 pt-5'>You may have many questions about NextTech ITC Institute enrollment,
                             course options, and benefits. Weekly free course-based seminars answer your queries.
                             Course mentors can advise you during these sessions.</p>
-                        <div className='px-24 pt-5 pb-20'>
+                        <div className='lg:px-24 pt-5 pb-20'>
 
                             {/* section join seminar start */}
 
@@ -242,7 +244,7 @@ const Courses = () => {
                                             <div className='absolute bottom-0 right-0 pr-4 py-3 z-10'>
                                                 {/* <button className="btn btn-outline btn-warning text-xl px-4">Join</button> */}
                                                 {/* The button to open modal */}
-                                                <label htmlFor="my-modal-3" className="btn btn-outline btn-warning text-xl px-4">JOIN</label>
+                                                <label htmlFor="my-modal-3" className="bg-orange-500 hover:bg-orange-800 text-white font-bold py-2 px-4 border border-orange-500 rounded z-0">JOIN</label>
 
                                                 {/* Put this part before </body> tag */}
                                                 <input type="checkbox" id="my-modal-3" className="modal-toggle" />

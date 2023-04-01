@@ -107,6 +107,64 @@
     font-size: 40px;
 
   }
+  
+.container {
+  position: relative;
+  width: 334px;
+  height: 196px;
+  border-radius: 15px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 334px;
+  height: 196px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 196;
+  width: 334;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #171c1e;
+  border-radius: 15px;
+
+}
+
+
+.text {
+  color: white;
+  font-size: 14px;
+  margin-left: 120px;
+  font-weight: 400;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: .5s ease;
+  margin-top: 0px;
+
+}
+.textTow {
+  color: white;
+  font-size: 14px;
+  margin-left: 120px;
+  font-weight: 400;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: .5s ease;
+  margin-top: 0px;
+
+}
+
+
 
 }
 

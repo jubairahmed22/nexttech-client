@@ -252,3 +252,78 @@
 .logoColor{
   color: white;
 }
+
+@media only screen and (max-width:588px) {
+  .slideFontPeraTwo {
+  display: none;
+  }
+  .slideFontHeading {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+  
+    line-height: 20px;
+    /* identical to box height */
+  
+  
+    color: #ffffff;
+  }
+  .imageText {
+    top: 60%;
+  }
+  .OurCourse {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    color: #1E2452;
+  }
+  .imgCardIndian {
+    width: 330px;
+    height: 265px;
+  }
+  .modalItemImg {
+    width: 400px;
+    height: 300px;
+  }
+  .modalItemHeading {
+    font-size: 40px;
+    text-align: center;
+  }
+  .courseCard {
+    width: 400px;
+    height: 370px;
+  }
+  
+
+}
+
+@media only screen and (min-width: 588px) and (max-width:992px) {
+  .courseCard {
+    width: 350px;
+    height: 400px;
+  }
+  .modalItemHeading {
+    font-size: 40px;
+    text-align: center;
+  }
+  .slideFontPeraTwo {
+    display: none;
+    }
+    .slideFontHeading {
+      font-family: 'Heebo', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      text-align: center;
+      line-height: 45px;
+      /* identical to box height */
+    
+    
+      color: #FFFFFF;
+    }
+    
+}

@@ -3,6 +3,7 @@ import { ButtonToolbar } from 'react-bootstrap';
 
 import { BsCalendarFill, BsFillEyeFill } from 'react-icons/bs';
 import { FaUser } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 import SpinLoading from '../Shared/SpinLoading/SpinLoading';
 import './AllBlog.css'
 
@@ -19,6 +20,12 @@ const BlogPost = () => {
 
     const [page, setPage] = useState(0);
     const [size, setSize] = useState(4);
+
+    const navigate = useNavigate()
+    const handleRouting = (id) => {
+        navigate(`/blogLayout/details/${id}`)
+    }
+
 
     useEffect(() => {
         const url = `https://jubair-portfolio-server-jubairahmed22.vercel.app/blogs?page=${page}&size=${size}`;
@@ -63,7 +70,9 @@ const BlogPost = () => {
 
                                 <p>{blogs.description}</p>
                                 <div className="card-actions justify-start">
-                                    <button className="btn btnCol">Details</button>
+                                    
+                                    <button onClick={() => handleRouting(blogs._id)} className="bg-orange-500 hover:bg-orange-600 text-white text-lg  py-2 px-4 border border-orange-500 rounded z-0">Read More</button>
+
                                 </div>
                             </div>
                         </div>

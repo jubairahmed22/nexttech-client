@@ -73,7 +73,7 @@
     line-height: 150%;
     /* or 24px */
 
-    text-align: center;
+    text-align: left;
     letter-spacing: 0.05em;
 
     color: #666666;
@@ -110,4 +110,32 @@
 .slideBackGround {
     background: #F3F9FD;
     border-radius: 5px;
+}
+
+@media only screen and (max-width:588px) {
+    .firstImgPera{
+        font-size: 16px;
+        width: 280px;
+    }
+    .firstImg{
+        width: 300px;
+        height: 230px;
+    }
+    .secoundImg{
+        width: 300px;
+        height: 230px;
+        
+    }
+    .missonVisson{
+        font-size: 30px;
+    }
+    .fouthPera{
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 588px) and (max-width:992px) {
+ 
+
 }

@@ -36,7 +36,7 @@ const AllBlog = () => {
 
                                 <p className='blogDes'>{blogs.description}</p>
                                 <div className="card-actions justify-start">
-                                    <button onClick={() => handleRouting(blogs._id)} className="btn btnCol">Details</button>
+                                    <button onClick={() => handleRouting(blogs._id)} className="bg-orange-500 hover:bg-orange-600 text-white text-lg  py-2 px-4 border border-orange-500 rounded z-0">Read More</button>
                                 </div>
                             </div>
                         </div>

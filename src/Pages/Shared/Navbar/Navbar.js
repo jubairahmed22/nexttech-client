@@ -19,12 +19,12 @@ const Navbar = () => {
             <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
               <li className='font-bold text-2xl'><Link to='/'>Home</Link></li>
 
-              <li><Link to="/service">Service</Link></li>
+              <li className='font-bold text-lg'><Link to="/service">Service</Link></li>
               <li className='font-bold text-lg'><Link to="/courses">Courses</Link></li>
 
-              <li><Link to='/blogLayout'>Blog</Link></li>
-              <li><Link to="/aboutUs">About Us</Link></li>
-              <li><Link to='/contact'>Contact</Link></li>
+              <li className='font-bold text-lg'><Link to='/blogLayout'>Blog</Link></li>
+              <li className='font-bold text-lg'><Link to="/aboutUs">About Us</Link></li>
+              <li className='font-bold text-lg'><Link to='/contact'>Contact</Link></li>
             </ul>
           </div>
 

@@ -1,12 +1,13 @@
 import React from 'react';
+import './CourseDetails.css'
 
 const DetailsOffline = ({ allCourses }) => {
     return (
-        <div>
+        <div className='lg:w-full sm:w-20'>
             {
                 allCourses.map(offline =>
                     <div class="relative overflow-x-auto">
-                        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                        <table class="lg:w-full sm:w-20 text-sm text-left text-gray-500 dark:text-gray-400">
 
                             <tbody>
                                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">

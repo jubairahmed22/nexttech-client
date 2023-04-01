@@ -33,7 +33,7 @@ const IndrastrySarved = () => {
 
             </div>
             <div className='flex items-center justify-center mt-5'>
-                <button className="btn btn-warning" onClick={details}>Explore More</button>
+                <button className="bg-orange-500 hover:bg-orange-600 text-white text-lg font-bold py-4 px-6 border border-orange-500 rounded z-0" onClick={details}>Explore More</button>
             </div>
 
             <div className='mt-20'>
@@ -41,7 +41,7 @@ const IndrastrySarved = () => {
                 <p className='lg:mx-32 supportPera mt-5 '>Nexttech ITC provides customised help and management services <br /> to provide reliable support and efficient management.</p>
                 <div className='grid lg:grid-cols-2 lg:mx-32 mt-10 place-items-center gap-20'>
                     <div>
-                        <img className='boxImgOne' src='https://i.ibb.co/rtFkQ8H/Whats-App-Image-2023-03-30-at-20-24-22.jpg' alt=''></img>
+                        <img className='boxImgOne' src='https://i.ibb.co/5RkjjsL/group-young-business-people-working-office.jpg' alt=''></img>
                     </div>
                     <div>
                         <li className='boxImgOnelist mt-5'>Remote and On-Site Technical Support</li>
@@ -52,7 +52,7 @@ const IndrastrySarved = () => {
                 </div>
                 <div className='grid lg:grid-cols-2 lg:mx-32 place-items-center  mt-10 gap-20'>
 
-                    <div>
+                    <div >
                         <li className='boxImgOnelist mt-5'>Network and Server Management</li>
                         <li className='boxImgOnelist mt-5'>Cybersecurity Management</li>
                         <li className='boxImgOnelist mt-5'>Data Backup and Recovery</li>

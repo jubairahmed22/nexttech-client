@@ -161,10 +161,10 @@ const Service = () => {
                             <img src={require('../image/Service/img/group-young-people-business-meeting.jpg')} alt="" />
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 slideHeadingTwo">
-                            <h1 className="textHeading mb-56">Service <span className="weOffer">we offer</span></h1>
+                            <h1 className="textHeading lg:mb-56">Service <span className="weOffer">we offer</span></h1>
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imagePera">
-                            <p className="mb-48">Discover the latest in IT with our comprehensive training programs. Gain the skills <br /> and knowledge you need to stay ahead in this dynamic field.</p>
+                            <p className="lg:mb-48">Discover the latest in IT with our comprehensive training programs. Gain the skills <br /> and knowledge you need to stay ahead in this dynamic field.</p>
                         </div>
 
                     </SwiperSlide>
@@ -177,7 +177,7 @@ const Service = () => {
 
                 <div className="flex flex-col items-center justify-center">
                     <div className=" flex items-center justify-center">
-                        <h1 className="text-center aboutText mt-20">Our <span className="text-orange-500">Services</span></h1>
+                        <h1 className="text-center aboutText lg:mt-20 ">Our <span className="text-orange-500">Services</span></h1>
 
 
                     </div>
@@ -251,7 +251,7 @@ const Service = () => {
 
             {/* about site start */}
             <div>
-                <h1 className="text-center aboutText mt-10">"Empowering innovation, together."
+                <h1 className="text-center aboutText mt-10">Empowering Innovation Together
                 </h1>
                 <div>
 
@@ -340,6 +340,10 @@ const Service = () => {
                 </div>
                 <div className="grid lg:grid-cols-1">
                     <div className="inline-flex items-center">
+                        <img className="fill-blue-500" src={icon} alt="" />
+                        <h1 className="tieckPera ml-3">Experience Developers</h1>
+                    </div>
+                    <div className="inline-flex items-center mt-10">
                         <img className="fill-blue-500" src={icon} alt="" />
                         <h1 className="tieckPera ml-3">Skilled instructor</h1>
                     </div>
