@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const BlogDetailsHook = id => {
     const [details, setdetails] = useState([]);
     useEffect(() => {
-        const url = `https://jubair-portfolio-server-jubairahmed22.vercel.app/fullStack/${id}`;
+        const url = `https://server-nexttech.vercel.app/full/${id}`;
 
         fetch(url)
             .then(res => res.json())

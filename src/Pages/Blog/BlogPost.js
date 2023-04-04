@@ -28,7 +28,7 @@ const BlogPost = () => {
 
 
     useEffect(() => {
-        const url = `https://jubair-portfolio-server-jubairahmed22.vercel.app/blogs?page=${page}&size=${size}`;
+        const url = `https://server-nexttech.vercel.app/blogs?page=${page}&size=${size}`;
         console.log(page, size);
         fetch(url)
             .then(res => res.json())

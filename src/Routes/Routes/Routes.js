@@ -40,7 +40,7 @@ const router = createBrowserRouter([
             {
                 path: '/courseDetails/:id',
                 element: <CourseDetails></CourseDetails>,
-                loader: ({ params }) => fetch(`https://jubair-portfolio-server-jubairahmed22.vercel.app/coursedetails/${params.id}`)
+                loader: ({ params }) => fetch(`https://server-nexttech.vercel.app/coursedetails/${params.id}`)
             },
             {
                 path: '/aboutUs',
@@ -60,12 +60,12 @@ const router = createBrowserRouter([
             {
                 path: '/blogLayout',
                 element: <BlogPost></BlogPost>
-            },
+            },  
 
             {
                 path: '/blogLayout/:id',
                 element: <AllBlog></AllBlog>,
-                loader: ({ params }) => fetch(`https://jubair-portfolio-server-jubairahmed22.vercel.app/blogs/${params.id}`)
+                loader: ({ params }) => fetch(`https://server-nexttech.vercel.app/blogs/${params.id}`)
             },
             {
                 path: '/blogLayout/details/:id',

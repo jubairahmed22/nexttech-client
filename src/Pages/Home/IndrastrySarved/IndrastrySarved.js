@@ -41,7 +41,7 @@ const IndrastrySarved = () => {
                 <p className='lg:mx-32 supportPera mt-5 '>Nexttech ITC provides customised help and management services <br /> to provide reliable support and efficient management.</p>
                 <div className='grid lg:grid-cols-2 lg:mx-32 mt-10 place-items-center gap-20'>
                     <div>
-                        <img className='boxImgOne' src='https://i.ibb.co/5RkjjsL/group-young-business-people-working-office.jpg' alt=''></img>
+                        <img className='boxImgOne' src='https://i.ibb.co/JRzXGX4/Support-And-Management.jpg' alt=''></img>
                     </div>
                     <div>
                         <li className='boxImgOnelist mt-5'>Remote and On-Site Technical Support</li>
@@ -59,7 +59,7 @@ const IndrastrySarved = () => {
                         <li className='boxImgOnelist mt-5'>IT Consulting and Planning</li>
                     </div>
                     <div>
-                        <img className='boxImgTwo' src='https://i.ibb.co/jTjTmBZ/group-casual-businessmen-working-desktop-computer-modern-open-plan-startup-office-interior-selective.jpg' alt=''></img>
+                        <img className='boxImgTwo' src='https://i.ibb.co/rpVgHMF/Support-And-Management-2-min.jpg' alt=''></img>
                     </div>
                 </div>
 
@@ -76,7 +76,7 @@ const IndrastrySarved = () => {
                         <li className='boxImgOnelist mt-5'>Comprehensive job guidance</li>
                     </div>
                     <div>
-                        <img className='boxImgTwo' src='https://i.ibb.co/qMn6016/teacher-watching-student-doing-exercise.jpg' alt=''></img>
+                        <img className='boxImgTwo' src='https://i.ibb.co/5KKC6NP/How-We-Work.jpg' alt=''></img>
                     </div>
                 </div>
             </div>

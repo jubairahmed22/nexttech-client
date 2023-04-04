@@ -38,7 +38,7 @@ const CourseDetails = () => {
 
         }
         console.log(booking);
-        fetch('https://jubair-portfolio-server-jubairahmed22.vercel.app/mail', {
+        fetch('https://server-nexttech.vercel.app/mail', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

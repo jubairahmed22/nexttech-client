@@ -11,7 +11,7 @@ const Slider = () => {
 
   const [cetagory, setcetagory] = useState([]);
   useEffect(() => {
-    const url = `https://jubair-portfolio-server-jubairahmed22.vercel.app/blogCategory`;
+    const url = `https://server-nexttech.vercel.app/blogCategory`;
 
     fetch(url)
       .then(res => res.json())
@@ -28,7 +28,7 @@ const Slider = () => {
 
         <div class="container mt-5 shadow-2xl">
 
-          <img src="https://i.ibb.co/3pnVYFD/3.jpg" className='image rounded-2xl imgRange' alt=''></img>
+          <img src="https://i.ibb.co/PM8RRgD/Group-187.png" className='image rounded-2xl imgRange' alt=''></img>
 
           <div class="overlay">
 
@@ -43,7 +43,7 @@ const Slider = () => {
         </div>
         <div class="container mt-5 shadow-2xl">
 
-          <img src="https://i.ibb.co/tCngDNf/5.jpg" className='image rounded-2xl imgRange' alt=''></img>
+          <img src="https://i.ibb.co/nrM4CSq/Group-188.png" className='image rounded-2xl imgRange' alt=''></img>
 
           <div class="overlay">
 

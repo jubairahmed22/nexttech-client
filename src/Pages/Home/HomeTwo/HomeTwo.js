@@ -21,7 +21,7 @@ import IndrastrySarved from '../IndrastrySarved/IndrastrySarved';
 
 const SlideData = [
     {
-        image: "https://i.ibb.co/vJn9wMf/Rectangle-3.png",
+        image: "https://i.ibb.co/cN3Tbgb/Group-171-min.png",
         name: "HR & Payroll Software",
         prev: 6,
         id: 1,

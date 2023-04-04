@@ -1,5 +1,4 @@
 [
-  
     {
         "id": "1",
         "name": "Software Testing",
@@ -30,7 +29,7 @@
         "name": "Backend Development",
         "img": "https://i.ibb.co/zx7YtGx/abc.jpg"
     },
-   {
+    {
         "id": "7",
         "name": "UI UX Design Course For Beginners",
         "img": "https://i.ibb.co/GkpcqTB/5811308.jpg"

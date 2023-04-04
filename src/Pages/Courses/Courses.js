@@ -71,7 +71,7 @@ const Courses = () => {
 
     const [courses, setCourses] = useState([]);
     useEffect(() => {
-        fetch('https://jubair-portfolio-server-jubairahmed22.vercel.app/courses')
+        fetch('https://server-nexttech.vercel.app/courses')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
@@ -95,7 +95,7 @@ const Courses = () => {
 
         }
         console.log(booking);
-        fetch('https://jubair-portfolio-server-jubairahmed22.vercel.app/mail', {
+        fetch('https://server-nexttech.vercel.app/mail', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -140,7 +140,7 @@ const Courses = () => {
                             <h1 className="slideFontHeading lg:ml-8">Take the first step towards your dreams with us.</h1>
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 slideFontPera">
-                            <p className='slideFontPeraTwo ml-10'>Explore our most popular and high-demand courses, a fast track to your independence</p>
+                            <p className='slideFontPeraTwo ml-10 lg:mt-20'>Explore our most popular and high-demand courses, a fast track to your independence</p>
                         </div>
 
                     </SwiperSlide>

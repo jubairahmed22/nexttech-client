@@ -40,12 +40,12 @@
 }
 
 .courseCard {
-  width: 425px;
+  width: 350px;
   height: 390px;
 }
 
 .courseCardImg {
-  width: 425px;
+  width: 350px;
 }
 
 .courseCardText {
@@ -294,7 +294,7 @@
     text-align: center;
   }
   .courseCard {
-    width: 400px;
+    width: 350px;
     height: 370px;
   }
   
