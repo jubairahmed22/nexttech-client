@@ -1,6 +1,7 @@
 import React from 'react';
 import { toast } from 'react-hot-toast';
 import { AiFillFacebook, AiFillLinkedin, AiOutlineInstagram } from 'react-icons/ai';
+
 import './Contact.css';
 
 // Import Swiper React components
@@ -102,7 +103,8 @@ const Contact = () => {
 
         }
         console.log(booking);
-        fetch('http://localhost:5000/mail', {
+        fetch('https://server-nexttech.vercel.app/mail', {
+
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -114,11 +116,13 @@ const Contact = () => {
                 console.log(data);
                 if (data.acknowledged) {
 
-                    alert('Your message is sent to admin')
+                    alert('Your message is sent to admin');
+                    form.reset();
 
                 }
                 else {
                     toast.error(data.message);
+
                 }
             })
 
@@ -126,6 +130,10 @@ const Contact = () => {
 
 
     }
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className=' '>
             <Swiper
@@ -151,12 +159,14 @@ const Contact = () => {
             <div className='grid lg:grid-cols-2 emailCard p-10 mt-20'>
                 <div>
                     <h1 className='emialcardText'>Don't Hesitate to
+                        <br />
                         contact with us for any
+                        <br />
                         kind of information
                     </h1>
                     <p className='emialCardPera mt-5'>Call us for query</p>
-                    <h1 className='text-3xl mt-3 text-white'>+1 (682) 283 3319,</h1>
-                    <h1 className='text-3xl mt-3 text-white'>+1 (682) 283 4734,</h1>
+                    <h1 className='text-3xl mt-3 text-white'>+1 (682) 283 3319</h1>
+                    <h1 className='text-3xl mt-3 text-white'>+1 (682) 283 4734</h1>
                     <h1 className='text-3xl mt-3 text-white'>+880 1941 460 114</h1>
                     <div className='inline-flex items-center mt-5 gap-5'>
                         <AiOutlineInstagram className='w-10 h-10 text-white'></AiOutlineInstagram>
@@ -185,7 +195,7 @@ const Contact = () => {
                         </div>
 
 
-                        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+                        <button type="submit" className="bg-orange-500 hover:bg-orange-600 text-white text-lg font-bold py-4 px-6 border border-orange-500 rounded z-0 w-32">Submit</button>
                     </form>
 
                 </div>

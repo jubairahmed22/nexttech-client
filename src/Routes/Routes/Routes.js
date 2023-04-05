@@ -15,6 +15,7 @@ import Home from "../../Pages/Home/Home/Home"
 import HomeTwo from "../../Pages/Home/HomeTwo/HomeTwo";
 import Login from "../../Pages/Login/Login";
 import Service from "../../Pages/Service/Service";
+import ContactTwo from "../../Pages/Contact/ContactTwo";
 
 const router = createBrowserRouter([
     {
@@ -40,7 +41,10 @@ const router = createBrowserRouter([
             {
                 path: '/courseDetails/:id',
                 element: <CourseDetails></CourseDetails>,
-                loader: ({ params }) => fetch(`http://localhost:5000/coursedetails/${params.id}`)
+
+
+                loader: ({ params }) => fetch(`https://server-nexttech.vercel.app/coursedetails/${params.id}`)
+
             },
             {
                 path: '/aboutUs',
@@ -48,7 +52,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/contact',
-                element: <Contact></Contact>
+                element: <ContactTwo></ContactTwo>
             },
         ]
     },
@@ -65,7 +69,9 @@ const router = createBrowserRouter([
             {
                 path: '/blogLayout/:id',
                 element: <AllBlog></AllBlog>,
-                loader: ({ params }) => fetch(`http://localhost:5000/blogs/${params.id}`)
+
+                loader: ({ params }) => fetch(`https://server-nexttech.vercel.app/blogs/${params.id}`)
+
             },
             {
                 path: '/blogLayout/details/:id',

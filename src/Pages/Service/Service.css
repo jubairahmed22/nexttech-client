@@ -287,3 +287,103 @@
     font-size: 20px;
     line-height: 23px;
 }
+.slideImg {
+    width: 415px;
+    height: 415px;
+}
+.TogetherCardTitle {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    /* or 30px */
+    background: #F79536;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+
+@media only screen and (max-width:588px) {
+   .ServiceImg{
+    width: 300px;
+    height: 100px;
+   }
+   .textHeading {
+    margin-top: 10px;
+    font-size: 40px;
+    margin-bottom: 20px;
+  
+}
+.weOffer {
+    margin-top: 10px;
+    font-size: 40px;
+  
+}
+.aboutText {
+    color: #1E2452;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 100%;
+    font-family: 'Heebo', sans-serif;
+    margin-top: 100px;
+}
+.ItImg {
+    width: 336px;
+    height: 220px;
+}
+.TogetherCardTitle {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    margin-left: 20px;
+    /* or 30px */
+    background: #F79536;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+.TogetherCardTitleTwo {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 115%;
+    margin-left: 40px;
+    /* or 34px */
+
+
+    /* Primary Blue */
+
+    color: #1E2452;
+}
+
+}
+
+@media only screen and (min-width: 588px) and (max-width:992px) {
+    .ServiceImg{
+        width: 800px;
+        height: 400px;
+       }
+       .textHeading {
+        margin-top: 0px;
+        font-size: 80px;
+        margin-bottom: 20px;
+      
+    }
+    .weOffer {
+        margin-top: 10px;
+        font-size: 80px;
+      
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+  .aboutText, .nextLvl, .cicleText, .circlePera, .tieckPera, .TogetherCardTitleTwo{
+    color: white;
+  }
+  }

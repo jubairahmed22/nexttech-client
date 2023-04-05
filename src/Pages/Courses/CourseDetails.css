@@ -11,8 +11,8 @@
 }
 
 .courseImg {
-    height: 450px;
-    width: 830px
+    height: 420px;
+    width: 680px
 }
 
 .courseName {
@@ -40,7 +40,7 @@
 }
 
 .courseDespera {
-    width: 740px;
+    width: 680px;
     height: 340px;
 
 
@@ -79,6 +79,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 160%;
+    width: 650px;
     /* or 35px */
 
     letter-spacing: 0.05em;
@@ -134,3 +135,69 @@
     color: #666666;
 
 }
+
+@media only screen and (max-width:588px) {
+
+.courseImg{
+    width: 400px;
+    height: 250px;
+}
+.courseName{
+    font-size: 30px;
+    text-align: left
+}
+.courseDescription{
+    font-size: 30px;
+}
+.courseDespera{
+    width: 350px;
+   
+
+}
+.OutlilnePera{
+    width: 350px;
+}
+.courseDescriptionTwo{
+    margin-top: 510px;
+}
+.OutlineTittle{
+    width: 370px;
+}
+.courseDescriptioThree{
+    font-size: 30px;
+    text-align: left;
+    width: 350px;
+    
+}
+.logoGrid{
+    display: flex;
+    
+}
+.multiButtonSize {
+    width: 370px;
+}
+.buttonAll{
+    width: 350px;
+}
+.courseDescriptionFive{
+    width: 350px;
+}
+.formPera{
+    width: 350px;
+}
+  }
+  
+  @media only screen and (min-width: 588px) and (max-width:992px) {
+
+      
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .courseName, .courseDescription, .courseDespera, .courseDescription, .OutlilnePera, .logoText {
+       color: white;
+    }
+    .OutlineTittle{
+        color: orange;
+    }
+    }
+

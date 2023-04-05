@@ -4,7 +4,9 @@ import { Link, useNavigate } from 'react-router-dom';
 const RecentPostCetegory = () => {
     const [cetagory, setcetagory] = useState([]);
     useEffect(() => {
-        const url = `http://localhost:5000/fullStack`;
+
+        const url = `https://server-nexttech.vercel.app/full`;
+
 
         fetch(url)
             .then(res => res.json())
@@ -18,13 +20,17 @@ const RecentPostCetegory = () => {
     const handleRouting = (id) => {
         navigate(`/blogLayout/details/${id}`)
     }
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className='flex flex-col mt-5  border-2 rounded p-5'>
-            <h1 className='font-bold text-2xl m-5'>Popular Blogs</h1>
+            <h1 className='font-bold recentPost text-2xl m-5'>Popular Blogs</h1>
             {
-                cetagory.map(course =>
+                cetagory.slice(0, 6).map(course =>
                     <button onClick={() =>
-                        handleRouting(course._id)} className='btn btn-link mt-2 items-start justify-start'>{course.name.slice(0, 36)}...</button>
+                        handleRouting(course._id)} className='btn btn-link mt-2 items-start justify-start recentPost'>{course.name.slice(0, 32)}...</button>
                 )
             }
         </div>

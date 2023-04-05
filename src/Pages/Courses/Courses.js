@@ -17,6 +17,7 @@ import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 import { Link } from 'react-router-dom';
 import CourseModal from './CourseModal';
 import { toast } from 'react-hot-toast';
+import SpinLoading from '../Shared/SpinLoading/SpinLoading';
 
 const SeminarData = [
     {
@@ -70,7 +71,9 @@ const Courses = () => {
 
     const [courses, setCourses] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/courses')
+
+        fetch('https://server-nexttech.vercel.app/courses')
+
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
@@ -94,7 +97,9 @@ const Courses = () => {
 
         }
         console.log(booking);
-        fetch('http://localhost:5000/mail', {
+
+        fetch('https://server-nexttech.vercel.app/mail', {
+
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -106,7 +111,8 @@ const Courses = () => {
                 console.log(data);
                 if (data.acknowledged) {
 
-                    alert('Your message is sent to admin')
+                    alert('Your message is sent to admin');
+                    window.location.reload()
 
                 }
                 else {
@@ -118,6 +124,9 @@ const Courses = () => {
 
 
     }
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
 
     return (
@@ -132,30 +141,30 @@ const Courses = () => {
                 >
                     <SwiperSlide className=''>
                         <div className="courseBannerImg">
-                            <img src={require('../image/course/course-img/coursBannerTwo.png')} alt="" />
+                            <img src="https://i.ibb.co/wpxVvn6/course-Cover.jpg" alt="" />
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imageText">
-                            <h1 className="slideFontHeading ml-10">Take the first step towards your dreams with us.</h1>
+                            <h1 className="slideFontHeading lg:ml-8">Take the first step towards your dreams with us.</h1>
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 slideFontPera">
-                            <p className='slideFontPeraTwo ml-10'>Explore our most popular and high-demand courses, a fast track to your independence</p>
+                            <p className='slideFontPeraTwo ml-10 lg:mt-20'>Explore our most popular and high-demand courses, a fast track to your independence</p>
                         </div>
 
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className='courseBackground pt-10'>
+            <div className='pt-10'>
 
                 <h1 className='OurCourse  text-center mt-20 mb-20'>Our Courses</h1>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 place-items-center mt-10'>
                     {
-                        courses.map(course =>
+                        courses.length === 0 ? <div><SpinLoading /></div> : courses.map(course =>
                             <Link to={`/courseDetails/${course.id}`}>
-                                <div className='courseCard shadow-lg gap-5 mb-20 transform transition duration-500 hover:scale-110 hover:shadow-2xl'>
+                                <div className='courseCard dark:border-4 border-sky-500 shadow-lg gap-5 mb-20 transform transition duration-500 hover:scale-110 hover:shadow-2xl'>
 
                                     <img className='courseCardImg w-96 h-56' src={course.img} alt="" />
                                     <h1 className='m-5 courseCardText'>{course.name}</h1>
-                                    <div className="rating m-5 mt-5">
+                                    <div className="rating m-5 mt-5 ">
                                         <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
@@ -170,7 +179,7 @@ const Courses = () => {
                 <div>
                     <div className="  ">
                         <div className="hero-content flex-col lg:flex-row">
-                            <img className='imgCardIndian rounded' src={require('../image/course/course-img/group-four-indian-teen-male-students-classmates-spend-time-together.jpg')} alt="" />
+                            <img className='imgCardIndian rounded' src={require('../image/course/course-img/indianpin-min.jpg')} alt="" />
                             <div className='grid lg:grid-cols-2 gap-10 cardIndianMejar mt-10'>
                                 <div>
                                     <h1 className='cardIndianHeader ml-5'>Skilled instructor</h1>
@@ -207,7 +216,7 @@ const Courses = () => {
                                 <img className='modalItemImg rounded-3xl ' src={require('../image/course/course-img/67.jpg')} alt="" />
                                 <div>
                                     <h1 className="modalItemHeading">Participate our free seminar</h1>
-                                    <p className="py-6 modalItemPera pr-20">
+                                    <p className="lg:py-6 modalItemPera lg:pr-20">
                                         Join us for our upcoming IT Training Free Seminar, where you will
                                         get vital skills and insights to advance your career in the technology sector.
                                         Our skilled instructors will cover a variety of topics, including programming
@@ -221,11 +230,11 @@ const Courses = () => {
                             </div>
 
                         </div>
-                        <h1 className="modalItemHeading pl-24 pt-20 text-center">Upcoming Seminar Schedule</h1>
-                        <p className='modalItemPera pl-24 pr-32 pt-5'>You may have many questions about NextTech ITC Institute enrollment,
+                        <h1 className="modalItemHeading lg:pl-24 pt-20 text-center">Upcoming Seminar Schedule</h1>
+                        <p className='modalItemPera lg:pl-24 lg:pr-32 pt-5'>You may have many questions about NextTech ITC Institute enrollment,
                             course options, and benefits. Weekly free course-based seminars answer your queries.
                             Course mentors can advise you during these sessions.</p>
-                        <div className='px-24 pt-5 pb-20'>
+                        <div className='lg:px-24 pt-5 pb-20'>
 
                             {/* section join seminar start */}
 
@@ -242,14 +251,14 @@ const Courses = () => {
                                             <div className='absolute bottom-0 right-0 pr-4 py-3 z-10'>
                                                 {/* <button className="btn btn-outline btn-warning text-xl px-4">Join</button> */}
                                                 {/* The button to open modal */}
-                                                <label htmlFor="my-modal-3" className="btn btn-outline btn-warning text-xl px-4">JOIN</label>
+                                                <label htmlFor="my-modal-3" className="bg-orange-500 hover:bg-orange-800 text-white font-bold py-2 px-4 border border-orange-500 rounded z-0">JOIN</label>
 
                                                 {/* Put this part before </body> tag */}
                                                 <input type="checkbox" id="my-modal-3" className="modal-toggle" />
                                                 <div className="modal mt-20">
                                                     <div className="modal-box relative">
                                                         <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-                                                        <h3 className="text-lg font-bold text-black">If you want to join the seminar please fill the form !!</h3>
+                                                        <h3 className="text-lg font-bold text-black dark:text-white">If you want to join the seminar please fill the form !!</h3>
 
                                                         <form onSubmit={handleBooking} className='grid grid-cols-1 gap-3 mt-10'>
                                                             <h3 className='formName'>Your Name</h3>
@@ -259,7 +268,7 @@ const Courses = () => {
                                                             <h3 className='formName'>Phone Number</h3>
                                                             <input name="phone" type="phone" placeholder="Type here" className="input w-full input-bordered text-black" />
                                                             <h3 className='formName'>Course Name</h3>
-                                                            <select name="course" type="course" className="select text-black w-full text-xl max-w-xs">
+                                                            <select name="course" type="course" className="select text-black w-full text-xl max-w-xs dark:text-white">
                                                                 <option disabled selected>Choose Your Course Name</option>
                                                                 <option value="UI UX Design">UI UX Design</option>
                                                                 <option value="Cyber Security">Cyber Security</option>

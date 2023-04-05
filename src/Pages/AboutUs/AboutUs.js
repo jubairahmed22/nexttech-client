@@ -2,6 +2,7 @@ import React from 'react';
 import './AboutUs.css';
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 
 
 
@@ -58,6 +59,10 @@ const SlideData = [
 
 
 const AboutUs = () => {
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div className=''>
             <div className='grid lg:grid-cols-2 place-items-center'>
@@ -79,7 +84,7 @@ const AboutUs = () => {
 
                     </div>
                     <div>
-                        <img className='thirdImg rounded-lg mt-5 ml-20' src={require('../image/About Us Page/img/60.jpg')} alt="" />
+                        <img className='thirdImg rounded-lg mt-5 lg:ml-20' src={require('../image/About Us Page/img/60.jpg')} alt="" />
 
                     </div>
                 </div>
@@ -104,7 +109,7 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div>
-                    <div class="grid grid-rows-3 grid-flow-col gap-4 ml-5 mt-10">
+                    <div class="grid grid-rows-3 grid-flow-col gap-4 lg:ml-5 mt-10">
                         <div class="row-start-2 row-span-2 ...">
                             <img className='secoundImg rounded-lg' src={require('../image/About Us Page/img/36.jpg')} alt="" />
 
@@ -162,7 +167,7 @@ const AboutUs = () => {
                             <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <div className='p-5'>
                                     <div className='slideBackGround p-5'>
-                                        <h1 className='slideDes '>{slideSS.description}</h1>
+                                        <h1 className='slideDes '><FaQuoteLeft/>{slideSS.description}<FaQuoteRight/></h1>
                                     </div>
                                     <h1 className='slideName mt-10'>{slideSS.name}</h1>
                                     <p className='subName'>{slideSS.subName}</p>
