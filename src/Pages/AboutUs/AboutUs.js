@@ -59,6 +59,10 @@ const SlideData = [
 
 
 const AboutUs = () => {
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div className=''>
             <div className='grid lg:grid-cols-2 place-items-center'>

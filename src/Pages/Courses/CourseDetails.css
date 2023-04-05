@@ -11,8 +11,8 @@
 }
 
 .courseImg {
-    height: 450px;
-    width: 830px
+    height: 420px;
+    width: 680px
 }
 
 .courseName {
@@ -40,7 +40,7 @@
 }
 
 .courseDespera {
-    width: 740px;
+    width: 680px;
     height: 340px;
 
 
@@ -79,6 +79,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 160%;
+    width: 650px;
     /* or 35px */
 
     letter-spacing: 0.05em;
@@ -190,3 +191,13 @@
 
       
   }
+
+  @media (prefers-color-scheme: dark) {
+    .courseName, .courseDescription, .courseDespera, .courseDescription, .OutlilnePera, .logoText {
+       color: white;
+    }
+    .OutlineTittle{
+        color: orange;
+    }
+    }
+

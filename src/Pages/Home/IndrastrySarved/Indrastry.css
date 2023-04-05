@@ -13,7 +13,7 @@
 
 .boxCard {
     width: 300px;
-    height: 500px;
+    height: 520px;
 }
 
 .mainHeading {
@@ -266,3 +266,24 @@
 
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    .subHeading {
+   
+    
+        color: white;
+    
+    }
+    .mainHeading  {
+        color: white;
+    }
+    .cardTittle{
+        color: white;
+    }
+    .cardPera{
+        color: white;
+    }
+    .Support, .supportPera, .boxImgOnelist, .workTittle, .workText{
+        color: white;
+    }
+  }

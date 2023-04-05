@@ -41,7 +41,7 @@
 
 .courseCard {
   width: 350px;
-  height: 390px;
+  height: 420px;
 }
 
 .courseCardImg {
@@ -326,4 +326,13 @@
       color: #FFFFFF;
     }
     
+}
+
+@media (prefers-color-scheme: dark) {
+   .OurCourse, .courseCardText, .cardIndianPera, .modalItemPera{
+    color: white;
+   }
+   .cardIndianHeader, .modalItemHeading{
+    color: orange;
+   }
 }

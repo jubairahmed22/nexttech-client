@@ -13,6 +13,10 @@ const AllBlog = () => {
         navigate(`/blogLayout/details/${id}`)
     }
 
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     return (
         <div>
             <div className='mt-10 place-items-center'>

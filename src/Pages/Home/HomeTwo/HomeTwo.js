@@ -31,7 +31,13 @@ const SlideData = [
 ]
 
 
+
+
 const HomeTwo = () => {
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div>
             <Swiper

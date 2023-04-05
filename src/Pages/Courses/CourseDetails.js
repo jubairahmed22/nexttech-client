@@ -63,6 +63,11 @@ const CourseDetails = () => {
 
 
     }
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+      
     return (
         <div className="grid lg:grid-cols-2   gap-4  ">
             <div className=" leftLayOut ">
@@ -73,7 +78,7 @@ const CourseDetails = () => {
                             <h1 className='courseName mt-5'>{details.name}</h1>
                             <h1 className='courseDescription mt-10'>Course Description</h1>
                             <p className='courseDespera mt-5 '>{details.description}</p>
-                            <h1 className='courseDescription courseDescriptionTwo mt-5'>Course Outline</h1>
+                            <h1 className='courseDescription courseDescriptionTwo mt-28'>Course Outline</h1>
 
                             <div className='inline-flex items-center mt-3'>
                                 <img src={tick} className="tickmark " alt=''></img>

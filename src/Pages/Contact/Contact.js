@@ -115,7 +115,8 @@ const Contact = () => {
                 console.log(data);
                 if (data.acknowledged) {
 
-                    alert('Your message is sent to admin')
+                    alert('Your message is sent to admin');
+                    form.reset();
                    
                 }
                 else {
@@ -128,6 +129,10 @@ const Contact = () => {
 
 
     }
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div className=' '>
             <Swiper

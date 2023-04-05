@@ -32,12 +32,12 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li className='font-bold text-lg'><Link to='/'>Home</Link></li>
-            <li className='font-bold text-lg'><Link to="/service">Service</Link></li>
-            <li className='font-bold text-lg'><Link to="/courses">Courses</Link></li>
-            <li className='font-bold text-lg'><Link to='/blogLayout'>Blog</Link></li>
-            <li className='font-bold text-lg'><Link to='/aboutUs'>About Us</Link></li>
-            <li className='font-bold text-lg'><Link to='/contact'>Contact</Link></li>
+            <li className='font-bold text-lg dark:text-white'><Link to='/'>Home</Link></li>
+            <li className='font-bold text-lg dark:text-white'><Link to="/service">Service</Link></li>
+            <li className='font-bold text-lg dark:text-white'><Link to="/courses">Courses</Link></li>
+            <li className='font-bold text-lg dark:text-white'><Link to='/blogLayout'>Blog</Link></li>
+            <li className='font-bold text-lg dark:text-white'><Link to='/aboutUs'>About Us</Link></li>
+            <li className='font-bold text-lg dark:text-white'><Link to='/contact'>Contact</Link></li>
           </ul>
         </div>
 

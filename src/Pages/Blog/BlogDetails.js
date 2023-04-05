@@ -9,6 +9,10 @@ const BlogDetails = () => {
     const { id } = useParams();
     const [details] = BlogDetailsHook(id);
     console.log(details);
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div>
         <div className='mt-10'>

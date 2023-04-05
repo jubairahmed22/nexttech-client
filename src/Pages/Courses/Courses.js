@@ -120,6 +120,9 @@ const Courses = () => {
 
 
     }
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
 
     return (
@@ -134,7 +137,7 @@ const Courses = () => {
                 >
                     <SwiperSlide className=''>
                         <div className="courseBannerImg">
-                            <img src={require('../image/course/course-img/coursBannerTwo.png')} alt="" />
+                            <img src="https://i.ibb.co/wpxVvn6/course-Cover.jpg" alt="" />
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imageText">
                             <h1 className="slideFontHeading lg:ml-8">Take the first step towards your dreams with us.</h1>
@@ -146,18 +149,18 @@ const Courses = () => {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className='courseBackground pt-10'>
+            <div className='pt-10'>
 
                 <h1 className='OurCourse  text-center mt-20 mb-20'>Our Courses</h1>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 place-items-center mt-10'>
                     {
                         courses.length === 0 ? <div><SpinLoading /></div>: courses.map(course =>
                             <Link to={`/courseDetails/${course.id}`}>
-                                <div className='courseCard shadow-lg gap-5 mb-20 transform transition duration-500 hover:scale-110 hover:shadow-2xl'>
+                                <div className='courseCard dark:border-4 border-sky-500 shadow-lg gap-5 mb-20 transform transition duration-500 hover:scale-110 hover:shadow-2xl'>
 
                                     <img className='courseCardImg w-96 h-56' src={course.img} alt="" />
                                     <h1 className='m-5 courseCardText'>{course.name}</h1>
-                                    <div className="rating m-5 mt-5">
+                                    <div className="rating m-5 mt-5 ">
                                         <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
@@ -172,7 +175,7 @@ const Courses = () => {
                 <div>
                     <div className="  ">
                         <div className="hero-content flex-col lg:flex-row">
-                            <img className='imgCardIndian rounded' src={require('../image/course/course-img/group-four-indian-teen-male-students-classmates-spend-time-together.jpg')} alt="" />
+                            <img className='imgCardIndian rounded' src={require('../image/course/course-img/indianpin-min.jpg')} alt="" />
                             <div className='grid lg:grid-cols-2 gap-10 cardIndianMejar mt-10'>
                                 <div>
                                     <h1 className='cardIndianHeader ml-5'>Skilled instructor</h1>
@@ -251,7 +254,7 @@ const Courses = () => {
                                                 <div className="modal mt-20">
                                                     <div className="modal-box relative">
                                                         <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-                                                        <h3 className="text-lg font-bold text-black">If you want to join the seminar please fill the form !!</h3>
+                                                        <h3 className="text-lg font-bold text-black dark:text-white">If you want to join the seminar please fill the form !!</h3>
 
                                                         <form onSubmit={handleBooking} className='grid grid-cols-1 gap-3 mt-10'>
                                                             <h3 className='formName'>Your Name</h3>
@@ -261,7 +264,7 @@ const Courses = () => {
                                                             <h3 className='formName'>Phone Number</h3>
                                                             <input name="phone" type="phone" placeholder="Type here" className="input w-full input-bordered text-black" />
                                                             <h3 className='formName'>Course Name</h3>
-                                                            <select name="course" type="course" className="select text-black w-full text-xl max-w-xs">
+                                                            <select name="course" type="course" className="select text-black w-full text-xl max-w-xs dark:text-white">
                                                                 <option disabled selected>Choose Your Course Name</option>
                                                                 <option value="UI UX Design">UI UX Design</option>
                                                                 <option value="Cyber Security">Cyber Security</option>

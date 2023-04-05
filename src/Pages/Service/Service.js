@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
 
 const ServiceData = [
     {
-        image: "https://i.ibb.co/d6Pd95j/web-design-website-coding-concept.jpg",
+        image: "https://i.ibb.co/9VdsjPw/web-design-website-coding-concept-min.jpg",
         name: "HR & Payroll Software",
         intro: "HR & Payroll software helps organizations streamline their HR and payroll processes, reduce errors, and save money.",
         prev: 6,
@@ -27,7 +27,7 @@ const ServiceData = [
         next: 2
     },
     {
-        image: "https://i.ibb.co/12P9V8c/homepage-seen-computer-screen.jpg",
+        image: "https://i.ibb.co/Fzgd6sZ/homepage-seen-computer-screen-min.jpg",
         name: "Business Portfolio Website",
         intro: "A well-designed business portfolio website can help attract new customers, establish credibility, and showcase the company's expertise and achievements.",
         prev: 1,
@@ -35,7 +35,7 @@ const ServiceData = [
         next: 3
     },
     {
-        image: "https://i.ibb.co/yBKL1xz/laptop-shopping-bags-online-shopping-concept.jpg",
+        image: "https://i.ibb.co/wQYgYB2/laptop-shopping-bags-online-shopping-concept-min.jpg",
         name: "E Commerce Website",
         intro: "E-commerce websites provide convenience and accessibility to customers, as well as a broader reach, lower operational costs, and the ability to collect customer data for better decision-making.",
         prev: 2,
@@ -43,7 +43,7 @@ const ServiceData = [
         next: 4
     },
     {
-        image: "https://i.ibb.co/cD6QXLH/calendar-agenda-event-meeting-reminder-schedule-graphic-concept.jpg",
+        image: "https://i.ibb.co/c8714Yp/calendar-agenda-event-meeting-reminder-schedule-graphic-concept-min.jpg",
         name: "Appointment Management System",
         intro: "An appointment management system is a software program designed to manage the scheduling and organization of appointments, allowing for efficient scheduling and improved customer satisfaction.",
         prev: 2,
@@ -51,7 +51,7 @@ const ServiceData = [
         next: 4
     },
     {
-        image: "https://i.ibb.co/cNkndVD/man-giving-some-keys-woman.jpg",
+        image: "https://i.ibb.co/hV2VPKv/man-giving-some-keys-woman-min.jpg",
         name: "Real Estate Management",
         intro: "An appointment management system is a software program designed to manage the scheduling and organization of appointments, allowing for efficient scheduling and improved customer satisfaction.",
         prev: 3,
@@ -59,7 +59,7 @@ const ServiceData = [
         next: 5
     },
     {
-        image: "https://i.ibb.co/wgsBX79/learning-education-ideas-insight-intelligence-study-concept.jpg",
+        image: "https://i.ibb.co/VCR3k3Y/learning-education-ideas-insight-intelligence-study-concept-min.jpg",
         name: "Learning management System (LMS)",
         intro: "Travel agency and tourism management software can improve efficiency, enhance customer experience, and increase revenue by providing integrations with third-party booking engines and suppliers.",
         prev: 3,
@@ -67,7 +67,7 @@ const ServiceData = [
         next: 5
     },
     {
-        image: "https://i.ibb.co/GdRRD0y/adventure-trip-travel-destination-hiking-nature-concept.jpg",
+        image: "https://i.ibb.co/XkVfyKG/adventure-trip-travel-destination-hiking-nature-concept-min.jpg",
         name: "Travel Agency & Tourism Management",
         intro: "Travel agency and tourism management software can improve efficiency, enhance customer experience, and increase revenue by providing integrations with third-party booking engines and suppliers.",
         prev: 3,
@@ -76,7 +76,7 @@ const ServiceData = [
     },
 
     {
-        image: "https://i.ibb.co/bsvYCqb/notebook-with-toolls-notes-about-erp-concept.jpg",
+        image: "https://i.ibb.co/1s9kJMm/notebook-with-toolls-notes-about-erp-concept-min.jpg",
         name: "Enterprise Resource Planning System (ERP)",
         intro: "Real Estate Management software helps property managers and agents manage their properties and clients more efficiently, providing features such as property listing management, client management, lease management, financial management, and reporting and analytics.",
         prev: 3,
@@ -84,7 +84,7 @@ const ServiceData = [
         next: 5
     },
     {
-        image: "https://i.ibb.co/M5C8LV1/person-paying-with-its-smartphone-wallet-app.jpg",
+        image: "https://i.ibb.co/wMfc7jM/person-paying-with-its-smartphone-wallet-app-min.jpg",
         name: "Point Of Sale System (POS)",
         intro: "POS systems are software and hardware systems used to manage transactions between customers and businesses, allowing for faster and more accurate processing, reducing errors, and better inventory management. They can help businesses improve customer experience, reduce costs, and increase revenue.",
         prev: 3,
@@ -95,35 +95,35 @@ const ServiceData = [
 
 const SlideData = [
     {
-        image: "https://i.ibb.co/6WXds7H/Rectangle-129.png",
+        image: "https://i.ibb.co/0KG1YNX/Rectangle-129-min.png",
         name: "HR & Payroll Software",
         prev: 6,
         id: 1,
         next: 2
     },
     {
-        image: "https://i.ibb.co/VQrpGWF/Rectangle-130.png",
+        image: "https://i.ibb.co/W3YpzGy/Rectangle-130-min.png",
         name: "Business Portfolio Website",
         prev: 1,
         id: 2,
         next: 3
     },
     {
-        image: "https://i.ibb.co/YLv4nWr/Rectangle-131.png",
+        image: "https://i.ibb.co/CQdL25w/Rectangle-131-min.png",
         name: "E Commerce Website",
         prev: 2,
         id: 3,
         next: 4
     },
     {
-        image: "https://i.ibb.co/5kndmYV/Rectangle-132.png",
+        image: "https://i.ibb.co/DwyzyDK/Rectangle-132-min.png",
         name: "Real Estate Management",
         prev: 3,
         id: 4,
         next: 5
     },
     {
-        image: "https://i.ibb.co/rQrYN0f/Rectangle-133.png",
+        image: "https://i.ibb.co/CJjQ6H5/Rectangle-133-min.png",
         name: "",
         prev: 3,
         id: 4,
@@ -131,7 +131,7 @@ const SlideData = [
     },
 
     {
-        image: "https://i.ibb.co/rQrYN0f/Rectangle-133.png",
+        image: "https://i.ibb.co/XW5RnrM/Rectangle-134-min.png",
         name: "",
         prev: 3,
         id: 4,
@@ -142,7 +142,9 @@ const SlideData = [
 
 
 const Service = () => {
-
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     return (
         <>
@@ -158,7 +160,7 @@ const Service = () => {
                 >
                     <SwiperSlide>
                         <div className="ServiceImg">
-                            <img src={require('../image/Service/img/group-young-people-business-meeting.jpg')} alt="" />
+                            <img src="https://i.ibb.co/GFR7wQt/group-young-people-business-meeting-new.jpg" alt="" />
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 slideHeadingTwo">
                             <h1 className="textHeading lg:mb-56">Service <span className="weOffer">we offer</span></h1>
@@ -216,6 +218,8 @@ const Service = () => {
                     grabCursor={true}
                     centeredSlides={false}
                     slidesPerView={3}
+                    
+                    
                     coverflowEffect={{
                         rotate: 0,
                         stretch: 0,
@@ -226,8 +230,12 @@ const Service = () => {
                     autoplay={{
                         delay: 2000,
                         disableOnInteraction: false,
-                    }}
+                    }
+                
+                }
+                    
                     pagination={false}
+                    
                     modules={[EffectCoverflow, Pagination, Autoplay]}
                     className="bookSwiper  ">
 
@@ -297,7 +305,7 @@ const Service = () => {
                 <div>
                     <div className="inline-flex items-center">
                         <div class="flex">
-                            <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-400">
+                            <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-400 dark:bg-orange-600">
                                 <p className="ml-20 text-2xl cicleText">5</p>
 
                             </div>
@@ -310,7 +318,7 @@ const Service = () => {
                     <div>
                         <div className="inline-flex items-center">
                             <div class="flex">
-                                <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-400">
+                                <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-400 dark:bg-orange-600">
                                     <p className="ml-24 text-2xl cicleText">25</p>
 
                                 </div>
@@ -324,7 +332,7 @@ const Service = () => {
                     <div>
                         <div className="inline-flex items-center">
                             <div class="flex">
-                                <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-400">
+                                <div class="m-3 flex h-24 w-24 items-center justify-center rounded-full bg-orange-400 dark:bg-orange-600">
                                     <p className="ml-24 text-2xl cicleText">10</p>
 
                                 </div>

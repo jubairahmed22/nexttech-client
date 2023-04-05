@@ -17,15 +17,16 @@ const IndrastrySarved = () => {
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 lg:mx-32 place-items-center mt-10'>
                 {
                     indrustryData.slice(0, visible).map(indrustry =>
-                        <div className="boxCard shadow-xl mt-5 p-5">
+                        <div className="boxCard shadow-xl mt-5 p-5 dark:border-4 border-sky-500 ">
                             <div className="">
                                 <div className="avatar flex ">
                                     <div className="w-34  rounded-full p-5">
                                         <img src={indrustry.img} alt="" />
                                     </div>
+
                                 </div>
                                 <h2 className="cardTittle ">{indrustry.name}</h2>
-                                <p className='cardPera mt-5 pb-5'>{indrustry.description}</p>
+                                <p className='cardPera mt-3 pb-5'>{indrustry.description}</p>
                             </div>
                         </div>
                     )

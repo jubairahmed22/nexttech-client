@@ -18,6 +18,10 @@ const RecentPostCetegory = () => {
     const handleRouting = (id) => {
         navigate(`/blogLayout/details/${id}`)
     }
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div className='flex flex-col mt-5  border-2 rounded p-5'>
             <h1 className='font-bold text-2xl m-5'>Popular Blogs</h1>

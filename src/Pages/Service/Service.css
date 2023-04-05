@@ -381,3 +381,9 @@
       
     }
 }
+
+@media (prefers-color-scheme: dark) {
+  .aboutText, .nextLvl, .cicleText, .circlePera, .tieckPera, .TogetherCardTitleTwo{
+    color: white;
+  }
+  }

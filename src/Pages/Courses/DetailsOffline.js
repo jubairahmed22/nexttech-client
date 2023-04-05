@@ -3,7 +3,7 @@ import './CourseDetails.css'
 
 const DetailsOffline = ({ allCourses }) => {
     return (
-        <div className='lg:w-full sm:w-20'>
+        <div className=''>
             {
                 allCourses.map(offline =>
                     <div class="relative overflow-x-auto">
