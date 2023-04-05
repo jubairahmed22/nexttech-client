@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 const RecentPostCetegory = () => {
     const [cetagory, setcetagory] = useState([]);
     useEffect(() => {
-        const url = `https://jubair-portfolio-server-jubairahmed22.vercel.app/fullStack`;
+        const url = `http://localhost:5000/fullStack`;
 
         fetch(url)
             .then(res => res.json())

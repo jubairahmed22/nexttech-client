@@ -37,7 +37,7 @@ const CourseDetails = () => {
 
         }
         console.log(booking);
-        fetch('https://jubair-portfolio-server-jubairahmed22.vercel.app/mail', {
+        fetch('http://localhost:5000/mail', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

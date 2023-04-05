@@ -11,7 +11,7 @@ const Slider = () => {
 
   const [cetagory, setcetagory] = useState([]);
   useEffect(() => {
-    const url = `https://jubair-portfolio-server-jubairahmed22.vercel.app/blogCategory`;
+    const url = `http://localhost:5000/blogCategory`;
 
     fetch(url)
       .then(res => res.json())

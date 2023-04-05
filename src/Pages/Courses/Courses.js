@@ -70,7 +70,7 @@ const Courses = () => {
 
     const [courses, setCourses] = useState([]);
     useEffect(() => {
-        fetch('https://jubair-portfolio-server-jubairahmed22.vercel.app/courses')
+        fetch('http://localhost:5000/courses')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
@@ -94,7 +94,7 @@ const Courses = () => {
 
         }
         console.log(booking);
-        fetch('https://jubair-portfolio-server-jubairahmed22.vercel.app/mail', {
+        fetch('http://localhost:5000/mail', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

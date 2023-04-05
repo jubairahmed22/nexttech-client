@@ -102,7 +102,7 @@ const Contact = () => {
 
         }
         console.log(booking);
-        fetch('https://jubair-portfolio-server-jubairahmed22.vercel.app/mail', {
+        fetch('http://localhost:5000/mail', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -142,7 +142,7 @@ const Contact = () => {
                     <div className="absolute flex justify-end transform -translate-y-1/2 slideHeadingTwo">
                         <h1 className="textHeading mb-56"><span className='text-orange-500'>Let's</span> get in touch!</h1>
                     </div>
-                    
+
 
                 </SwiperSlide>
             </Swiper>
