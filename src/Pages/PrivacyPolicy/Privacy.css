@@ -1,0 +1,81 @@
+.privacyBackground{
+    height: 400px;
+    border-radius: 5px;
+    background-color: rgb(241, 223, 191);
+}
+.privacyHeading{
+    padding-top: 150px;
+    font-size: 80px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+
+}
+.headingSpan{
+    font-weight: 400;
+    color: rgb(171, 111, 0);
+    font-family: 'Heebo', sans-serif;
+}
+.policyPera{
+    font-family: 'Heebo', sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.itemsHeading{
+    color: rgb(22, 22, 77);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:588px) {
+    .privacyBackground{
+        
+        height: 150px;
+        border-radius: 5px;
+        background-color: rgb(241, 223, 191);
+    }
+    .privacyHeading{
+       
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Heebo', sans-serif;
+        font-weight: bold;
+        
+       
+    
+    }
+    .headingSpan{
+        font-size: 30px;
+    }
+    .policyPera{
+        font-size: 12px;
+      
+    }
+    .itemsHeading{
+        font-size: 16px;
+      
+    }
+
+}
+
+@media only screen and (min-width: 588px) and (max-width:992px) {}
+
+@media (prefers-color-scheme: dark) {
+    .privacyHeading{
+     
+        color: white;
+       
+    
+    }
+    .headingSpan{
+        font-weight: 400;
+        color: rgb(213, 146, 23);
+    }
+    .policyPera{
+        color: white;
+      
+    }
+    .itemsHeading{
+        color: orange;
+      
+    }
+}

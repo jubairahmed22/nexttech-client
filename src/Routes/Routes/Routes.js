@@ -16,6 +16,7 @@ import HomeTwo from "../../Pages/Home/HomeTwo/HomeTwo";
 import Login from "../../Pages/Login/Login";
 import Service from "../../Pages/Service/Service";
 import NotFound from "../../Pages/Shared/Navbar/NotFound";
+import PrivacyPlicy from "../../Pages/PrivacyPolicy/PrivacyPlicy";
 
 
 const router = createBrowserRouter([
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
             {
                 path: '/contact',
                 element: <Contact></Contact>
+            },
+            {
+                path: '/privacy',
+                element: <PrivacyPlicy></PrivacyPlicy>
             },
             {
                 path: '*',

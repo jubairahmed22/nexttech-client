@@ -19,7 +19,7 @@ const Footer = () => {
                     <h1 className='Maintittle comPera'>Who We Are</h1>
                     <Link to="/aboutUs"><h1 className='mainPera lg:mt-20 sm:mt-10 comPera'>Our Philosophy</h1></Link>
                     <Link><h1 className='mainPera mt-5 comPera comPera comPera'>Our Team</h1></Link>
-                    <Link><h1 className='mainPera mt-5 comPera comPera comPera'>Privacy Policy</h1></Link>
+                    <Link to="/privacy"><h1 className='mainPera mt-5 comPera comPera comPera'>Privacy Policy</h1></Link>
                 </div>
                 <div className=''>
                     <h1 className='Maintittle comPera'>What We Do</h1>
@@ -35,7 +35,7 @@ const Footer = () => {
             <div className='footerPipe mt-10 py-5 '>
                 <div className='grid lg:grid-cols-2 gap-8 px-20'>
                     <div>
-                        <p className='mainPeraThree'>Copyright © 2023, Nexttech ITC | Privacy Policy </p>
+                        <p className='mainPeraThree'>Copyright © 2023, Nexttech ITC | <Link to='/privacy'>Privacy Policy</Link> </p>
                     </div>
 
 
