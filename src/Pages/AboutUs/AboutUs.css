@@ -4,11 +4,13 @@
 }
 
 .firstImgPera {
+    margin-left: 20px;
     font-family: 'Heebo', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 180%;
+    margin-right: 20px;
     /* or 43px */
 
     text-align: justify;
@@ -116,7 +118,8 @@
 @media only screen and (max-width:588px) {
     .firstImgPera {
         font-size: 16px;
-        width: 280px;
+        width: 200px;
+       
     }
 
     .firstImg {

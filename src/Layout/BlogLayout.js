@@ -4,6 +4,7 @@ import Navbar from '../Pages/Shared/Navbar/Navbar';
 import NavScrool from '../Pages/Shared/Navbar/NavScrool';
 import RightSideNav from '../Pages/Shared/Navbar/RightSideNav';
 import './BlogLayout.css'
+import Footer from '../Pages/Shared/Footer/Footer';
 
 const BlogLayout = () => {
     return (
@@ -15,7 +16,9 @@ const BlogLayout = () => {
                 <div className="outlet"><Outlet></Outlet></div>
                 <div className="rightNav lg:ml-56"><RightSideNav></RightSideNav>
                 </div>
+                
             </div>
+            <Footer></Footer>
         </div>
     );
 };

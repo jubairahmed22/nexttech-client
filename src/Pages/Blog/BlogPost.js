@@ -58,10 +58,10 @@ const BlogPost = () => {
             <div className='mt-32 '>
                 {
                     allBlogs.length === 0 ? <div><SpinLoading /></div> : allBlogs.map(blogs =>
-                        <div className="card cardMajer  bg-base-100 shadow-xl mt-5">
+                        <div className="card cardMajer mt-5  bg-base-100 shadow-xl ">
 
                             <h1 className='title p-5'>{blogs.name}</h1>
-                            <div className='inline-flex items-center gap-3 mt-2 font-semibold text-lg p-5'>
+                            <div className='inline-flex items-center gap-3 mt-10 font-semibold text-lg p-5'>
                                 <BsCalendarFill></BsCalendarFill>
                                 <h1 >{blogs.date}</h1>
                                 <FaUser className='ml-5'></FaUser>
@@ -85,8 +85,7 @@ const BlogPost = () => {
                     )
                 }
                 <div className="pagination flex flex-col lg:items-center justify-center mt-10 mb-10">
-                    <p>Currently selected page: {page} and size: {size}</p>
-
+                    
                     <div className='flex flex-inline'>
 
                         {

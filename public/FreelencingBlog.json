@@ -1,66 +1,12 @@
 [
     {
         "id": "4",
-        "name": "Full Stack Web Development: Building Dynamic and Interactive Web Applications",
+        "name": "Creating User Personas A Key Step in UI UX Design",
         "date": "January 6, 2023",
         "author": "Rokibul",
         "view": "256",
-        "img": "https://i.ibb.co/GCgw6z8/group-ux-developer-ui-designer-brainstorming-about-app-interface-design-modern-office-creative-digit.jpg",
-        "description": "Web development has come a long way since the days of static HTML pages. Today, web applications are more dynamic and interactive than ever before, and users expect seamless and intuitive experiences. Full stack web development is the process of building these types of web applications from start to finish.What is Full Stack Web Development? Full stack web development refers to the process of building web applications"
-    },
-    {
-        "id": "4",
-        "name": "The Power of Typography in Graphic Design",
-        "date": "February 26, 2023",
-        "author": "Sadik",
-        "view": "196",
-        "img": "https://i.ibb.co/2FwhF3r/young-woman-working-animation-studio.jpg",
-        "description": "Typography is a fundamental aspect of graphic design that has the power to transform a design from ordinary to extraordinary. Typography is the art and technique of arranging type to make written language legible, readable, and appealing when displayed. Typography can convey emotion, tone, and personality, and it can greatly impact the message and overall effectiveness of a design. In this blog post, we'll explore the power of typography in graphic design and"
-    },
-    {
-        "id": "4",
-        "name": "Creating User Personas: A Key Step in UI/UX Design",
-        "date": "March 13, 2023",
-        "author": "Ahmed",
-        "view": "366",
-        "img": "https://i.ibb.co/MgXhykZ/team-working-interface-design.jpg",
-        "description": "User personas are fictional characters that represent the ideal user of a product or service. They are created through research and analysis of user data and behavior to help designers and developers understand the needs and goals of their users. User personas are a critical component of user-centered design, as they help to ensure that the design of a product or service is tailored to the needs of its users. In this blog post, we'll explore the importance of creating"
-    },
-    {
-        "id": "4",
-        "name": "The Dark Side of Social Media: Cybersecurity Risks and Solutions",
-        "date": "December 10, 2022",
-        "author": "Nayeem Sheikh",
-        "view": "256",
-        "img": "https://i.ibb.co/rskrZJx/female-hacker-with-hoodie-front-computer-with-green-screen-male-criminal.jpg",
-        "description": "Social media has become an integral part of our lives. We use it to connect with friends and family, share our experiences, and stay up-to-date with the latest news and trends. However, the dark side of social media is the cybersecurity risks that come along with it. Cybercriminals are using social media to steal personal information, spread malware, and conduct phishing attacks. In this blog post, we'll explore the cybersecurity risks associated with social"
-    },
-    {
-        "id": "4",
-        "name": "Debugging and Troubleshooting Techniques for Front-End Development",
-        "date": "January 16, 2023",
-        "author": "Farzana",
-        "view": "256",
-        "img": "https://i.ibb.co/d28cnhz/side-view-portrait-contemporary-african-american-man-looking-computer-screen-while-working-late-nigh.jpg",
-        "description": "Debugging and troubleshooting are critical skills for front-end developers to have. When developing web applications, there are bound to be errors and issues that need to be resolved before the application can be released. In this blog post, we'll explore some of the debugging and troubleshooting techniques that front-end developers can use to identify and fix errors in their code."
-    },
-    {
-        "id": "4",
-        "name": "Marketing and Networking Strategies for Freelancers",
-        "date": "February 20, 2023",
-        "author": "Abir",
-        "view": "256",
-        "img": "https://i.ibb.co/SNjJpYt/young-caucasian-businessman-freelancer-working-home-office-concentrated-young-man-learning-online.jpg",
-        "description": "As a freelancer, your success depends on your ability to market your skills and services effectively and build a strong network of clients and contacts. In this blog post, we'll explore some marketing and networking strategies that freelancers can use to build their businesses and increase their opportunities for success."
-    },
-    {
-        "id": "1",
-        "name": "How to deal with difficult clients as a freelancer",
-        "date": "January 8, 2023",
-        "author": "Salauddin",
-        "view": "256",
-        "img": "https://i.ibb.co/pR78HJg/How-to-deal-with-difficult-clients-as-a-freelancer-min.jpg",
-        "description": "As a freelancer, you may come across difficult clients from time to time. Dealing with these clients can be challenging, but it's important to maintain a professional and positive attitude to protect your reputation and maintain your business. In this blog, we'll explore some tips and strategies on how to deal with difficult clients as a freelancer.Set clear expectations from the start One of the best ways to prevent misunderstandings and conflicts with clients is to set clear expectations from the beginning of your working relationship. Make sure your client understands your services, your timeline, and your communication methods. Clearly define the project scope and any potential risks or limitations. By setting clear expectations, you reduce the risk of surprises or misunderstandings later on.Communicate effectively Effective communication is essential in any working relationship, but it's especially important when dealing with difficult clients. Be clear and concise in your communications, and respond to messages and emails in a timely manner. Keep the lines of communication open and don't hesitate to ask questions or seek clarification if needed. When you communicate effectively, you can avoid misunderstandings and build trust with your clients, dealing with difficult clients is a common challenge for freelancers. By setting clear expectations, communicating effectively, being patient and empathetic, maintaining a professional attitude, and setting boundaries, you can build stronger relationships with your clients and protect your business reputation. Remember, every difficult situation is an opportunity to learn and grow as a freelancer."
+        "img": "https://i.ibb.co/6DsjDKd/Creating-User-Personas-A-Key-Step-in-UI-UX-Design-min.jpg",
+        "description": "User personas are fictional characters created by designers to represent the ideal user for a particular product or service. They are an essential step in UI/UX design and are used to understand the user's needs, goals, and behavior. Creating user personas helps to ensure that the design of a product or service is focused on meeting the needs of the target audience."
     },
     {
         "id": "1",
@@ -73,83 +19,56 @@
     },
     {
         "id": "3",
-        "name": "The Dark Side of Social Media Cybersecurity Risks and Solutions",
-        "date": "January 5, 2023",
-        "author": "Salauddin",
-        "view": "256",
-        "img": "https://i.ibb.co/MZj9cmy/The-Dark-Side-of-Social-Media-Cybersecurity-Risks-and-Solutions-min.jpg",
-        "description": "Social media has become an integral part of our daily lives. While it has many benefits, such as connecting people across the globe and allowing us to share information and ideas, it also has a dark side. Social media is a breeding ground for cyber threats and can put our personal information, finances, and privacy at risk. Phishing Scams Phishing scams are one of the most common cyber threats on social media. They involve tricking users into giving away sensitive information, such as login credentials or credit card details. Phishing attacks can take the form of fraudulent links or fake login pages that look like legitimate ones. Solution: To protect yourself from phishing scams, you should always be cautious when clicking on links, especially those that ask for personal information. Ensure that you are on a legitimate website by checking the URL and website address bar. Also, never give out personal information unless you are certain that the website is"
-    },
-    {
-        "id": "3",
         "name": "The future of cyber security, including emerging threats and trends such as quantum computing and artificial intelligence.",
         "date": "January 5, 2023",
         "author": "Salauddin",
         "view": "256",
-        "img": "https://i.ibb.co/wrXKY4n/back-view-female-itspecialists-working-two-modern-computers-during-evening-time-home-caucasian-woman.jpg",
+        "img": "https://i.ibb.co/y5JMmfj/The-Dark-Side-of-Social-Media-Cybersecurity-Risks-and-Solutions-min.jpg",
         "description": "Cybersecurity is a constantly evolving field, and as technology advances, new threats and trends emerge that pose challenges to security professionals. In this blog, we'll explore some of the emerging threats and trends in cybersecurity, including quantum computing and artificial intelligence (AI). Quantum computing Quantum computing is a new and emerging technology that could potentially revolutionize computing as we know it. While quantum computing has the potential to solve complex problems at unprecedented speeds, it also poses a significant threat to cybersecurity. Quantum computers are capable of breaking many of the encryption algorithms that currently protect our data, making it possible for attackers to gain access to sensitive information. To combat this threat, cybersecurity professionals are working on developing new encryption algorithms that are resistant to quantum computing attacks. Artificial intelligence Artificial intelligence (AI) is another emerging technology that has the potential to revolutionize the cybersecurity field. AI can be used to automate many security tasks, such as threat detection and incident response. However, AI can also be used by attackers to create more sophisticated attacks that are more difficult to detect. To combat this threat, cybersecurity professionals are working on developing AI-powered security solutions that can detect and respond to attacks in real-time. Cloud security Cloud computing is a popular technology that allows organizations to store and access data and applications over the internet. While cloud computing offers many benefits, it also poses significant security risks. Cloud providers are responsible for securing the underlying infrastructure, but organizations are still responsible for securing their data and applications in the cloud. To address this issue, cybersecurity professionals are working on developing new security solutions and best practices for cloud computing. In conclusion, cybersecurity is a constantly evolving field, and as technology advances, new threats and trends emerge that pose challenges to security professionals. Quantum computing, artificial intelligence, IoT security, and cloud security are just a few of the emerging threats and trends that cybersecurity professionals must address. By staying up-to-date with the latest developments in the field, and developing new security solutions and best practices, cybersecurity professionals can help protect organizations and individuals from emerging threats."
     },
     {
         "id": "2",
-        "name": "Collaborative tools and version control for full-stack web development, such as Git and GitHub.",
-        "date": "January 5, 2023",
-        "author": "Salauddin",
-        "view": "256",
-        "img": "https://i.ibb.co/wrXKY4n/back-view-female-itspecialists-working-two-modern-computers-during-evening-time-home-caucasian-woman.jpg",
-        "description": "Branding and identity design are crucial aspects of any business, and they play a significant role in establishing a company's reputation and recognition. In this blog, we'll explore branding and identity design, including logo design and visual brand identity, and discuss how they can help businesses stand out in a crowded market. Visual brand identity is the collection of visual elements that represent your brand, including your logo, typography, color palette, and imagery. Consistency is key when it comes to visual brand identity, and all of these "
-    },
-    {
-        "id": "2",
         "name": "Continuous integration and deployment (CI CD) for full-stack web applications.",
-        "date": "January 5, 2023",
-        "author": "Salauddin",
+        "date": "February 5, 2023",
+        "author": "md rafiq",
         "view": "256",
         "img": "https://i.ibb.co/bJgKwxf/Continuous-integration-and-deployment-CI-CD-for-full-stack-web-applications-min.jpg",
         "description": "Continuous Integration and Deployment (CI/CD) is a set of practices that enable developers to deliver high-quality code quickly and efficiently. It involves automating the entire development process, from code changes to testing and deployment. In this blog, we will discuss how to implement CI/CD for full-stack web applications. Continuous Integration involves automating the process of building, testing, and merging code changes. With CI, developers can quickly and easily identify and fix bugs in the code, resulting in a more reliable and stable codebase. In a full-stack web application, CI can be implemented by setting up a build server that automatically compiles and tests code changes every time they are committed to the repository. If the code passes all tests, it can be merged into the main codebase."
     },
     {
-        "id": "2",
-        "name": "The future of cyber security, including emerging threats and trends such as quantum computing and artificial intelligence.",
-        "date": "January 5, 2023",
-        "author": "Salauddin",
-        "view": "256",
-        "img": "https://i.ibb.co/B2FK0xY/Collaborative-tools-and-version-control-for-full-stack-web-development-such-as-Git-and-Git-Hub-min.jpg",
-        "description": ""
-    },
-    {
         "id": "5",
         "name": "Branding and identity design ",
-        "date": "January 5, 2023",
-        "author": "Salauddin",
+        "date": "June 26, 2023",
+        "author": "Sakib Rahman",
         "view": "256",
         "img": "https://i.ibb.co/0M3Fgx6/man-hand-typing-keyboard-input-code-register-system-min.jpg",
         "description": "Branding and identity design are crucial aspects of any business, and they play a significant role in establishing a company's reputation and recognition. In this blog, we'll explore branding and identity design, including logo design and visual brand identity, and discuss how they can help businesses stand out in a crowded market."
     },
     {
-        "id": "5",
-        "name": "The Power of Typography in Graphic Design",
-        "date": "January 5, 2023",
-        "author": "Salauddin",
-        "view": "256",
-        "img": "https://i.ibb.co/j3wxGFD/professional-developer-programmer-working-software-website-design-coding-technology-writing-codes-da.jpg",
-        "description": "Graphic design is a powerful tool that helps convey a message through visual elements. One crucial aspect of graphic design is typography, which refers to the art and technique of arranging type to make written language legible, readable, and appealing when displayed."
-    },
-    {
         "id": "6",
         "name": "Debugging and Troubleshooting Techniques for Front-End Development",
-        "date": "January 5, 2023",
-        "author": "Salauddin",
+        "date": "May 8, 2023",
+        "author": "Nirbo Mahbub",
         "view": "256",
-        "img": "https://i.ibb.co/XVLN1rf/Front-end-optimization-for-search-engine-optimization-SEO.jpg",
+        "img": "https://i.ibb.co/xFn22ww/Debugging-and-Troubleshooting-Techniques-for-Front-End-Development-min.jpg",
         "description": "Debugging and troubleshooting are essential skills for front-end developers. They are responsible for building the user interface of websites and web applications, and they need to be able to identify and fix bugs quickly to ensure a seamless user experience"
     },
     {
         "id": "7",
-        "name": "Server-side frameworks and libraries are essential tools for backend developers. They provide a foundation for building robust, scalable, and secure web applications. In this blog, we will discuss some of the most popular server-side frameworks and libraries used in backend development, including Node.js, Flask, and Django.",
-        "date": "January 5, 2023",
-        "author": "Salauddin",
+        "name": "Server-side frameworks and libraries are essential tools for backend developers. ",
+        "date": "January 16, 2023",
+        "author": "Salman Rabbir",
         "view": "256",
         "img": "https://i.ibb.co/mhH2zby/Integrating-third-party-services-and-APIs-into-a-backend-system-min.jpg",
         "description": "Node.js is a powerful server-side framework that allows developers to build scalable and high-performance applications using JavaScript. It provides a vast ecosystem of modules and packages that make it easy to develop web applications with features such as data storage, authentication, and real-time communication. Node.js is particularly popular for developing real-time applications such as chat apps and streaming services."
+    },
+    {
+        "id": "8",
+        "name": "Strategies and Techniques for Protecting Against Cyber Threats",
+        "date": "November 16, 2023",
+        "author": "Sohas Jahan",
+        "view": "688",
+        "img": "https://i.ibb.co/JBwnp86/digital-crime-by-anonymous-hacker-min.jpg",
+        "description": "User personas are fictional characters created by designers to represent the ideal user for a particular product or service. They are an essential step in UI/UX design and are used to understand the user's needs, goals, and behavior. Creating user personas helps to ensure that the design of a product or service is focused on meeting the needs of the target audience."
     }
 ]

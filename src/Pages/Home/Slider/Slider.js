@@ -22,14 +22,14 @@ const Slider = () => {
       })
   }, [])
   return (
-    <div className='mt-5 lg:m-20 mb-20 '>
+    <div className='mt-5  lg:mb-20 sm:mb-10'>
       <h1 className='dark:text-white mainHading text-center '>What we <span className='text-orange-500'>Do</span></h1>
-      <div className='grid lg:grid-cols-2  sm:grid-cols-1 gap-3 place-items-center mt-10 '>
+      <div className='grid lg:grid-cols-2  sm:grid-cols-1 gap-3 place-items-center lg:mt-10 sm:mt-5 '>
 
 
         <div class="container mt-5 shadow-2xl">
 
-          <img src="https://i.ibb.co/PM8RRgD/Group-187.png" className='image rounded-2xl imgRange' alt=''></img>
+          <img src="https://i.ibb.co/fFJSQM3/Group-187-1.png" className='image rounded-2xl imgRange' alt=''></img>
 
           <div class="overlay">
 
@@ -44,19 +44,21 @@ const Slider = () => {
         </div>
         <div class="container mt-5 shadow-2xl">
 
-          <img src="https://i.ibb.co/nrM4CSq/Group-188.png" className='image rounded-2xl imgRange' alt=''></img>
+          <img src="https://i.ibb.co/tx33Wjp/Group-188-1.png" className='image rounded-2xl imgRange' alt=''></img>
 
           <div class="overlay">
 
             <div className='mt-5 '>
               <div className='flex flex-col'>
-                <h1 className='textTow'>HR & Payroll Software</h1>
-                <h1 className='textTow'>Business Portfolio Website</h1>
-                <h1 className='textTow'>Appointment Management System</h1>
-                <h1 className='textTow'>Learning Management System (LMS)</h1>
-                <h1 className='textTow'>POS System</h1>
-                <h1 className='textTow'>ERP System</h1>
-                <h1 className='textTow '>Travel Agency & Tourism Management</h1>
+                <Link to='/service'><h1 className='textTow'>HR & Payroll Software</h1></Link>
+                <Link to='/service'><h1 className='textTow'>Business Portfolio Website</h1></Link>
+                <Link to='/service'><h1 className='textTow'>E Commerce Website</h1></Link>
+                <Link to='/service'><h1 className='textTow'>Appointment Management System</h1></Link>
+                <Link to='/service'><h1 className='textTow'>Real Estate Management</h1></Link>
+                <Link to='/service'><h1 className='textTow'>Learning Management System (LMS)</h1></Link>
+                <Link to='/service'><h1 className='textTow'>POS System</h1></Link>
+                <Link to='/service'><h1 className='textTow'>ERP System</h1></Link>
+                <Link to='/service'><h1 className='textTow '>Travel Agency & Tourism Management</h1></Link>
 
 
               </div>

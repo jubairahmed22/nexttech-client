@@ -19,7 +19,6 @@ import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 
 const SlideData = [
     {
-
         name: "Abu Saeed Mohammad",
         subName: "Full Stack Developer",
         description: "For me, NextTech ITC is a name of blessings. I was a student of NextTech ITC now an Alumni. I have learned all the latest tools technologies during our course and my course instructor Khandaker Nayeem Akbar is a good teacher. His explanation made things easy to understand and practice. If you want to make a really big career move in your life, and if you are ready to take control of your life, NextTech ITC is here to help you. Even with minimum knowledge and qualification, you can take this course. NextTech ITC's course curriculum will make you knowledgeable and qualified. You just need to pay proper attention and time to it.",
@@ -38,17 +37,17 @@ const SlideData = [
     },
     {
 
-        name: "Abu Saeed Mohammad",
-        subName: "Full Stack Developer",
-        description: "For me, NextTech ITC is a name of blessings. I was a student of NextTech ITC now an Alumni. I have learned all the latest tools technologies during our course and my course instructor Khandaker Nayeem Akbar is a good teacher. His explanation made things easy to understand and practice. If you want to make a really big career move in your life, and if you are ready to take control of your life, NextTech ITC is here to help you. Even with minimum knowledge and qualification, you can take this course. NextTech ITC's course curriculum will make you knowledgeable and qualified. You just need to pay proper attention and time to it.",
+        name: "Mohammad Islam",
+        subName: "Software Engineer",
+        description: "If you want to build your career in IT field, NextTech ITC is a place to start. With only 4 months of hands on training, you can land on a high paying IT job. Their grooming session is very helpful and prepares you for the interview. Also group study will help you a lot. Of course if you want to succeed in any career field you need to work hard, have dedication and being open minded to ask questions and helpful to others.",
         prev: 6,
         id: 1,
         next: 2
     },
     {
 
-        name: "Abu Saeed Mohammad",
-        subName: "Full Stack Developer",
+        name: "Tajreen Haque",
+        subName: "Software Engineer",
         description: "Nayeem Bhai and Jahan bhai are doing a great job for the Bangladeshi community in encouraging people to get into IT sector because if it’s huge demand. Nonetheless, my experience was great starting from learning the materials and participating in the bootcamp. Definitely, I would recommend others to give it a shot.",
         prev: 6,
         id: 1,
@@ -62,7 +61,7 @@ const AboutUs = () => {
 
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <div className=''>
             <div className='grid lg:grid-cols-2 place-items-center'>
@@ -100,10 +99,10 @@ const AboutUs = () => {
             </div>
             {/* 3RD GRID */}
 
-            <div className='grid lg:grid-cols-2 place-items-center mt-32'>
+            <div className='grid lg:grid-cols-2 place-items-center mt-32                  '>
                 <div>
                     <h1 className='missonVisson text-center'>Mission & Vision</h1>
-                    <p className='firstImgPera mt-10'>
+                    <p className='firstImgPera mt-10 '>
                         Our mission is to provide world-class IT training that equips individuals with the skills and knowledge needed to succeed in the rapidly evolving world of technology. We are committed to developing innovative software solutions that drive business growth and create a positive impact in society. Our vision is to become a leading software firm and IT training institute, renowned for delivering cutting-edge IT solutions and producing highly skilled and competent IT professionals. We aspire to drive the growth of the IT industry in Bangladesh and beyond, and empower individuals to thrive in the digital age. We strive to be the preferred choice of
                         clients and students alike, known for our exceptional quality, reliability, and expertise.
                     </p>
@@ -130,7 +129,7 @@ const AboutUs = () => {
 
                     <div>
                         <h1 className='fouthPera text-center'>Why Choose Us!</h1>
-                        <img className='firstImg rounded-lg ' src={require('../image/About Us Page/img/32.jpg')} alt="" />
+                        <img className='firstImg rounded-lg' src={require('../image/About Us Page/img/32.jpg')} alt="" />
 
                     </div>
                 </div>
@@ -144,7 +143,6 @@ const AboutUs = () => {
                     effect={"coverflow"}
                     grabCursor={true}
                     centeredSlides={false}
-                    slidesPerView={3}
                     coverflowEffect={{
                         rotate: 0,
                         stretch: 0,
@@ -152,28 +150,38 @@ const AboutUs = () => {
                         modifier: 1,
                         slideShadows: false,
                     }}
-                    autoplay={{
-                        delay: 2000,
-                        disableOnInteraction: false,
-                    }}
                     pagination={false}
-                    modules={[EffectCoverflow, Pagination, Autoplay]}
-                    className="bookSwiper  ">
+                    modules={[EffectCoverflow, Pagination]}
+                    className="bookSwiper"
+                    breakpoints={{
+                        // when window width is >= 640px
+                        640: {
+                            slidesPerView: 1,
+                        },
+                        // when window width is >= 768px
+                        768: {
+                            slidesPerView: 2,
+                        },
+                        // when window width is >= 1024px
+                        1024: {
+                            slidesPerView: 3,
+                        },
+                    }}
+                >
+
 
                     {
                         SlideData.map(slideSS => <SwiperSlide className='ml-5 mb-12 mt-10'>
 
+                            <div className="card lg:w-96 min-w-fit  bg-base-100 shadow-xl">
+                                <div className="card-body">
+                                    <h1 className='dark:text-white text-indigo-900 text-2xl font-bold mt-10'>{slideSS.name}</h1>
+                                    <p className='dark:text-white text-indigo-900 text-xl'>{slideSS.subName}</p>
 
-                            <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <div className='p-5'>
-                                    <div className='slideBackGround p-5'>
-                                        <h1 className='slideDes '><FaQuoteLeft/>{slideSS.description}<FaQuoteRight/></h1>
-                                    </div>
-                                    <h1 className='slideName mt-10'>{slideSS.name}</h1>
-                                    <p className='subName'>{slideSS.subName}</p>
+                                    <p className='dark:text-white text-indigo-900 text-md'>{slideSS.description}</p>
                                 </div>
-
                             </div>
+
 
 
 

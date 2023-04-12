@@ -15,7 +15,8 @@ import Home from "../../Pages/Home/Home/Home"
 import HomeTwo from "../../Pages/Home/HomeTwo/HomeTwo";
 import Login from "../../Pages/Login/Login";
 import Service from "../../Pages/Service/Service";
-import ContactTwo from "../../Pages/Contact/ContactTwo";
+import NotFound from "../../Pages/Shared/Navbar/NotFound";
+
 
 const router = createBrowserRouter([
     {
@@ -52,8 +53,12 @@ const router = createBrowserRouter([
             },
             {
                 path: '/contact',
-                element: <ContactTwo></ContactTwo>
+                element: <Contact></Contact>
             },
+            {
+                path: '*',
+                 element: <NotFound></NotFound>
+            }
         ]
     },
 
@@ -77,6 +82,10 @@ const router = createBrowserRouter([
                 path: '/blogLayout/details/:id',
                 element: <BlogDetails></BlogDetails>
             },
+            {
+                path: '*',
+                 element: <NotFound></NotFound>
+            }
 
 
 

@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 800;
   font-size: 64px;
-  line-height: 75px;
+  line-height: 35px;
   color: #1E2452;
 
 }
@@ -76,7 +76,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   transition: .5s ease;
-  margin-top: 10px;
+  margin-top: 5px;
   
 
 }
@@ -104,7 +104,7 @@
 
 @media only screen and (max-width:588px) {
   .mainHading {
-
+    
     font-size: 40px;
 
   }

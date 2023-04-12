@@ -21,7 +21,7 @@ import IndrastrySarved from '../IndrastrySarved/IndrastrySarved';
 
 const SlideData = [
     {
-        image: "https://i.ibb.co/cN3Tbgb/Group-171-min.png",
+        image: "https://i.ibb.co/DbnMSzx/homefinal.jpg",
         name: "HR & Payroll Software",
         prev: 6,
         id: 1,
@@ -54,25 +54,25 @@ const HomeTwo = () => {
                             <div className='imgOverlyOut'>
                                 <img
                                     src={slideSS.image}
-                                    class="transition duration-300 ease-in-out hover:scale-110 imgSizeTool"
+                                    class="transition duration-300 ease-in-out hover:scale-110 imgSizeTool "
                                     alt="Louvre z-1" />
                             </div>
                             <div className="absolute flex slideBox justify-end transform -translate-y-1/2 homeTwoText ">
                                 <div className='flex-col'>
                                     <h1 className=" lg:ml-32 z-40">NE<span className='text-orange-500'>X</span>TTECH ITC manages</h1>
-                                    <p className='lg:ml-32 slideFont'>the workforce from the onboarding to exit interviews</p>
+                                    <p className='lg:ml-32 slideFont'>the workforce from the onboarding to exit <br/>  interviews</p>
                                     <div className='lg:ml-32 lg:mt-5 flex flex-col text-xl'>
                                         <div className='inline-flex items-center'>
-                                            <BsDot className='text-white' />
-                                            <h1 className='clientDot'>Client Based</h1>
+                                            <BsDot className='text-orange-500 lg:w-20 lg:h-20' />
+                                            <h1 className='clientDot'>Client Management</h1>
                                         </div>
                                         <div className='inline-flex items-center'>
-                                            <BsDot className='text-white' />
+                                            <BsDot className='text-orange-500 lg:w-20 lg:h-20' />
                                             <h1 className='clientDot'>Web based interface</h1>
                                         </div>
-                                        <div className='inline-flex items-center'>
-                                            <BsDot className='text-white' />
-                                            <h1 className='clientDot'>Campain Management</h1>
+                                        <div className='inline-flex items-center pb-5'>
+                                            <BsDot className='text-orange-500 lg:w-20 lg:h-20' />
+                                            <h1 className='clientDot'>Campaign Management</h1>
                                         </div>
                                     </div>
                                 </div>

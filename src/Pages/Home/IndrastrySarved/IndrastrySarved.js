@@ -14,10 +14,10 @@ const IndrastrySarved = () => {
                 <br /> Your Business</span></h1>
             <p className='text-center subHeading'>Bright Your Business with the Virtual World</p>
 
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 lg:mx-32 place-items-center mt-10'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 lg:mx-32 place-items-center mt-10 '>
                 {
                     indrustryData.slice(0, visible).map(indrustry =>
-                        <div className="boxCard shadow-xl mt-5 p-5 dark:border-4 border-sky-500 ">
+                        <div className="boxCard shadow-xl mt-8 p-5 dark:border-4 rounded-2xl border-sky-500 transform transition duration-500 hover:scale-110 hover:shadow-2xl">
                             <div className="">
                                 <div className="avatar flex ">
                                     <div className="w-34  rounded-full p-5">
@@ -33,8 +33,8 @@ const IndrastrySarved = () => {
                 }
 
             </div>
-            <div className='flex items-center justify-center mt-5'>
-                <button className="bg-orange-500 hover:bg-orange-600 text-white text-lg font-bold py-4 px-6 border border-orange-500 rounded z-0" onClick={details}>Explore More</button>
+            <div className='flex items-center justify-center mt-10'>
+                <button className="bg-orange-500 hover:bg-orange-600 text-white text-lg font-bold py-2 px-4 border border-orange-500 rounded z-0" onClick={details}>Explore More</button>
             </div>
 
             <div className='mt-20'>
@@ -42,7 +42,7 @@ const IndrastrySarved = () => {
                 <p className='lg:mx-32 supportPera mt-5 '>Nexttech ITC provides customised help and management services <br /> to provide reliable support and efficient management.</p>
                 <div className='grid lg:grid-cols-2 lg:mx-32 mt-10 place-items-center gap-20'>
                     <div>
-                        <img className='boxImgOne' src='https://i.ibb.co/JRzXGX4/Support-And-Management.jpg' alt=''></img>
+                        <img className='boxImgOne rounded' src='https://i.ibb.co/jTsRMVP/group-young-business-people-working-office-min.jpg' alt=''></img>
                     </div>
                     <div>
                         <li className='boxImgOnelist mt-5'>Remote and On-Site Technical Support</li>
@@ -60,7 +60,7 @@ const IndrastrySarved = () => {
                         <li className='boxImgOnelist mt-5'>IT Consulting and Planning</li>
                     </div>
                     <div>
-                        <img className='boxImgTwo' src='https://i.ibb.co/rpVgHMF/Support-And-Management-2-min.jpg' alt=''></img>
+                        <img className='boxImgTwo rounded' src='https://i.ibb.co/b2Wym77/Support-And-Management-2-min-1.jpg' alt=''></img>
                     </div>
                 </div>
 
@@ -77,7 +77,7 @@ const IndrastrySarved = () => {
                         <li className='boxImgOnelist mt-5'>Comprehensive job guidance</li>
                     </div>
                     <div>
-                        <img className='boxImgTwo' src='https://i.ibb.co/5KKC6NP/How-We-Work.jpg' alt=''></img>
+                        <img className='boxImgTwo rounded' src='https://i.ibb.co/mb7xSw9/teacher-watching-student-doing-exercise-min.jpg' alt=''></img>
                     </div>
                 </div>
             </div>

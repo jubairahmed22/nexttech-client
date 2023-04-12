@@ -42,9 +42,11 @@ const Footer = () => {
                     <div className='logoColor  grid place-items-end'>
                         <div className='inline-flex items-center'>
                             <p className='mainPeraThree '>Follow Us</p>
-                            <BsInstagram className='w-6 h-6 ml-5' />
-                            <BsFacebook className='w-6 h-6 ml-3' />
-                            <BsLinkedin className='w-6 h-6 ml-3' />
+                            <Link target="_blank" to="https://www.instagram.com/nexttechitcbd/"><BsInstagram className='w-6 h-6 ml-5' /></Link>
+                            <Link target="_blank" to="https://www.facebook.com/NextTechITC"><BsFacebook className='w-6 h-6 ml-3' /></Link>
+                            <Link target="_blank" to="https://www.linkedin.com/company/nexttechitc/"><BsLinkedin className='w-6 h-6 ml-3' /></Link>
+                            
+                           
                         </div>
                     </div>
                 </div>

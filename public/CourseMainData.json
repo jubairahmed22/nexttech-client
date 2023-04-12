@@ -7,32 +7,37 @@
     {
         "id": "2",
         "name": "Cyber Security",
-        "img": "https://i.ibb.co/4tBJsvv/Cyber-Security-min.jpg"
+        "img": "https://i.ibb.co/6WqsWJX/Cyber-Security.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Mobile Testing(APPIUM)",
+        "img": "https://i.ibb.co/PQLQLqj/trading-stock-market-smartphone-blue-business-investment-graph-chart-background-3d-rendering-min.jpg"
     },
     {
         "id": "3",
         "name": "Full Stack Web Development ",
-        "img": "https://i.ibb.co/8Y6RzhX/Full-Stack-Web-Development-min.jpg"
+        "img": "https://i.ibb.co/5nB97hG/Full-Stack-Web-Development.jpg"
     },
     {
         "id": "4",
         "name": "Graphic Design",
-        "img": "https://i.ibb.co/2PrVDyV/Graphic-Design-min.jpg "
+        "img": "https://i.ibb.co/CWQS20d/Graphic-Design.jpg"
     },
     {
         "id": "5",
         "name": "Front End Development",
-        "img": "https://i.ibb.co/H4Z18Cj/Front-End-Development-min.png"
+        "img": "https://i.ibb.co/Km0mh0J/Front-End-Development.jpg"
     },
     {
         "id": "6",
         "name": "Backend Development",
-        "img": "https://i.ibb.co/Jdr20Pm/Backend-Development-min.jpg"
+        "img": "https://i.ibb.co/Wf60949/Backend-Development.jpg"
     },
     {
         "id": "7",
         "name": "UI UX Design Course For Beginners",
-        "img": "https://i.ibb.co/hfdNjZ1/UI-UX-Design-Course-For-Beginners-min.jpg"
+        "img": "https://i.ibb.co/mFQpP4N/UI-UX-Design-Course-For-Beginners.jpg"
     },
     {
         "id": "8",

@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
 
 const ServiceData = [
     {
-        image: "https://i.ibb.co/9VdsjPw/web-design-website-coding-concept-min.jpg",
+        image: "https://i.ibb.co/vHgNPgF/Group-419.png",
         name: "HR & Payroll Software",
         intro: "HR & Payroll software helps organizations streamline their HR and payroll processes, reduce errors, and save money.",
         prev: 6,
@@ -27,7 +27,7 @@ const ServiceData = [
         next: 2
     },
     {
-        image: "https://i.ibb.co/Fzgd6sZ/homepage-seen-computer-screen-min.jpg",
+        image: "https://i.ibb.co/Kz5dN5h/Group-412.png",
         name: "Business Portfolio Website",
         intro: "A well-designed business portfolio website can help attract new customers, establish credibility, and showcase the company's expertise and achievements.",
         prev: 1,
@@ -35,7 +35,7 @@ const ServiceData = [
         next: 3
     },
     {
-        image: "https://i.ibb.co/wQYgYB2/laptop-shopping-bags-online-shopping-concept-min.jpg",
+        image: "https://i.ibb.co/HHZZfZ5/Group-413.png",
         name: "E Commerce Website",
         intro: "E-commerce websites provide convenience and accessibility to customers, as well as a broader reach, lower operational costs, and the ability to collect customer data for better decision-making.",
         prev: 2,
@@ -43,7 +43,7 @@ const ServiceData = [
         next: 4
     },
     {
-        image: "https://i.ibb.co/c8714Yp/calendar-agenda-event-meeting-reminder-schedule-graphic-concept-min.jpg",
+        image: "https://i.ibb.co/Vqvr1wB/Group-411.png",
         name: "Appointment Management System",
         intro: "An appointment management system is a software program designed to manage the scheduling and organization of appointments, allowing for efficient scheduling and improved customer satisfaction.",
         prev: 2,
@@ -51,23 +51,23 @@ const ServiceData = [
         next: 4
     },
     {
-        image: "https://i.ibb.co/hV2VPKv/man-giving-some-keys-woman-min.jpg",
+        image: "https://i.ibb.co/dBr38pX/Group-418.png",
         name: "Real Estate Management",
-        intro: "An appointment management system is a software program designed to manage the scheduling and organization of appointments, allowing for efficient scheduling and improved customer satisfaction.",
+        intro: "Real Estate Management software helps property managers and agents manage their properties and clients more efficiently, providing features such as property listing management, client management, lease management, financial management, and reporting and analytics.",
         prev: 3,
         id: 4,
         next: 5
     },
     {
-        image: "https://i.ibb.co/VCR3k3Y/learning-education-ideas-insight-intelligence-study-concept-min.jpg",
+        image: "https://i.ibb.co/pf7hQwq/Group-415.png",
         name: "Learning management System (LMS)",
-        intro: "Travel agency and tourism management software can improve efficiency, enhance customer experience, and increase revenue by providing integrations with third-party booking engines and suppliers.",
+        intro: "LMS stands for Learning Management System, which is a software application used for the administration, documentation, tracking, reporting, and delivery of educational courses, training programs, or learning and development programs. LMS is widely used in both academic and corporate settings to deliver and manage online learning.",
         prev: 3,
         id: 4,
         next: 5
     },
     {
-        image: "https://i.ibb.co/XkVfyKG/adventure-trip-travel-destination-hiking-nature-concept-min.jpg",
+        image: "https://i.ibb.co/Z2gqRc2/Group-414.png",
         name: "Travel Agency & Tourism Management",
         intro: "Travel agency and tourism management software can improve efficiency, enhance customer experience, and increase revenue by providing integrations with third-party booking engines and suppliers.",
         prev: 3,
@@ -76,15 +76,15 @@ const ServiceData = [
     },
 
     {
-        image: "https://i.ibb.co/1s9kJMm/notebook-with-toolls-notes-about-erp-concept-min.jpg",
+        image: "https://i.ibb.co/sQ9C84F/Group-417.png",
         name: "Enterprise Resource Planning System (ERP)",
-        intro: "Real Estate Management software helps property managers and agents manage their properties and clients more efficiently, providing features such as property listing management, client management, lease management, financial management, and reporting and analytics.",
+        intro: "ERP System (Enterprise Resource Planning) is a business management software that integrates and automates various functions such as finance, human resources, procurement, and supply chain management, providing real-time data for informed decision-making.",
         prev: 3,
         id: 4,
         next: 5
     },
     {
-        image: "https://i.ibb.co/wMfc7jM/person-paying-with-its-smartphone-wallet-app-min.jpg",
+        image: "https://i.ibb.co/wNTVNfG/Group-416.png",
         name: "Point Of Sale System (POS)",
         intro: "POS systems are software and hardware systems used to manage transactions between customers and businesses, allowing for faster and more accurate processing, reducing errors, and better inventory management. They can help businesses improve customer experience, reduce costs, and increase revenue.",
         prev: 3,
@@ -158,15 +158,15 @@ const Service = () => {
                     modules={[Pagination]}
                     className="mySwiper"
                 >
-                    <SwiperSlide>
+                    <SwiperSlide> 
                         <div className="ServiceImg">
-                            <img src="https://i.ibb.co/GFR7wQt/group-young-people-business-meeting-new.jpg" alt="" />
+                            <img src="https://i.ibb.co/nDsw6mb/service-Cover-Three.jpg" alt="" />
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 slideHeadingTwo">
                             <h1 className="textHeading lg:mb-56">Service <span className="weOffer">we offer</span></h1>
                         </div>
                         <div className="absolute flex justify-end transform -translate-y-1/2 imagePera">
-                            <p className="lg:mb-48">Discover the latest in IT with our comprehensive training programs. Gain the skills <br /> and knowledge you need to stay ahead in this dynamic field.</p>
+                            <p className="lg:mb-48">Take your digital transformation to the next level with Nexttech ITC's advanced and reliable IT solutions</p>
                         </div>
 
                     </SwiperSlide>
@@ -179,7 +179,7 @@ const Service = () => {
 
                 <div className="flex flex-col items-center justify-center">
                     <div className=" flex items-center justify-center">
-                        <h1 className="text-center aboutText lg:mt-20 ">Our <span className="text-orange-500">Services</span></h1>
+                        <h1 className="text-center aboutText lg:mt-10 ">Our <span className="text-orange-500">Services</span></h1>
 
 
                     </div>
@@ -189,7 +189,7 @@ const Service = () => {
                             ServiceData.map((data =>
                                 <div>
                                     <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-10">
-                                        <img class="object-cover imgBackground w-full h-full transform duration-700 backdrop-opacity-100 " src={data.image} alt="" />
+                                        <img class="object-cover imgBackground imgClr w-full h-full transform duration-700 backdrop-opacity-100 " src={data.image} alt="" />
                                         <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
                                         <div class="absolute bg-gradient-to-t  from-indigo-900 via-indigo-900 to-indigo-900 opacity-90  w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
                                             <div class="absolute w-full flex place-content-center">
@@ -349,7 +349,7 @@ const Service = () => {
                 <div className="grid lg:grid-cols-1">
                     <div className="inline-flex items-center">
                         <img className="fill-blue-500" src={icon} alt="" />
-                        <h1 className="tieckPera ml-3">Experience Developers</h1>
+                        <h1 className="tieckPera ml-3">Experienced Developers</h1>
                     </div>
                     <div className="inline-flex items-center mt-10">
                         <img className="fill-blue-500" src={icon} alt="" />
