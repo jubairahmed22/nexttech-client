@@ -1,5 +1,6 @@
 import React from 'react';
 import './Privacy.css'
+import Footer from '../Shared/Footer/Footer';
 
 const PrivacyPlicy = () => {
     React.useEffect(() => {
@@ -24,6 +25,7 @@ const PrivacyPlicy = () => {
               <h1 className='mt-10'><span className='itemsHeading'>10. Contact Us:</span> <br/>If you have any questions or concerns about our privacy policy or our use of your personal information, please contact us at  info@nexttechitcbd.com. We will respond to your inquiry as soon as possible.</h1>
               </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

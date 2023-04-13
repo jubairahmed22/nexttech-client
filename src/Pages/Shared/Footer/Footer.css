@@ -54,7 +54,7 @@
         background-color: #1E2452;
         height: 500px;
         top: 200px;
-        display: none;
+       
 
     }
 
@@ -68,7 +68,7 @@
 
         font-family: 'Heebo', sans-serif;
         color: #FFFFFF;
-        display: none;
+        
 
     }
 
@@ -82,12 +82,12 @@
 
 
         color: #FFFFFF;
-        display: none;
+        
     }
 
     .comPera {
         margin-top: 15px;
-        display: none;
+        
     }
 
 }

@@ -12,6 +12,7 @@ import { useState } from 'react';
 import DetailsOffline from './DetailsOffline';
 import CourseModal from './CourseModal';
 import axios from 'axios';
+import Footer from '../Shared/Footer/Footer';
 
 const CourseDetails = () => {
 
@@ -20,53 +21,54 @@ const CourseDetails = () => {
 
     const [active, setActive] = useState("FirstCard");
 
-   
+
     const formRef = useRef(null);
     function handleBooking(event) {
         event.preventDefault();
-      
-  
-      
+
+
+
         const name = event.target.elements.name.value;
         const email = event.target.elements.email.value;
         const phone = event.target.elements.phone.value;
         const address = event.target.elements.address.value;
         const course = event.target.elements.course.value;
-      
+
         const formData = new FormData();
         formData.append('from', 'bnexttechitc@gmail.com');
         formData.append('to', 'bnexttechitc@gmail.com');
         formData.append('subject', 'Message From NEW-STUDENTS-ENROLLMENT-MESSAGE(NEXTTECHITC)');
         formData.append('text', `Name: ${name}\nEmail: ${email}\nCourse: ${course}\nPhone: ${phone}\nAddress: ${address}`);
-      
+
         axios({
-          method: 'post',
-          url: 'https://api.mailgun.net/v3/sandbox272a5342e2c34e54bd20f0aa7fc0555d.mailgun.org/messages',
-          auth: {
-            username: 'api',
-            password: '1f958f19e05a5812f57b6f27afa10305-81bd92f8-cc947c95'
-          },
-          data: formData,
-          headers: { 'Content-Type': 'multipart/form-data' }
+            method: 'post',
+            url: 'https://api.mailgun.net/v3/sandbox272a5342e2c34e54bd20f0aa7fc0555d.mailgun.org/messages',
+            auth: {
+                username: 'api',
+                password: '1f958f19e05a5812f57b6f27afa10305-81bd92f8-cc947c95'
+            },
+            data: formData,
+            headers: { 'Content-Type': 'multipart/form-data' }
         })
-        .then(response => {
-          console.log(response);
-          alert('Successfully Submitted!');
-          formRef.current.reset();
-        })
-        
-        .catch(error => {
-          console.log(error);
-          alert('Error submitting message. Please try again later.');
-        });
-      }
+            .then(response => {
+                console.log(response);
+                alert('Successfully Submitted!');
+                formRef.current.reset();
+            })
+
+            .catch(error => {
+                console.log(error);
+                alert('Error submitting message. Please try again later.');
+            });
+    }
 
     React.useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
     return (
-        <div className="grid lg:grid-cols-2   gap-4  ">
+        <div>
+            <div className="grid lg:grid-cols-2   gap-4  ">
             <div className=" leftLayOut ">
                 {
                     allCourses.map(details =>
@@ -256,35 +258,40 @@ const CourseDetails = () => {
                     <h1 className='courseDescription courseDescriptionFive'>Please fill out the form below with correct information</h1>
                     <p className='formPera mt-5'>After filling out the form, our representative will contact you shortly.</p>
                     <form onSubmit={handleBooking} ref={formRef} className='grid grid-cols-1 gap-3 mt-10 p-5'>
-                                                            <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Your Name</h3>
-                                                            <input name="name" type="text" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" />
-                                                            <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Email Address</h3>
-                                                            <input name="email" type="email" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" />
-                                                            <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Phone Number</h3>
-                                                            <input name="phone" type="phone" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" />
-                                                            <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Course Name</h3>
-                                                            <select name="course" type="course" className="select text-indigo-900 text-xl font-bold dark:text-orange-400">
-                                                                <option disabled selected>Choose Your Course Name</option>
-                                                                <option value="Software Testing">Software Testing</option>
-                                                                <option value="Mobile Testing">Mobile Testing</option>
-                                                                <option value="UI UX Design">UI UX Design</option>
-                                                                <option value="Cyber Security">Cyber Security</option>
-                                                                <option value="Graphic Design">Graphic Design</option>
-                                                                <option value="Full Stack Web Development">Full Stack Web Development</option>
-                                                                <option value="Front End Development">Front End Development</option>
-                                                                <option value="Backend Development">Backend Development</option>
-                                                            </select>
-                                                            <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Address</h3>
+                        <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Your Name</h3>
+                        <input name="name" type="text" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" />
+                        <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Email Address</h3>
+                        <input name="email" type="email" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" />
+                        <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Phone Number</h3>
+                        <input name="phone" type="phone" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" />
+                        <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Course Name</h3>
+                        <select name="course" type="course" className="select text-indigo-900 text-xl font-bold dark:text-orange-400">
+                            <option disabled selected>Choose Your Course Name</option>
+                            <option value="Software Testing">Software Testing</option>
+                            <option value="Mobile Testing">Mobile Testing</option>
+                            <option value="UI UX Design">UI UX Design</option>
+                            <option value="Cyber Security">Cyber Security</option>
+                            <option value="Graphic Design">Graphic Design</option>
+                            <option value="Full Stack Web Development">Full Stack Web Development</option>
+                            <option value="Front End Development">Front End Development</option>
+                            <option value="Backend Development">Backend Development</option>
+                        </select>
+                        <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Address</h3>
 
-                                                            <input name="address" type="address" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" />
-                                                            <br />
+                        <input name="address" type="address" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" />
+                        <br />
 
-                                                            <input className='relative rounded px-5 py-2.5 overflow-hidden group bg-green-500 relative hover:bg-gradient-to-r hover:from-orange-500 hover:to-orange-600 text-white hover:ring-2 hover:ring-offset-2 hover:ring-orange-600 transition-all ease-out duration-300 btn bg-orange-600 w-24 ' type="submit" value="Submit" />
-                                                    </form>
+                        <input className='relative rounded px-5 py-2.5 overflow-hidden group bg-green-500 relative hover:bg-gradient-to-r hover:from-orange-500 hover:to-orange-600 text-white hover:ring-2 hover:ring-offset-2 hover:ring-orange-600 transition-all ease-out duration-300 btn bg-orange-600 w-24 ' type="submit" value="Submit" />
+                    </form>
                 </div>
             </div>
+           
         </div>
+        <Footer></Footer>
+        </div>
+        
     );
+    
 };
 
 export default CourseDetails;

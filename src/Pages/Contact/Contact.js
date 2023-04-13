@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
 
 import { AiFillFacebook, AiFillLinkedin, AiOutlineInstagram } from 'react-icons/ai';
@@ -15,6 +15,8 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 import { Link } from 'react-router-dom';
+import Footer from '../Shared/Footer/Footer';
+import ViewSpin from '../Shared/SpinLoading/ViewSpin';
 
 
 
@@ -60,8 +62,19 @@ const Contact = () => {
     React.useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    const [loading, setLoading] = useState(false);
+    useEffect(()=>{
+      setLoading(true);
+      setTimeout(() =>{
+          setLoading(false);
+      },300)
+    },[])
     return (
-        <div className=' '>
+        <div>
+            {
+                 loading? <ViewSpin></ViewSpin> :
+                 <div className=' '>
             <Swiper
                 pagination={{
                     dynamicBullets: true,
@@ -143,6 +156,10 @@ const Contact = () => {
                         <br />Email: info@nexttechitcbd.com</p>
                 </div>
             </div>
+            <Footer></Footer>
+        </div>
+            }
+        
         </div>
     );
 };

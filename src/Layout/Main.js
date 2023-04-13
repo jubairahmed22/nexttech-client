@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Outlet } from 'react-router-dom';
-import Footer from '../Pages/Shared/Footer/Footer';
+
 import Navbar from '../Pages/Shared/Navbar/Navbar';
 import NavScrool from '../Pages/Shared/Navbar/NavScrool';
 
@@ -35,7 +35,7 @@ const Main = () => {
             <Navbar zIndex={500}></Navbar>
             <NavScrool zIndex={1000}></NavScrool>
             <Outlet zIndex={500}></Outlet>
-            <Footer></Footer>
+            
         </div>
     );
 };

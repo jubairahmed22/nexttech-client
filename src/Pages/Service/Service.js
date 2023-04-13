@@ -15,6 +15,8 @@ import "swiper/swiper.min.css";
 import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 import './Service.css'
 import { Link } from "react-router-dom";
+import Footer from "../Shared/Footer/Footer";
+import ViewSpin from "../Shared/SpinLoading/ViewSpin";
 
 
 const ServiceData = [
@@ -145,9 +147,23 @@ const Service = () => {
     React.useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
+        React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
+      const [loading, setLoading] = useState(false);
+      useEffect(()=>{
+        setLoading(true);
+        setTimeout(() =>{
+            setLoading(false);
+        },300)
+      },[])
 
     return (
-        <>
+        <>   
+        {
+            loading? <ViewSpin></ViewSpin> :
+            <div>
             <div className="">
 
 
@@ -367,8 +383,10 @@ const Service = () => {
                 </div>
             </div>
             {/* Experience site end */}
-
-
+           <Footer></Footer>
+           </div>
+        }
+            
         </>
     );
 };
