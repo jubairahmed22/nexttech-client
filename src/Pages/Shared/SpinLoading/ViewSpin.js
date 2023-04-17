@@ -9,7 +9,7 @@ const ViewSpin = () => {
             <ClimbingBoxLoader color="#FF5733" />
         </div>
   <div className=''>
-  <img className='imgMejar' src='https://i.ibb.co/HxwLpg4/nexxxx.png' alt=''/>
+  <img className='imgMejarTwo' src='https://i.ibb.co/HxwLpg4/nexxxx.png' alt=''/>
 
   </div>
         </div>

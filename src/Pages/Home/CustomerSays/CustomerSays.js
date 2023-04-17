@@ -1,47 +1,102 @@
 import React from 'react';
-import CustomerSaysHook from '../../Hooks/CustomerSaysHook';
+
 import './Customer.css'
+const served = [
+    {
+        image: "https://i.ibb.co/hBqvr43/signal-tower.png",
+        name: "Telco",
+        prev: 6,
+        id: 1,
+        next: 2
+    },
+    {
+        image: "https://i.ibb.co/TvkWG8B/cardiogram.png",
+        name: "Non-Profit",
+        prev: 1,
+        id: 2,
+        next: 3
+    },
+    {
+        image: "https://i.ibb.co/WGY33ff/check-out.png",
+        name: "Retail",
+        prev: 2,
+        id: 3,
+        next: 4
+    },
+    {
+        image: "https://i.ibb.co/tLTQwMg/grocery-store.png",
+        name: "E-com",
+        prev: 3,
+        id: 4,
+        next: 5
+    },
+    {
+        image: "https://i.ibb.co/3Wr0TT0/list.png",
+        name: "Miscellaneous",
+        prev: 3,
+        id: 4,
+        next: 5
+    },
+
+    {
+        image: "https://i.ibb.co/S7QR5F2/mobile-banking.png",
+        name: "Fintech",
+        prev: 3,
+        id: 4,
+        next: 5
+    },
+    {
+        image: "https://i.ibb.co/s5Pfc6n/steering-wheel.png",
+        name: "Automotive",
+        prev: 3,
+        id: 4,
+        next: 5
+    },
+    {
+        image: "https://i.ibb.co/W3WN3NP/real-estate.png",
+        name: "Real Estate",
+        prev: 3,
+        id: 4,
+        next: 5
+    },
+    {
+        image: "https://i.ibb.co/HgN2bGW/education.png",
+        name: "Education",
+        prev: 3,
+        id: 4,
+        next: 5
+    },
+    {
+        image: "https://i.ibb.co/qY2TyY5/software-application.png",
+        name: "Software",
+        prev: 3,
+        id: 4,
+        next: 5
+    },
+]
 
 const CustomerSays = () => {
-    const { customer } = CustomerSaysHook();
+    
     return (
-        <div className='mt-5 p-5 mb-5 lg-h-screen min-h-full'>
-            <h1 className='text-center header mt-10'>What <span className='text-orange-500'>Our Customer</span> Says</h1>
-            <h2 className='text-center mt-5 mb-5 subHeading'>Our honorable and valueable clients share their values with us. Lets <br />
-                hear our satified client voices</h2>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mt-5 flex items-center justify-center place-items-center'>
-                {
-                    customer.map(details =>
-                        <div className="card w-96 bg-base-100 shadow-xl mt-5">
+       <div className='mt-10'>
+              <h1 className='dark:text-white mainHading text-center'>Industries <span className='text-orange-500'>We Serve</span></h1>
 
-                                <div className="card-body">
-                                <div className='inline-flex items-center'>
-                                <div className="avatar">
-                              <div className="w-24 rounded-full">
-                                  <img src={details.img} alt="" />
-                                </div>
-                              </div>
-                                <div className='flex flex-col ml-3'>
-                                <h2 className="card-title font-bold text-2xl">{details.name}</h2>
-                                <p className='subname'>{details.subName}</p>
-                                </div>
-                                </div>
-                                <p className='description'>{details.description}</p>
-                                <div className="card-actions mt-5">
-                                    <div className="rating rating-md">
-                                        <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked />
-                                        <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    )
-                }
-            </div>
-        </div>
+         <div className='h-96 dark:bg-white mt-10'>
+             <div className='max-w-[1145px] mx-auto '>
+               <div className='grid grid-cols-5 gap-5 place-items-center '>
+                  {
+                  served.map(served=>
+                    <div className='mt-10'>
+                       
+                        <img src={served.image} className='imgMejar ' alt=''></img>
+                        <h1>{served.name}</h1>
+                    </div>
+                  )
+                  }
+               </div>
+             </div>
+          </div>
+       </div>
     );
 };
 

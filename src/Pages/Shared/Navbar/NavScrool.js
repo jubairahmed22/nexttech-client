@@ -20,7 +20,7 @@ const NavScrool = () => {
         return () => window.removeEventListener("scroll", onScrool);
     }, [])
     return (
-        <div className='mt-20'>
+        <div className='mt-20 scroolHidden'>
 
             <div className='navScrool scroolNav mt-5'>
                 <div zIndex={1000} class="w-full bg-gray-200 rounded-full h-1.5 shadow top-20  sticky  ">

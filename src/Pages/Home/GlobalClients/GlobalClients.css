@@ -1,18 +1,31 @@
-.heading{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 800;
-font-size: 64px;
-line-height: 100%;
-/* identical to box height, or 64px */
+ .mainBody{
+  height: 20px;
+ }
+ .listItems {
+    display: flex;
+  }
+  .wrapper{
+    width: 1300px;
+    overflow-x: hidden;
+  }
+  
+  .list {
 
-text-transform: capitalize;
-
-/* Primary Blue */
-
-color: #1E2452;
-}
-.imgSize{
-    width: 1000px;
-    height: 500px;
-}
+    font-size: 5vw;
+   
+   
+    display: flex;
+    font-size: 5vw;
+   
+    -webkit-animation: loop 10s infinite linear;
+    animation: loop 10s infinite linear;
+  }
+  
+  .item {color: #000000;}
+  
+  @keyframes loop {
+    100% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }

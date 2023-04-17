@@ -7,7 +7,7 @@ import { BsInstagram, BsFacebook, BsLinkedin } from 'react-icons/bs';
 const Footer = () => {
     return (
 
-        <div className='mt-20 footerBackground'>
+        <div className='mt-10 footerBackground'>
             <div className='grid lg:grid-cols-4 sm:grid-cols-2 lg:place-items-center sm:place-items-start mt-32 p-5 lg:align-middle lg:items-stretch md:items-stretch'>
                 <div className=''>
                     <h1 className='Maintittle '>Company Profile</h1>

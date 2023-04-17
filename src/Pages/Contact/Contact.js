@@ -33,17 +33,17 @@ const Contact = () => {
         const address = event.target.elements.address.value;
       
         const formData = new FormData();
-        formData.append('from', 'bnexttechitc@gmail.com');
-        formData.append('to', 'bnexttechitc@gmail.com');
+        formData.append('from', 'cnexttechitc@gmail.com');
+        formData.append('to', 'cnexttechitc@gmail.com');
         formData.append('subject', 'Message From NEXTTECHITC-CLIENT');
         formData.append('text', `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nAddress: ${address}`);
       
         axios({
           method: 'post',
-          url: 'https://api.mailgun.net/v3/sandbox272a5342e2c34e54bd20f0aa7fc0555d.mailgun.org/messages',
+          url: 'https://api.mailgun.net/v3/sandbox1222c277fe274f1980d191e295af587c.mailgun.org/messages',
           auth: {
             username: 'api',
-            password: '1f958f19e05a5812f57b6f27afa10305-81bd92f8-cc947c95'
+            password: '80ae86160fcc88d85bb02c98efbac90e-181449aa-fbdc4735'
           },
           data: formData,
           headers: { 'Content-Type': 'multipart/form-data' }

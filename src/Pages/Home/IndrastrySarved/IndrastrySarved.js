@@ -16,7 +16,7 @@ const IndrastrySarved = () => {
         <div className='mt-10 pt-3 pb-3'>
             <h1 className='text-center mainHeading lg:mt-20 leading-sung'>Cutting Edge Solution <span className='text-orange-600'>For
                 <br /> Your Business</span></h1>
-            <p className='text-center subHeading'>Bright Your Business with the Virtual World</p>
+            <p className='text-center subHeading dark:text-white'>Bright Your Business with the Virtual World</p>
 
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 lg:mx-32 place-items-center mt-10 '>
                 {

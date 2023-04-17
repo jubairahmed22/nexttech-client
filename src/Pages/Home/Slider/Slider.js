@@ -21,10 +21,15 @@ const Slider = () => {
         setcetagory(data);
       })
   }, [])
+
+  
+
+
   return (
     <div className='mt-5  lg:mb-20 sm:mb-10'>
+  
       <h1 className='dark:text-white mainHading text-center '>What we <span className='text-orange-500'>Do</span></h1>
-      <div className='grid lg:grid-cols-2  sm:grid-cols-1 gap-3 place-items-center lg:mt-10 sm:mt-5 '>
+      <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-3 place-items-center lg:mt-10 sm:mt-5 '>
 
 
         <div class="container mt-5 shadow-2xl">
