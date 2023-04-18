@@ -49,7 +49,7 @@ const HomeTwo = () => {
         setLoading(true);
         setTimeout(() => {
             setLoading(false);
-        }, 300)
+        }, 400)
     }, [])
     
 
@@ -81,7 +81,7 @@ const HomeTwo = () => {
                                                 <p className='lg:ml-32 slideFont'>Leads Digital Transformations With Expertise</p>
                                               
                                                
-                                                <div className='lg:ml-32 lg:mt-5 flex flex-col text-xl'>
+                                                <div className='lg:ml-32 lg:mt-5 lg:flex lg:flex-col text-xl'>
                                                     <div className='inline-flex items-center'>
                                                         <BsDot className='text-orange-500 lg:w-20 lg:h-20' />
                                                         <h1 className='clientDot'>Digital Solutions</h1>
@@ -90,7 +90,7 @@ const HomeTwo = () => {
                                                         <BsDot className='text-orange-500 lg:w-20 lg:h-20' />
                                                         <h1 className='clientDot'>IT Training</h1>
                                                     </div>
-                                                    <div className='inline-flex items-center pb-5'>
+                                                    <div className='inline-flex items-center lg:pb-5'>
                                                         <BsDot className='text-orange-500 lg:w-20 lg:h-20' />
                                                         <h1 className='clientDot'>Innovative Technology</h1>
                                                     </div>

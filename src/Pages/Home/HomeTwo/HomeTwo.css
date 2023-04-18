@@ -266,6 +266,7 @@
 
 
 .textMainAnim{
+
   -webkit-animation: text-flicker-out-glow 2.5s linear infinite both;
 	        animation: text-flicker-out-glow 2.5s linear infinite both;
          
@@ -331,11 +332,11 @@
 
 .clientDot {
     font-family: 'Heebo', sans-serif;
-
+    
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 28px;
+    line-height: 18px;
 
     color: #FFFFFF;
 
@@ -482,10 +483,12 @@
 }
 
 @media only screen and (max-width:588px) {
-   
+ .textMainAnim{
+margin-top: 50px;
+ }  
     
     .homeTwoText {
-        margin-top: 40px;
+        margin-top: 70px;
         font-family: 'Heebo', sans-serif;
         font-weight: bold;
         font-style: normal;
@@ -493,7 +496,7 @@
         font-size: 28px;
         margin-left: 30px;
         text-align: center;
-        line-height: 75px;
+        line-height: 25px;
         /* identical to box height */
 
 
@@ -519,12 +522,12 @@
 
 
         font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 10px;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 8px;
 
         color: #FFFFFF;
-        margin-bottom: 5px;
+       
 
     }
 }

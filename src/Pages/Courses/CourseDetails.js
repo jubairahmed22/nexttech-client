@@ -259,13 +259,13 @@ const CourseDetails = () => {
                     <p className='formPera mt-5'>After filling out the form, our representative will contact you shortly.</p>
                     <form onSubmit={handleBooking} ref={formRef} className='grid grid-cols-1 gap-3 mt-10 p-5'>
                         <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Your Name</h3>
-                        <input name="name" type="text" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" />
+                        <input name="name" type="text" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" required/>
                         <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Email Address</h3>
-                        <input name="email" type="email" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" />
+                        <input name="email" type="email" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" required/>
                         <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Phone Number</h3>
-                        <input name="phone" type="phone" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" />
+                        <input name="phone" type="phone" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-xl font-bold dark:text-orange-400" required/>
                         <h3 className='text-indigo-900 text-xl font-bold dark:text-white'>Course Name</h3>
-                        <select name="course" type="course" className="select text-indigo-900 text-xl font-bold dark:text-orange-400">
+                        <select name="course" type="course" className="select text-indigo-900 text-xl font-bold dark:text-orange-400 " required>
                             <option disabled selected>Choose Your Course Name</option>
                             <option value="Software Testing">Software Testing</option>
                             <option value="Mobile Testing">Mobile Testing</option>

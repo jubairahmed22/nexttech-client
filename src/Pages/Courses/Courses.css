@@ -257,7 +257,12 @@
   .slideFontPeraTwo {
   display: none;
   }
+  .courseBannerImg{
+    margin-top: 80px;
+  }
   .slideFontHeading {
+    margin-top: 40px;
+    margin-left: 10px;
     font-family: 'Heebo', sans-serif;
     font-style: normal;
     font-weight: 700;

@@ -145,7 +145,7 @@ const Courses = () => {
       setLoading(true);
       setTimeout(() =>{
           setLoading(false);
-      },300)
+      },400)
     },[])
 
     return (
@@ -284,11 +284,11 @@ const Courses = () => {
                                                              <div className='grid grid-cols-2 gap-2'>
                                                              <div>
                                                                 <h3 className='text-indigo-900 text-sm font-bold dark:text-white'>Your Name</h3>
-                                                                <input name="name" type="text" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-sm font-bold dark:text-orange-400" />
+                                                                <input name="name" type="text" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-sm font-bold dark:text-orange-400" required/>
                                                                 </div>
                                                                 <div>
                                                                 <h3 className='text-indigo-900 text-sm font-bold dark:text-white'>Email Address</h3>
-                                                                <input name="email" type="email" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-sm font-bold dark:text-orange-400" />
+                                                                <input name="email" type="email" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-sm font-bold dark:text-orange-400" required/>
                                                                 </div>
                                                                 <div>
                                                                 <h3 className='text-indigo-900 text-sm font-bold dark:text-white'>Phone Number</h3>
@@ -296,12 +296,12 @@ const Courses = () => {
                                                                 </div>
                                                                 <div>
                                                                <h3 className='text-indigo-900 text-sm font-bold dark:text-white'>Address</h3>
-                                                                <input name="address" type="address" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-sm font-bold dark:text-orange-400" />
+                                                                <input name="address" type="address" placeholder="Type here" className="input w-full input-bordered text-indigo-900 text-sm font-bold dark:text-orange-400" required/>
                                                                </div>
                                                              </div>
                                                              <h3 className='text-indigo-900 text-sm font-bold dark:text-white'>Course Name</h3>
     
-                                                                <select name="course" type="course" className="select text-indigo-900 text-sm font-bold dark:text-orange-400 border-2 border-sky-500">
+                                                                <select name="course" type="course" className="select text-indigo-900 text-sm font-bold dark:text-orange-400 border-2 border-sky-500" required>
                                                                     <option disabled selected>Choose Your Course Name</option>
                                                                     <option value="Software Testing">Software Testing</option>
                                                                     <option value="Mobile Testing">Mobile Testing</option>

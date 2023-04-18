@@ -156,7 +156,7 @@ const Service = () => {
         setLoading(true);
         setTimeout(() =>{
             setLoading(false);
-        },300)
+        },400)
       },[])
 
     return (
@@ -214,6 +214,10 @@ const Service = () => {
                                             <div class="absolute w-full flex place-content-center mt-20">
                                                 <p class="font-sans text-center w-4/5 text-white mt-5">{data.intro}</p>
                                             </div>
+                                            {/* <div class="absolute w-full flex place-content-center mt-56">
+                                            <Link to='/contact'><h1 className="text-2xl text-white font-bold">Contact Us</h1></Link>
+
+                                            </div> */}
 
                                         </div>
                                     </div>

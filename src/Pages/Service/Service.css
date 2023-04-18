@@ -307,7 +307,8 @@
 
 @media only screen and (max-width:588px) {
    .ServiceImg{
-    width: 300px;
+    margin-top: 100px;
+    width: 5880px;
     height: 100px;
    }
    .textHeading {
@@ -367,11 +368,11 @@
 @media only screen and (min-width: 588px) and (max-width:992px) {
     .ServiceImg{
         width: 800px;
-        height: 400px;
+        height: 200px;
        }
        .textHeading {
         margin-top: 0px;
-        font-size: 80px;
+        font-size: 50px;
         margin-bottom: 20px;
       
     }
