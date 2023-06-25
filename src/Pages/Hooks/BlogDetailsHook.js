@@ -4,7 +4,7 @@ const BlogDetailsHook = id => {
         const [details, setdetails] = useState([]);
         useEffect(() => {
 
-                const url = `https://server-nexttech.vercel.app/full/${id}`;
+                const url = `https://server-nexttech-h6uhrs8ll-bnexttechitc-gmailcom.vercel.app/full/${id}`;
 
 
                 fetch(url)

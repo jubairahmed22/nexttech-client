@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "homeId": "123",
+        "name": "Testing",
+        "img": "https://i.ibb.co/v34yBZT/test-1.png"
+    },
+    {
+        "id": "2",
+        "homeId": "234",
+        "name": "Web Development",
+        "img": "https://i.ibb.co/M7WMFv3/Group-424.png"
+    },
+    {
+        "id": "7",
+        "homeId": "345",
+        "name": "Design",
+        "img": "https://i.ibb.co/JmGS13z/Group-423.png"
+    },
+    {
+        "id": "4",
+        "homeId": "456",
+        "name": "Security",
+        "img": "https://i.ibb.co/SP2th1W/Group.png"
+    },
+    {
+        "id": "5",
+        "homeId": "567",
+        "name": "Freelancing",
+        "img": "https://i.ibb.co/c3qcZfw/freelance.png"
+    },
+    {
+        "id": "6",
+        "homeId": "678",
+        "name": "Networking",
+        "img": "https://i.ibb.co/6NFD1KN/Layer-49.png"
+    }
+]

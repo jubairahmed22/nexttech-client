@@ -16,13 +16,13 @@ const BlogLayout = () => {
       },500)
     },[])
     return (
-        <div>
+        <div className='max-w-[1345px]  mx-auto'>
             {
                 loading? <ViewSpin></ViewSpin> :
                 <div>
             <Navbar></Navbar>
             <NavScrool></NavScrool>
-            <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-10">
+                <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-10">
 
                 <div className="outlet"><Outlet></Outlet></div>
                 <div className="rightNav lg:ml-56"><RightSideNav></RightSideNav>

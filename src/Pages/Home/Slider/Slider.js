@@ -11,7 +11,7 @@ const Slider = () => {
   const [cetagory, setcetagory] = useState([]);
   useEffect(() => {
 
-    const url = `https://server-nexttech.vercel.app/courses`;
+    const url = `https://server-nexttech-h6uhrs8ll-bnexttechitc-gmailcom.vercel.app/courses`;
 
 
     fetch(url)
@@ -26,7 +26,7 @@ const Slider = () => {
 
 
   return (
-    <div className='mt-5  lg:mb-20 sm:mb-10'>
+    <div className='mt-20  lg:mb-20 sm:mb-10'>
   
       <h1 className='dark:text-white mainHading text-center '>What we <span className='text-orange-500'>Do</span></h1>
       <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-3 place-items-center lg:mt-10 sm:mt-5 '>
@@ -38,7 +38,7 @@ const Slider = () => {
 
           <div class="overlay">
 
-            <div className='lg:mt-10'>
+            <div className='lg:mt-5'>
               {
                 cetagory.map(ceta =>
                   <Link to={`/courseDetails/${ceta.id}`} class="text flex flex-col">{ceta.name}</Link>

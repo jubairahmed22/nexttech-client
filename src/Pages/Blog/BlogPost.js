@@ -9,8 +9,6 @@ import './AllBlog.css'
 
 
 
-
-
 const BlogPost = () => {
 
     // const { products, count } = useLoaderData();
@@ -29,7 +27,7 @@ const BlogPost = () => {
 
     useEffect(() => {
 
-        const url = `https://server-nexttech.vercel.app/blogs?page=${page}&size=${size}`;
+        const url = `https://server-nexttech-h6uhrs8ll-bnexttechitc-gmailcom.vercel.app/blogs?page=${page}&size=${size}`;
 
         console.log(page, size);
         fetch(url)
@@ -55,26 +53,26 @@ const BlogPost = () => {
     return (
         <div>
 
-            <div className='mt-32 '>
+            <div className='mt-18'>
                 {
                     allBlogs.length === 0 ? <div><SpinLoading /></div> : allBlogs.map(blogs =>
-                        <div className="card cardMajer mt-5  bg-base-100 shadow-xl ">
+                        <div className="card cardMajer mt-5 cardCol  bg-base-100 shadow-xl ">
 
-                            <h1 className='title p-5'>{blogs.name}</h1>
+                            <h1 className='title text-white p-5'>{blogs.name}</h1>
                             <div className='inline-flex items-center gap-3 mt-10 font-semibold text-lg p-5'>
-                                <BsCalendarFill></BsCalendarFill>
-                                <h1 >{blogs.date}</h1>
-                                <FaUser className='ml-5'></FaUser>
-                                <h1>{blogs.author}</h1>
-                                <BsFillEyeFill className='ml-5'></BsFillEyeFill>
-                                <h1>{blogs.view}</h1>
+                                <BsCalendarFill className='iconCol'></BsCalendarFill>
+                                <h1 className='text-white iconCol'>{blogs.date}</h1>
+                                <FaUser className='ml-5 iconCol'></FaUser>
+                                <h1 className='text-white iconCol'>{blogs.author}</h1>
+                                <BsFillEyeFill className='ml-5 iconCol'></BsFillEyeFill>
+                                <h1 className='text-white iconCol'>{blogs.view}</h1>
                             </div>
 
 
                             <img className='imgMegar' src={blogs.img} alt="blogs" />
                             <div className="card-body">
 
-                                <p className='blogDescription'>{blogs.description}</p>
+                                <p className='blogDescription text-white'>{blogs.description.slice(0, 200)} .....</p>
                                 <div className="card-actions justify-start">
 
                                     <button onClick={() => handleRouting(blogs._id)} className="bg-orange-500 hover:bg-orange-600 text-white text-lg  py-2 px-4 border border-orange-500 rounded z-0">Read More</button>

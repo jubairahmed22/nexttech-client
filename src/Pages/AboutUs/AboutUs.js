@@ -74,6 +74,7 @@ const AboutUs = () => {
     },[])
     return (
         <div>
+        <div className='max-w-[1345px]  mx-auto'>
             {
                  loading? <ViewSpin></ViewSpin> :<div className=''>
                  <div className='grid lg:grid-cols-2 place-items-center'>
@@ -100,8 +101,8 @@ const AboutUs = () => {
                          </div>
                      </div>
                      <div>
-                         <p className='firstImgPera'><span className='nexttechSpan'>NE<span className='xlogo'>X</span>TTECH ITC BD</span> is a sister concern of USA based IT school and IT Solution of NEXTTECH ITC.  NEXTTECH ITC BD is a leading software firm and IT training institute that follows American teaching and work standards. Our mission is to provide comprehensive IT training that prepares individuals for successful careers in the industry. We offer courses in different IT platforms, based on real job environments, to equip our students with practical skills and knowledge. Our expert and knowledgeable instructors are working successfully in the IT industry, bringing real-world experience and expertise to the classroom. As a software firm, we design and develop innovative solutions that enhance business productivity and create a positive impact in society. We are committed to delivering exceptional
-                             quality, reliability, and expertise to our clients and students alike.
+                         <p className='firstImgPera'><span className='nexttechSpan'>NE<span className='xlogo'>X</span>TTECH ITC</span> is a leading software firm and IT training institute that follows American teaching and work standards. Our mission is to provide comprehensive IT training that prepares individuals for successful careers in the industry. We offer courses in different IT platforms, based on real job environments, to equip our students with practical skills and knowledge. Our expert and knowledgeable instructors are working successfully in the IT industry, bringing real-world experience and expertise to the classroom. As a software firm, we design and develop innovative solutions that enhance business productivity and create a positive impact in society. We are committed to delivering exceptional
+                             quality, reliability, and expertise to our clients and students alike
                          </p>
                      </div>
      
@@ -190,7 +191,9 @@ const AboutUs = () => {
                                          <h1 className='dark:text-white text-indigo-900 text-2xl font-bold mt-10'>{slideSS.name}</h1>
                                          <p className='dark:text-white text-indigo-900 text-xl'>{slideSS.subName}</p>
      
-                                         <p className='dark:text-white text-indigo-900 text-md'>{slideSS.description}</p>
+                                         <p className='dark:text-white text-indigo-900 text-md'>
+                                            <blockquote className='blockquote'><span><FaQuoteLeft></FaQuoteLeft></span>{slideSS.description}<span><FaQuoteRight></FaQuoteRight></span></blockquote>
+                                         </p>
                                      </div>
                                  </div>
      
@@ -201,10 +204,12 @@ const AboutUs = () => {
                          }
                      </Swiper>
                  </div>
-                 <Footer></Footer>
+                
              </div>
             }
         
+        </div>
+        <Footer></Footer>
         </div>
     );
 };

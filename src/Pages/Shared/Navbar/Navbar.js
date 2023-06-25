@@ -9,7 +9,7 @@ const Navbar = () => {
 
     <div className=''>
 
-      <div className="navbar bg-base-100 dark:bg-gradient-to-r from-indigo-300 via-dark-800 to-dark  pb-5 pt-5 shadow navIndex max-w-[1345px] mx-auto">
+      <div className="navbar bg-base-100 dark:bg-gradient-to-r from-indigo-300 via-dark-800 to-dark  lg:pb-5 lg:pt-5 sm:pb-2 sm:pt-2 shadow navIndex max-w-full mx-auto">
         <div className="navbar-start">
 
           <div className="dropdown">
@@ -20,7 +20,7 @@ const Navbar = () => {
               <li className='font-bold text-2xl'><Link to='/'>Home</Link></li>
 
               <li className='font-bold text-lg'><Link to="/service">Service</Link></li>
-              <li className='font-bold text-lg'><Link to="/courses">Courses</Link></li>
+              <li className='font-bold text-lg'><Link to="/CourseLayout/allCourses">Courses</Link></li>
 
               <li className='font-bold text-lg'><Link to='/blogLayout'>Blog</Link></li>
               <li className='font-bold text-lg'><Link to="/aboutUs">About Us</Link></li>
@@ -34,7 +34,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">
             <li className='font-bold text-xl dark:text-white'><Link to='/'>Home</Link></li>
             <li className='font-bold text-xl dark:text-white'><Link to="/service">Service</Link></li>
-            <li className='font-bold text-xl dark:text-white'><Link to="/courses">Courses</Link></li>
+            <li className='font-bold text-xl dark:text-white'><Link to="/CourseLayout/allCourses">Courses</Link></li>
             <li className='font-bold text-xl dark:text-white'><Link to='/blogLayout'>Blog</Link></li>
             <li className='font-bold text-xl dark:text-white'><Link to='/aboutUs'>About Us</Link></li>
             <li className='font-bold text-xl dark:text-white'><Link to='/contact'>Contact</Link></li>

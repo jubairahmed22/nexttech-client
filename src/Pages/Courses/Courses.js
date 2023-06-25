@@ -86,10 +86,10 @@ const SeminarData = [
 const Courses = () => {
 
 
-    const [courses, setCourses] = useState([]);
+    const [courses, setCourses] = useState([]);  
     useEffect(() => {
-
-        fetch('https://server-nexttech.vercel.app/courses')
+        // https://server-nexttech-h6uhrs8ll-bnexttechitc-gmailcom.vercel.app/courses
+        fetch('CourseMainData.json')
 
             .then(res => res.json())
             .then(data => setCourses(data))
@@ -109,17 +109,17 @@ const Courses = () => {
         const course = event.target.elements.course.value;
       
         const formData = new FormData();
-        formData.append('from', 'cnexttechitc@gmail.com');
-        formData.append('to', 'cnexttechitc@gmail.com');
+        formData.append('from', 'infonexttechitcus@gmail.com');
+        formData.append('to', 'infonexttechitcus@gmail.com');
         formData.append('subject', 'Message From SEMINAR-STUDENTS(NEXTTECHITC)');
         formData.append('text', `Name: ${name}\nEmail: ${email}\nCourse: ${course}\nPhone: ${phone}\nAddress: ${address}`);
       
         axios({
           method: 'post',
-          url: 'https://api.mailgun.net/v3/sandbox1222c277fe274f1980d191e295af587c.mailgun.org/messages',
+          url: 'https://api.mailgun.net/v3/sandbox97c0ccacea3d492c89ffda76258a09c2.mailgun.org/messages',
           auth: {
             username: 'api',
-            password: '80ae86160fcc88d85bb02c98efbac90e-181449aa-fbdc4735'
+            password: 'bae1ce8de25cff6e2c4abfddf892e08c-135a8d32-f14af332'
           },
           data: formData,
           headers: { 'Content-Type': 'multipart/form-data' }
@@ -152,8 +152,8 @@ const Courses = () => {
         <div>
             {
                 loading? <ViewSpin></ViewSpin> :
-                <div>
-                <div className=''>
+                <div className='max-w-[1345px]  mx-auto '>
+                {/* <div className=''>
                     <Swiper
                         pagination={{
                             dynamicBullets: true,
@@ -174,10 +174,10 @@ const Courses = () => {
     
                         </SwiperSlide>
                     </Swiper>
-                </div>
+                </div> */}
                 <div className='pt-10'>
     
-                    <h1 className='OurCourse  text-center mt-20 mb-20'>Our Courses</h1>
+                    {/* <h1 className='OurCourse  text-center mt-20 mb-20'>Our Courses</h1>
                     <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 place-items-center mt-10 '>
                         {
                             courses.length === 0 ? <div><SpinLoading /></div> : courses.map(course =>
@@ -197,9 +197,9 @@ const Courses = () => {
                                     </div>
                                 </Link>
                             )}
-                    </div>
+                    </div> */}
                     <div>
-                        <div className="  ">
+                        <div className=" ">
                             <div className="hero-content flex-col lg:flex-row">
                                 <img className='imgCardIndian rounded' src='https://i.ibb.co/867vBTw/group-four-indian-teen-male-students-classmates-spend-time-together.jpg' alt="" />
                                 <div className='grid lg:grid-cols-2 gap-10 cardIndianMejar mt-10'>
@@ -224,7 +224,7 @@ const Courses = () => {
                                     </div>
                                     <div>
                                         <h1 className='cardIndianHeader ml-5'>Life-time support</h1>
-                                        <p className='cardIndianPera mt-5 ml-5'>NextTech ITC BD offers life-time and 24/7 time support for
+                                        <p className='cardIndianPera mt-5 ml-5'>NextTech ITC offers life-time and 24/7 time support for
                                             its students by skilled instructors.
                                             We are committed to this matter for all our students.</p>
                                     </div>
@@ -256,7 +256,7 @@ const Courses = () => {
                             <p className='modalItemPera lg:pl-24 lg:pr-32 pt-5'>You may have many questions about NextTech ITC Institute enrollment,
                                 course options, and benefits. Weekly free course-based seminars answer your queries.
                                 Course mentors can advise you during these sessions.</p>
-                            <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5 mt-5 place-items-center'>
+                            <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5 mt-5 place-items-center'>
     
                                 {/* section join seminar start */}
     
@@ -329,7 +329,7 @@ const Courses = () => {
                         </div>
                     </div>
                 </div>
-                <Footer></Footer>
+               
             </div>
             }
        

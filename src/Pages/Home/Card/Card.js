@@ -6,7 +6,7 @@ const Card = () => {
   const [cetagory, setcetagory] = useState([]);
   useEffect(() => {
 
-    const url = `https://server-nexttech.vercel.app/blogCategory`;
+    const url = `https://server-nexttech-h6uhrs8ll-bnexttechitc-gmailcom.vercel.app/blogCategory`;
 
 
     fetch(url)

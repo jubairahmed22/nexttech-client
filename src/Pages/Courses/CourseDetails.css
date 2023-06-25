@@ -11,8 +11,8 @@
 }
 
 .courseImg {
-    height: 420px;
-    width: 680px
+    height: 320px;
+    width: 100%;
 }
 
 .courseName {
@@ -135,6 +135,17 @@
     color: #666666;
 
 }
+.left{
+    
+   
+    width: 600px;
+}
+.right{
+   
+    
+    width: 500px;
+    
+}
 
 @media only screen and (max-width:588px) {
 
@@ -155,7 +166,8 @@
 
 }
 .OutlilnePera{
-    width: 350px;
+    width: 250px;
+    font-size: 20px;
 }
 .courseDescriptionTwo{
     margin-top: 510px;
@@ -169,6 +181,17 @@
     width: 350px;
     
 }
+
+.tick-mark {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: 0.5em;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%238bc34a"%3E%3Cpath d="M9 16.2L4.8 12c-.6-.6-.6-1.6 0-2.2.6-.6 1.6-.6 2.2 0l2.5 2.5 6.7-6.7c.6-.6 1.6-.6 2.2 0 .6.6.6 1.6 0 2.2l-8.8 8.8c-.6.5-1.6.5-2.2-.1z"/%3E%3C/svg%3E');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
 .logoGrid{
     display: flex;
     
@@ -180,11 +203,28 @@
     width: 350px;
 }
 .courseDescriptionFive{
-    width: 350px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: justify;
+    font-family: 'Heebo', sans-serif;
+    color: #1E2452;
 }
 .formPera{
     width: 350px;
 }
+
+.leftIcon{
+    width: 326px;
+   height: 326px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(38,0,66);
+  background: linear-gradient(90deg, rgba(38,0,66,1) 0%, rgba(82,1,140,1) 44%, rgba(99,0,171,1) 100%);
+  transition: all 0.2s ease-in-out;  
+}
+
   }
   
   @media only screen and (min-width: 588px) and (max-width:992px) {

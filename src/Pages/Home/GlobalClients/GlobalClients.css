@@ -1,31 +1,98 @@
- .mainBody{
-  height: 20px;
- }
- .listItems {
-    display: flex;
-  }
-  .wrapper{
-    width: 1300px;
-    overflow-x: hidden;
-  }
-  
-  .list {
 
-    font-size: 5vw;
-   
-   
+
+
+.list {
+  display: flex;
+  font-size: 5vw;
+  -webkit-animation: loop 10s infinite linear;
+  animation: loop 10s infinite linear;
+}
+
+@keyframes loop {
+  100% {
+    -webkit-transform: translateX(-300%);
+    transform: translateX(-300%);
+  }
+}
+
+
+.listMain{
+  display: flex;
+  white-space: nowrap;
+}
+
+
+
+  .courseBox{
+    width: full;
+    height: 500px;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+  }
+  .boxText{
+    font-size: 100px;
+    font-weight: 900;
+  }
+  .imgSize{
+    width: 100px;
+    height: 100px;
     display: flex;
-    font-size: 5vw;
-   
-    -webkit-animation: loop 10s infinite linear;
-    animation: loop 10s infinite linear;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .mainCard{
+    width: 326px;
+   height: 326px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(38,0,66);
+  background: linear-gradient(90deg, rgba(38,0,66,1) 0%, rgba(82,1,140,1) 44%, rgba(99,0,171,1) 100%);
+  transition: all 0.2s ease-in-out;  
+}
+.mainCard:hover{
+color: #fdec6e;
+  text-shadow:0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+ 
+}
+  
+
+  .swiper {
+    width: 100%;
+    height: 100%;
   }
   
-  .item {color: #000000;}
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
   
-  @keyframes loop {
-    100% {
-      -webkit-transform: translateX(-100%);
-      transform: translateX(-100%);
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media only screen and (max-width:588px) {
+    .mainHading{
+      line-height: 108px;
+      font-size: 20px;
     }
-  }
+   }
+   
+   @media only screen and (min-width: 588px) and (max-width:992px) {
+   
+ 
+   }
+  

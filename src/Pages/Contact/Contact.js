@@ -33,17 +33,17 @@ const Contact = () => {
         const address = event.target.elements.address.value;
       
         const formData = new FormData();
-        formData.append('from', 'cnexttechitc@gmail.com');
-        formData.append('to', 'cnexttechitc@gmail.com');
-        formData.append('subject', 'Message From NEXTTECHITC-CLIENT');
+        formData.append('from', 'infonexttechitcus@gmail.com');
+        formData.append('to', 'infonexttechitcus@gmail.com');
+        formData.append('ceta', 'Message From NEXTTECHITC-CLIENT');
         formData.append('text', `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nAddress: ${address}`);
       
         axios({
           method: 'post',
-          url: 'https://api.mailgun.net/v3/sandbox1222c277fe274f1980d191e295af587c.mailgun.org/messages',
+          url: 'https://api.mailgun.net/v3/sandbox97c0ccacea3d492c89ffda76258a09c2.mailgun.org/messages',
           auth: {
             username: 'api',
-            password: '80ae86160fcc88d85bb02c98efbac90e-181449aa-fbdc4735'
+            password: 'bae1ce8de25cff6e2c4abfddf892e08c-135a8d32-f14af332'
           },
           data: formData,
           headers: { 'Content-Type': 'multipart/form-data' }
@@ -70,12 +70,37 @@ const Contact = () => {
           setLoading(false);
       },300)
     },[])
+
+    const [cetagory, setcetagory] = useState([]);
+    useEffect(() => {
+  
+      const url = "CourseDetailsDataTwo.json";
+  
+  
+      fetch(url)
+        .then(res => res.json())
+        .then(data => {
+  
+          setcetagory(data);
+        })
+    }, [])
+
+console.log(cetagory);
+
     return (
-        <div>
+        <div className=''>
             {
                  loading? <ViewSpin></ViewSpin> :
                  <div className=' '>
-            <Swiper
+                     <div className='ContactAllBackground  rounded-xl'>
+                        <div className='max-w-[1150px] h-56  mx-auto '>
+                        <h1 className="ContactHeadingMainOne text-left pt-48 lg:mt-20"><span className='text-orange-500'>Let's</span> get in touch!</h1>
+
+                        </div>
+                {/* <h1 className='text-center pt-20  text-white lg:mt-20'>Featured <span className='text-orange-600'>Courses</span>
+                </h1> */}
+             </div>
+            {/* <Swiper
                 pagination={{
                     dynamicBullets: true,
                 }}
@@ -84,7 +109,7 @@ const Contact = () => {
             >
                 <SwiperSlide>
                     <div className="contactImg h-96 overflow-hidden">
-                        <img className='w-full h-full object-cover object-top' src='https://i.ibb.co/DpPqmRq/contact-Two.jpg' alt="" />
+                        <img className='w-full h-full' src='https://i.ibb.co/DpPqmRq/contact-Two.jpg' alt="" />
                     </div>
                     <div className="absolute flex justify-end transform -translate-y-1/2 slideHeadingTwo">
                         <h1 className="textHeading mb-20"><span className='text-orange-500'>Let's</span> get in touch!</h1>
@@ -92,10 +117,9 @@ const Contact = () => {
 
 
                 </SwiperSlide>
-            </Swiper>
-
-
-            <div className='grid lg:grid-cols-2 emailCard p-10 mt-20'>
+            </Swiper> */}
+          <div className='max-w-[1345px]  mx-auto'>
+          <div className='grid lg:grid-cols-2 emailCard p-10 mt-20'>
                 <div>
                     <h1 className='emialcardText'>Don't Hesitate to
                         <br />
@@ -156,6 +180,7 @@ const Contact = () => {
                         <br />Email: info@nexttechitcbd.com</p>
                 </div>
             </div>
+          </div>
             <Footer></Footer>
         </div>
             }

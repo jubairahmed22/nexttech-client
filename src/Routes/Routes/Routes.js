@@ -17,6 +17,9 @@ import Login from "../../Pages/Login/Login";
 import Service from "../../Pages/Service/Service";
 import NotFound from "../../Pages/Shared/Navbar/NotFound";
 import PrivacyPlicy from "../../Pages/PrivacyPolicy/PrivacyPlicy";
+import MainCourse from "../../Pages/Courses/MainCourse";
+import CourseLayout from "../../Layout/CourseLayout";
+import AllCourse from "../../Pages/Courses/LayoutCourse/AllCourse";
 
 
 const router = createBrowserRouter([
@@ -45,9 +48,10 @@ const router = createBrowserRouter([
                 element: <CourseDetails></CourseDetails>,
 
 
-                loader: ({ params }) => fetch(`https://server-nexttech.vercel.app/coursedetails/${params.id}`)
+                loader: ({ params }) => fetch(`https://server-nexttech-h6uhrs8ll-bnexttechitc-gmailcom.vercel.app/coursedetails/${params.id}`)
 
             },
+         
             {
                 path: '/aboutUs',
                 element: <AboutUs></AboutUs>
@@ -56,6 +60,7 @@ const router = createBrowserRouter([
                 path: '/contact',
                 element: <Contact></Contact>
             },
+          
             {
                 path: '/privacy',
                 element: <PrivacyPlicy></PrivacyPlicy>
@@ -80,13 +85,43 @@ const router = createBrowserRouter([
                 path: '/blogLayout/:id',
                 element: <AllBlog></AllBlog>,
 
-                loader: ({ params }) => fetch(`https://server-nexttech.vercel.app/blogs/${params.id}`)
+                loader: ({ params }) => fetch(`https://server-nexttech-h6uhrs8ll-bnexttechitc-gmailcom.vercel.app/blogs/${params.id}`)
 
             },
             {
                 path: '/blogLayout/details/:id',
                 element: <BlogDetails></BlogDetails>
             },
+            {
+                path: '*',
+                 element: <NotFound></NotFound>
+            }
+
+
+
+        ]
+    },
+    {
+        path: '/CourseLayout',
+        element: <CourseLayout></CourseLayout>,
+        children: [
+            {
+                path: '/CourseLayout',
+                element: <CourseLayout></CourseLayout>
+            },
+            {
+                path: '/CourseLayout/allCourses',
+                element: <AllCourse></AllCourse>
+            },
+            {
+                path: '/CourseLayout/mainCourse/:id',
+                element: <MainCourse></MainCourse>,
+                loader: ({ params }) => fetch(`https://server-nexttech-h6uhrs8ll-bnexttechitc-gmailcom.vercel.app/course/${params.id}`)
+
+            },
+
+
+         
             {
                 path: '*',
                  element: <NotFound></NotFound>

@@ -1,5 +1,5 @@
 .imgSizeTool {
-    width: 1440px;
+    width: 1340px;
     transform-style: preserve-3d;
     transform: perspective(800px);
 }
@@ -8,9 +8,42 @@
   font-weight: bold;
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 35px;
 }
+
+.HomeAllBackground {
+  position: relative;
+  background-image: url(https://i.ibb.co/3W1bhhg/346164527-924854965477094-27115295209463525-n.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+
+.HomeAllBackground::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0.8;
+  border-radius: 12px;
+  /* Adjust the opacity as needed */
+}
+
+.HeadingMainOne{
+  position: relative;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 800;
+  font-size: 90px;
+  line-height: 30px;
+  color: white;
+  z-index: 1;
+}
+
 
 @-webkit-keyframes text-flicker-out-glow {
   0% {
@@ -272,8 +305,12 @@
          
        
             text-transform: none;
+ text-align: left;
+
+/* margin-right: 450px; */
          
 }
+
 
 .imgOverlyOut {
     z-index: -1;
@@ -305,13 +342,38 @@
     font-weight: bold;
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 94px;
     line-height: 75px;
     /* identical to box height */
 
 
     color: #FFFFFF;
     top: 30%;
+}
+
+.slideButton{
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  background: rgb(38,0,66);
+  background: linear-gradient(90deg, rgb(100, 69, 186) 0%, rgba(82,1,140,1) 44%, rgba(99,0,171,1) 100%);
+  padding: 5px;
+  border-radius: 60px;
+  font-size: 18px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;  
+ 
+}
+.slideButton:hover{
+  color: #ffffff;
+  text-shadow:0px 0px 30px #fffef6;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.3s ease-in;
+
+ 
 }
 
 .slideOne {
@@ -321,13 +383,29 @@
 .slideFont {
     font-family: 'Heebo', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 47px;
-    letter-spacing: 0.13em;
-
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    
+    text-align: left;
+    margin-top: 30px;
     color: #FFFFFF;
 
+}
+
+.thirdText{
+  font-family: 'Heebo', sans-serif;
+  font-style: normal;
+  text-align: left;
+  font-size: 40px;
+  line-height: 52px;
+  position: absolute;
+/* identical to box height */
+z-index: 1;
+letter-spacing: 0.04em;
+  margin-top: 20px;
+  color: white;
+  font-weight: 400;
 }
 
 .clientDot {
@@ -337,7 +415,7 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 18px;
-
+   
     color: #FFFFFF;
 
 }
@@ -484,24 +562,38 @@
 
 @media only screen and (max-width:588px) {
  .textMainAnim{
-margin-top: 50px;
+margin-top: 10px;
+
+
  }  
+ .HomeAllBackground{
+  width: 500px;
+  height: 250px;
+ }
+ .HeadingMainOne{
+  font-size: 36px;
+  text-align: center;
+  margin-right: 120px;
+ }
+ .textFourth {
+  display: none;
+ }
     
     .homeTwoText {
-        margin-top: 70px;
+        margin-top: 100px;
         font-family: 'Heebo', sans-serif;
         font-weight: bold;
         font-style: normal;
         font-weight: 700;
         font-size: 28px;
-        margin-left: 30px;
+       
         text-align: center;
-        line-height: 25px;
+        line-height: 15px;
         /* identical to box height */
 
 
         color: #FFFFFF;
-        top: 30%;
+        top: 10%;
     }
 
     .slideFont {
@@ -516,7 +608,7 @@ margin-top: 50px;
         color: #FFFFFF;
 
     }
-
+    
     .clientDot {
         font-family: 'Heebo', sans-serif;
 
@@ -530,6 +622,22 @@ margin-top: 50px;
        
 
     }
+    .thirdText{
+      font-family: 'Heebo', sans-serif;
+      font-style: normal;
+      text-align: left;
+      font-size: 15px;
+    /* identical to box height */
+      margin-left: 20px;
+      color: white;
+      font-weight: 400;
+     display: none;
+    }
+    .textFourth{
+      margin-left: 20px;
+      position: absolute;
+      z-index: 1;
+    }
 }
 
 @media only screen and (min-width: 588px) and (max-width:992px) {
@@ -542,12 +650,33 @@ margin-top: 50px;
         font-size: 40px;
         line-height: 75px;
         /* identical to box height */
-        margin-left: 20px;
+        margin-left: 80px;
 
         color: #FFFFFF;
-        top: 10%;
+        top: 30%;
     }
-
+    .textFourth {
+      display: none;
+    }
+    .thirdText{
+      font-family: 'Heebo', sans-serif;
+      font-style: normal;
+      text-align: center;
+      font-size: 20px;
+      margin-left: 80px;
+      
+      display: none;
+    /* identical to box height */
+    
+     letter-spacing: 0.04em;
+      
+      color: white;
+      font-weight: 400;
+    }
+    .textMainAnim {
+      margin-left: 230px;
+    }
+   
 
     .slideFont {
         font-family: 'Heebo', sans-serif;

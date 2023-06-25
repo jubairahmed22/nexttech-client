@@ -1,0 +1,1275 @@
+[
+    {
+        "id": "1",
+        "name": "Software Testing ",
+        "img": "https://i.ibb.co/2Ykx1VS/Whats-App-Image-2023-03-30-at-21-11-56.jpg",
+        "description": "The software testing course aims to provide a comprehensive understanding of the principles and techniques used in software testing. It covers the different types of testing, such as functional, performance, and security testing, and teaches students how to plan, design, and execute tests effectively. The course is designed to equip aspiring testers with the skills and knowledge needed to ensure the quality of software applications.",
+        "OnlineCourseDuration": "4 months",
+        "OfflineCourseDuration": "4 months",
+        "OnlineEnrolled": "480",
+        "OfflineEnrolled": "620",
+        "rating": "4.8/5",
+        "skill1": "Manual Testing",
+        "skill2": "Software Testing Processes",
+        "skill3": "Java Programming",
+        "skill4": "Selenium Automation",
+        "skill5": "Cucumber BDD Framework",
+        "skill6": "Cloud Applications",
+        "skill7": "API Testing using Postman",
+        "skill8": "Interview Preparation and Grooming.",
+        "skill9": "Regression testing",
+        "workOne":"As a Quality Assurance (QA) Analyst, it would be your job to make sure that software products are good in general. ",
+        "workTwo":"Test Automation Engineers are in charge of automating test processes to make them more accurate and efficient.",
+        "softNameOne":"Cucumber",
+        "softNameTwo":"Selenium",
+        "softNameThree":"Security Testing Tools",
+        "softImgOne":"https://i.ibb.co/rxpwfF7/346131296-211922798301255-8475697412060726681-n.png",
+        "softImgTwo":"https://i.ibb.co/9cq7Z5L/346111152-1943632419336854-874137855515034117-n.png",
+        "softImgThree":"https://i.ibb.co/N28BFf4/Security-Testing-Tools.png",
+        "possionsWork": [
+            {
+                "works":[
+                    "Quality Assurance Analyst/Engineer",
+                    "Test Automation Engineer",
+                    "Manual Tester",
+                    "Performance Tester",
+                    "Security Tester",
+                    "User Acceptance Tester",
+                    "Test Lead/Manager"
+                ]
+            }
+        ],
+        "topics": [
+            {
+                "name": "Module 1: Software Testing Fundamentals",
+                "subtopics": [
+                    "Testing Environments and Tools",
+                    "Manual vs Automation Testing",
+                    "Software Requirements and Architectural Design",
+                    "Software Development Life Cycle (SDLC) and Software Testing Life Cycle (STLC)"
+                ]
+            },
+            {
+                "name": "Module 2: Manual Testing",
+                "subtopics": [
+                    "Testing Techniques and Types of Testing",
+                    "Test Plan, Test Strategy, and Test Case",
+                    "Defect Life Cycle and Bug Tracking using JIRA",
+                    "Basic SQL Concepts and Hands-on Experience with JIRA"
+                ]
+            },
+            {
+                "name": "Module 3: Java Basics",
+                "subtopics": [
+                    "Introduction to Java and Object-Oriented Programming (OOP)",
+                    "Class, Object, Constructor, and Method",
+                    "Variables, Operators, and Data Types",
+                    "Control Statements, Loops, and Strings"
+                ]
+            },
+            {
+                "name": "Module 4: Advanced Java Concepts",
+                "subtopics": [
+                    "Access Modifiers, Inheritance, and Polymorphism",
+                    "Method Overloading, Parameters, and Return Types",
+                    "Arrays, Java Collections, and Generics",
+                    "Exception Handling and Best Practices"
+                ]
+            },
+            {
+                "name": "Module 5: Selenium Automation Testing",
+                "subtopics": [
+                    "Introduction to Selenium and its Features/Variants",
+                    "WebDriver Interface and Architecture",
+                    "Automation Test Environment Setup using Maven and POM",
+                    "Web Element Locators and Selenium Commands"
+                ]
+            },
+            {
+                "name": "Module 6: Cucumber BDD Framework",
+                "subtopics": [
+                    "Introduction to Behavior-Driven Development (BDD) and Cucumber",
+                    "Gherkin Language, Feature, and Feature File",
+                    "Step Definitions, Hooks, and Test Runners",
+                    "Integrating Cucumber with Selenium and Testing"
+                ]
+            },
+            {
+                "name": "Module 7: Selenium and Cucumber Project",
+                "subtopics": [
+                    "Building a Real-Time Industry Framework from Scratch",
+                    "Writing BDD Test Cases and Executing using Selenium and Cucumber",
+                    "Handling Web Elements, Alerts, Frames, and Windows",
+                    "Best Practices and Test Reporting using Jenkins and Git"
+                ]
+            },
+            {
+                "name": "Module 8: Cloud Applications and Interview Preparation",
+                "subtopics": [
+                    "Distributed Version Control using Git and GitHub",
+                    "Continuous Integration and Deployment (CI/CD) using Jenkins",
+                    "Overview of when to use different types of associations in web development projects",
+                    "End-to-End API Testing using Postman"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Cyber Security",
+        "img": "https://i.ibb.co/d2Cbrw5/technology-security-concept-safety-digital-protection-system.jpg",
+        "description": "The goal of our Cyber Security course is to teach you everything you need to know about protecting digital systems, networks, and data against cyber threats. The course covers a wide range of topics, such as risk assessment, threat modeling, vulnerability management, network security, cryptography, incident response, and more.Our professional teachers will walk you through real-world scenarios and case studies to help you learn skills that you can use at work. You will also get hands-on experience with tools and tactics used by the business to protect against cyber assaults.",
+        "OnlineCourseDuration": "4 months",
+        "OfflineCourseDuration": "4 months",
+        "OnlineEnrolled": "90",
+        "OfflineEnrolled": "200",
+        "rating": "4.4/5",
+        "skill1": "Network security",
+        "skill2": "Encryption and cryptography",
+        "skill3": "Vulnerability ",
+        "skill4": "assessment",
+        "skill5": "Penetration testing",
+        "skill6": "Cloud Security",
+        "skill7": "Mobile Security",
+        "skill8": "Regulatory compliance and governance",
+        "skill9": "Cyber threats",
+        "workOne":"A cyber engineer is the key information and internet security magician for any company. Personal information like bank accounts can be lost by being a little careless or not making the right plans. Because of this, companies all over the world are hiring more people to work on safety. So, if you take a Cybersecurity training, a skilled ethical hacker or Cyber Security Specialist can work remotely at any company outside of the country or country. In this way, the Nexttech ITC Institute's Career Placement Department is a big help to pupils.",
+        "workTwo":"At the moment, cyber experts are taking a chance on freelancing so they can work when they want and make a good living. Every day, there are a lot of cybersecurity jobs posted on sites like Freelancer.com, Fiverr, Upwork, Hacker One, Bugcrowd, and Open Bug Bounty by people from all over the world. So if you know a lot about IT security or are a good hacker, you can also be a great freelancer. ",
+        "softNameOne":"Kali Linux",
+        "softNameTwo":"VMware",
+        "softImgOne":"https://i.ibb.co/rsngq9g/Kali-Linux.png",
+        "softImgTwo":"https://i.ibb.co/B48s2z7/VMware.png",
+        "possionsWork": [
+            {
+                "works":[
+                    "Cybersecurity Analyst/Engineer",
+                    "Security Operations Center (SOC) Analyst",
+                    "Penetration Tester/Ethical Hacker",
+                    "Security Consultant",
+                    "Security Architect",
+                    "Incident Responder",
+                    "Security Auditor/Compliance Officer"
+                ]
+            }
+        ],
+        "topics": [
+            {
+                "name": "Module 1: Introduction",
+                "subtopics": [
+                    "Overview of cyber security",
+                    "Prerequisites for this course",
+                    "Course objectives",
+                    "Importance of cyber security"
+                ]
+            },
+            {
+                "name": "Module 2: Basic Hacking Terms",
+                "subtopics": [
+                    "Hacker types and techniques",
+                    "White, Grey, and Black Hat Hackers",
+                    "Common Hacking Techniques",
+                    "Importance of Understanding Hacking Terminology"
+                ]
+            },
+            {
+                "name": "Module 3: Environment Setup",
+                "subtopics": [
+                    "Introduction to Environment Setup",
+                    "Virtual Box and VMware",
+                    "BIOS Setup",
+                    "Importance of Environment Setup"
+                ]
+            },
+            {
+                "name": "Module 4: Information Gathering",
+                "subtopics": [
+                    "Introduction & Importance  of Information Gathering",
+                    "Obtaining IP and Physical Addresses",
+                    "Whatweb Stealthy Scan and Gathering Emails",
+                    "Finding Usernames with Sherlock"
+                ]
+            },
+            {
+                "name": "Module 5: Scanning",
+                "subtopics": [
+                    "TCP and UDP Scanning with Netdiscover",
+                    "Scanning with Nmap",
+                    "Filtering Port Range and Output of Scan Results with Nmap",
+                    "Decoys and Packet Fragmentation with Nmap"
+                ]
+            },
+            {
+                "name": "Module 6: Threat and vulnerability analysis",
+                "subtopics": [
+                    "Introduction to Threat and Vulnerability Analysis",
+                    "Common Threats",
+                    "Trust and Backdoors",
+                    "Importance of Threat and Vulnerability Analysis"
+                ]
+            },
+            {
+                "name": "Module 7: Encryption",
+                "subtopics": [
+                    "Introduction to Cryptography",
+                    "Types of Encryption",
+                    "SSL and TLS",
+                    "End-to-End Encryption and Steganography"
+                ]
+            },
+            {
+                "name": "Module 8: Operating System Security",
+                "subtopics": [
+                    "Windows 10 Privacy",
+                    "Pure Security-Focused Operating Systems",
+                    "Anonymity-Focused Operating Systems"
+                ]
+            },
+            {
+                "name": "Module 9: Security Bugs And vulnerabilities",
+                "subtopics": [
+                    "Operating System Patching",
+                    "Browser Extension Updates",
+                    "Risks of Delaying Updates",
+                    "Best Practices for Updating"
+                ]
+            },
+            {
+                "name": "Module 10: Social Engineering attack and remedy",
+                "subtopics": [
+                    "Identity Verification and Registration",
+                    "Behavioural Security Control against Social Threats",
+                    "Technical Security Control against Social Threats",
+                    "Security Culture and Awareness"
+                ]
+            },
+            {
+                "name": "Module 11: Web Application penetration testing",
+                "subtopics": [
+                    "Web Application Scanning",
+                    "Exploitation Technique",
+                    "Hydra Brute-Force",
+                    "Best Practices for Web Application Security"
+                ]
+            },
+            {
+                "name": "Module 12: Gaining Access to android devices",
+                "subtopics": [
+                    "Android Virtual Machine Installation",
+                    "Gaining Access with Android Meterpreter",
+                    "Evil Droid",
+                    "Ngrok"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Full Stack Web Development ",
+        "img": "https://i.ibb.co/y6b47BY/417-Z-30-Converted.jpg",
+        "description": "In this exciting course, you'll discover the fundamental building blocks of web development, including HTML, CSS, and JavaScript. From there, you'll explore cutting-edge tools and frameworks like React, Node.js, and MongoDB to create stunning, interactive web applications. With our expert guidance, you'll develop the skills and knowledge needed to build your own dynamic web projects from scratch!",
+        "OnlineCourseDuration": "6 months",
+        "OfflineCourseDuration": "6 months",
+        "OnlineEnrolled": "180",
+        "OfflineEnrolled": "350",
+        "rating": "5/5",
+        "skill1": "HTML",
+        "skill2": "CSS",
+        "skill3": "Javascript",
+        "skill4": "React",
+        "skill5": "Node.js",
+        "skill6": "Express",
+        "skill7": "MongoDB",
+        "skill8": "Git",
+        "skill9": "RESTful API",
+        "workOne":"Web development agencies and companies that build and manage websites and web apps are always looking for full stack developers. Most of the time, these groups need developers who can work on both the client-side (frontend) and server-side (backend) of a project. As a full stack developer in this area, you can help build web projects from start to finish, making sure that the frontend and backend parts work well together.",
+        "workTwo":"Full stack writers are often valued by startups, especially those with few resources because they can do a lot of different things. Startups usually need developers who can handle a wide range of tasks, such as creating user interfaces and building a solid server infrastructure. As a full stack developer in a startup, you can have a big effect on the development of the product by working on different technologies and working closely with the team to deliver features quickly and iterate.",
+        "softNameOne":"Reactjs",
+        "softNameTwo":"Nodejs",
+        "softImgOne":"https://i.ibb.co/S3sjL38/258616656-573766173695607-213289417714525520-n.png",
+        "softImgTwo":"https://i.ibb.co/JtYvMRC/nodejs.png",
+        "possionsWork": [
+            {
+                "works":[
+                    "Full Stack Developer/Engineer",
+                    "Web Developer",
+                    "Software Engineer",
+                    "Application Developer",
+                    "Startup Developer"
+                ]
+            }
+        ],
+        "topics": [
+            {
+                "name": "Module 1: Introduction To Web Development",
+                "subtopics": [
+                    "Web development refers to the creation and maintenance of websites and web applications.",
+                    "HTML, CSS, and JavaScript are the basic building blocks of a web page.",
+                    "HTML is used to create the structure of a web page, CSS is used to style it, and JavaScript is used to add interactivity.",
+                    "Understanding web development is important for creating engaging and functional websites."
+                ]
+            },
+            {
+                "name": "Module 2: Setting up the Development Environment",
+                "subtopics": [
+                    "Setting up a development environment involves installing the necessary software and tools required for web development.",
+                    "JavaScript, React, Node.js, and MongoDB are commonly used technologies in web development.",
+                    "The installation of dependencies and tools is necessary to ensure that the development environment is functional and stable.",
+                    "Having a properly configured development environment is essential for efficient and effective web development."
+                ]
+            },
+            {
+                "name": "Module 3: HTML, CSS",
+                "subtopics": [
+                    "HTML is a markup language used for creating the structure and content of a web page.",
+                    "The basic syntax and structure of HTML involve using tags to define elements on a web page",
+                    "CSS is a styling language used for creating the visual layout of a web page.",
+                    "Common HTML tags and CSS properties are essential for designing and formatting a web page."
+                ]
+            },
+            {
+                "name": "Module 4: Bootstrap",
+                "subtopics": [
+                    "Bootstrap is a popular front-end development framework used for designing responsive and mobile-first websites",
+                    "Bootstrap provides a library of CSS styles and pre-built components that can be used to speed up development",
+                    "Including Bootstrap in a web page involves adding the framework's CSS and JavaScript files to the HTML",
+                    "Knowing how to use Bootstrap can help streamline the development process and create visually appealing websites."
+                ]
+            },
+            {
+                "name": "Module 5: Tailwind",
+                "subtopics": [
+                    "Tailwind is a utility-first CSS framework used for quickly and efficiently designing and building custom user interfaces.",
+                    "Tailwind provides a comprehensive set of pre-defined utility classes that can be used to style HTML elements.",
+                    "Including Tailwind in a web page involves adding the framework's CSS file to the HTML.",
+                    "Knowing how to use Tailwind can help speed up the development process and create consistent and responsive user interfaces."
+                ]
+            },
+            {
+                "name": "Module 6: JavaScript",
+                "subtopics": [
+                    "JavaScript is a programming language used to add interactivity to web pages.",
+                    "The basic syntax and structure of JavaScript involve using variables, functions, and control flow statements to manipulate data and respond to events.",
+                    "JavaScript can be used for creating animations, validating form inputs, and interacting with APIs, among other things.",
+                    "Understanding JavaScript is essential for creating dynamic and interactive web pages."
+                ]
+            },
+            {
+                "name": "Module 7: Advanced JavaScript",
+                "subtopics": [
+                    "Advanced programming concepts in JavaScript include working with arrays, objects, and loops.",
+                    "The Document Object Model (DOM) is a programming interface for interacting with HTML and CSS using JavaScript.",
+                    "Manipulating the DOM using JavaScript allows for dynamically updating and changing the content and style of a web page.",
+                    "Knowing advanced JavaScript concepts can help create more complex and feature-rich web applications."
+                ]
+            },
+            {
+                "name": "Module 8: React",
+                "subtopics": [
+                    "React is a popular JavaScript library used for building user interfaces.",
+                    "Setting up a React project involves installing the necessary dependencies and configuring the development environment.",
+                    "React is based on the concept of components, which are reusable pieces of code that can be used to build complex user interfaces.",
+                    "Understanding React is essential for building scalable and efficient web applications."
+                ]
+            },
+            {
+                "name": "Module 9: Advanced JavaScript",
+                "subtopics": [
+                    "Advanced React concepts such as hooks, lifecycle methods, and conditional rendering.",
+                    "Introduction to popular React libraries such as React Router and Redux.",
+                    "How to handle forms and user input in React using controlled components.",
+                    "Best practices for managing state and designing reusable components in React."
+                ]
+            },
+            {
+                "name": "Module 10: Node.js",
+                "subtopics": [
+                    "Overview of Node.js, its features, and how it works.",
+                    "How to create a server with Node.js and use the core modules to interact with the file system and network.",
+                    "How to use the Express.js framework to create a RESTful API, handle routing, and implement middleware.",
+                    "Introduction to server-side templating and using third-party modules with Node.js."
+                ]
+            },
+            {
+                "name": "Module 11: MongoDB",
+                "subtopics": [
+                    "Overview of MongoDB and how it differs from traditional relational databases.",
+                    "How to create, read, update, and delete data in MongoDB using the Query API.",
+                    "Working with MongoDB drivers for Node.js and connecting to a database from a Node.js application.",
+                    "Introduction to data modeling in MongoDB and best practices for structuring data."
+                ]
+            },
+            {
+                "name": "Module 12: Introduction to Sequelize ORM and MySQL",
+                "subtopics": [
+                    "Basic concepts of Sequelize ORM and how it simplifies database access in Node.js applications.",
+                    "How to connect Sequelize with a MySQL database and define database models.",
+                    "Performing CRUD (create, read, update, delete) operations on a MySQL database using Sequelize.",
+                    "Introduction to data migrations and seeding data in a Sequelize and MySQL project."
+                ]
+            },
+            {
+                "name": "Module 13: Creating Database Models",
+                "subtopics": [
+                    "How to define database models in Sequelize and the different data types that can be used.",
+                    "Defining relationships between database models using Sequelize associations.",
+                    "Using Sequelize to create, read, update, and delete data from a database.",
+                    "Introduction to Sequelize hooks and instance methods for adding custom logic to model operations."
+                ]
+            },
+            {
+                "name": "Module 14: Defining Associations Between Models",
+                "subtopics": [
+                    "Types of associations in Sequelize and when to use them (one-to-one, one-to-many, many-to-many).",
+                    "How to define associations between models using Sequelize and create queries with associations.",
+                    "Best practices for designing database models with associations in Sequelize.",
+                    "Introduction to Sequelize migrations for modifying database schemas and data with code."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Graphic Design",
+        "img": "https://i.ibb.co/QNj7Jk3/5817156.jpg",
+        "description": "Graphic design is an essential aspect of modern communication. It involves the use of visual elements to convey information, ideas, and emotions. Whether it's creating logos, posters, social media graphics, or book covers, graphic design plays a critical role in shaping how we perceive and interact with the world around us. This course provides an introduction to the theory and practice of graphic design, with a focus on Adobe Photoshop, Illustrator, and InDesign. Students will learn essential design skills, tools, and techniques, as well as how to apply them to various projects.",
+        "OnlineCourseDuration": "3 months",
+        "OfflineCourseDuration": "3 months",
+        "OnlineEnrolled": "150",
+        "OfflineEnrolled": "250",
+        "rating": "4.5/5",
+        "skill1": "Adobe Photpshop",
+        "skill2": "Adobe Illustrator",
+        "skill3": "Adobe InDesign",
+        "skill4": "Typography basics",
+        "skill5": "color theory",
+        "skill6": "Basic grids",
+        "skill7": "Vector graphics",
+        "skill8": "Logo design",
+        "skill9": "branding theory",
+        "workOne":"A graphic designer is the artist who makes banners and posters. He or she starts by making a company's logo. So, the job of graphic design continues to grow in many companies around the world. So, if you've taken an Advanced Graphic Design training, you can get a remote job at any company in or out of the country. In this way, students are helped by the Career Placement Department of the Nexttech ITC",
+        "workTwo":"One study found that about 57% of people who work in the art and design fields are self-employed. Because a worker can also make a good living while working on their own. Graphic design jobs from all over the world are posted every day on different platforms, such as Fiverr, Upwork, and Legit. You can do well as a freelancer even if you are a graphic artist.",
+        "softNameOne":"Adobe Illustrator",
+        "softNameTwo":"Adobe Photoshop",
+        "softImgOne":"https://i.ibb.co/xF6dmT7/Adobe-Illustrator.png",
+        "softImgTwo":"https://i.ibb.co/zbg6BQb/Adobe-Photoshop.png",
+        "possionsWork": [
+            {
+                "works":[
+                    "Graphic Designer",
+                    "Brand Identity Designer",
+                    "Art Director",
+                    "Print Production Designer",
+                    "Motion Graphics Designer"
+                ]
+            }
+        ],
+        "topics": [
+            {
+                "name": "Module 1: Graphic Design Theory",
+                "subtopics": [
+                    "Understanding typography basics, color theory, and layout theory.",
+                    "Learning about different types of grids and how they can be used in design.",
+                    "Understanding the importance of visual hierarchy and how it can be achieved.",
+                    "Learning about the different types of design styles and when to use them."
+                ]
+            },
+            {
+                "name": "Module 2: Adobe Photoshop Introduction and Tools",
+                "subtopics": [
+                    "Understanding the basic setup of Photoshop and its interface.",
+                    "Learning how to use and manipulate images using basic tools like the Content Aware Tool and Layering Masks.",
+                    "Understanding the use of Duotones, Gradients, and other color effects in design",
+                    "Learning advanced editing techniques like non-destructive editing and changing hair/object color."
+                ]
+            },
+            {
+                "name": "Module 3: Photoshop Editing and Manipulation",
+                "subtopics": [
+                    "Understanding the process of photo editing and manipulation using Photoshop.",
+                    "Learning advanced techniques like object color and hair color changing.",
+                    "Understanding the importance of non-destructive editing in preserving image quality.",
+                    "Learning how to create professional-quality images using advanced editing tools."
+                ]
+            },
+            {
+                "name": "Module 4: PROJECT - YouTube Thumbnail",
+                "subtopics": [
+                    "Understanding the design requirements for a YouTube thumbnail.",
+                    "Learning how to use layering masks, typography tools, and other design elements to create an effective thumbnail.",
+                    "Understanding the importance of visual hierarchy in a thumbnail design.",
+                    "Putting the skills learned in previous modules to use by creating a professional-quality YouTube thumbnail."
+                ]
+            },
+            {
+                "name": "Module 5: PROJECT - A Full Book Cover Design",
+                "subtopics": [
+                    "Understanding the design requirements for a book cover",
+                    "Learning how to use advanced Photoshop tools to create complex design elements.",
+                    "Understanding the importance of visual hierarchy and layout theory in a book cover design.",
+                    "Putting the skills learned in previous modules to use by creating a professional-quality book cover."
+                ]
+            },
+            {
+                "name": "Module 6: Adobe Illustrator Introduction and Basic Tools",
+                "subtopics": [
+                    "Understanding the basics of vector graphics and their applications in design.",
+                    "Learning the basic tools of Illustrator, including the Pen Tool and Shapebuilder Tool.",
+                    "Understanding how to use grids and other tools to create complex vector shapes.",
+                    "Learning how to create professional-quality vector graphics using Illustrator."
+                ]
+            },
+            {
+                "name": "Module 7: PROJECT - Create a vector illustration",
+                "subtopics": [
+                    "Understanding the design requirements for a vector illustration.",
+                    "Learning how to create complex vector shapes using advanced Illustrator tools.",
+                    "Understanding the importance of color theory and other design principles in a vector illustration.",
+                    "Putting the skills learned in previous modules to use by creating a professional-quality vector illustration."
+                ]
+            },
+            {
+                "name": "Module 8: Logo Design & Branding Theory",
+                "subtopics": [
+                    "Understanding the basics of logo design and its importance in branding.",
+                    "Learning about different types of logos and their applications in branding.",
+                    "Understanding the importance of color theory and typography in logo design.",
+                    "Learning how to create a professional-quality logo design that effectively represents a brand."
+                ]
+            },
+            {
+                "name": "Module 9: PROJECT - Logo design projects",
+                "subtopics": [
+                    "Understanding the design requirements for creating logos for personal and commercial use.",
+                    "Learning how to use advanced tools and techniques to create professional-quality logos.",
+                    "Understanding the importance of branding and visual identity in logo design.",
+                    "Putting the skills learned in previous modules to use by creating professional-quality logos for personal and commercial use."
+                ]
+            },
+            {
+                "name": "Module 10: Layout Practice - Event Flyer Design",
+                "subtopics": [
+                    "Understanding the design requirements for an event flyer/poster.",
+                    "Learning how to create effective headlines and use type hierarchy in design.",
+                    "Understanding the importance of layout theory and best practices in flyer design.",
+                    "Putting the skills learned in previous modules to use by creating a professional-quality event flyer/poster"
+                ]
+            },
+            {
+                "name": "Module 11: Adobe InDesign ",
+                "subtopics": [
+                    "Introduction to InDesign and its basic tools  ",
+                    "Working with type and paragraph tools to format text  ",
+                    "Master Pages and its use in creating consistent layout and design ",
+                    "Working with spreads, character and paragraph styles, and color palettes to create visually appealing documents "
+                ]
+            },
+            {
+                "name": "Module 12: Advanced InDesign Techniques",
+                "subtopics": [
+                    "Advanced text formatting techniques such as nested styles, GREP, and tables",
+                    "Working with images and graphics in InDesign",
+                    "Creating interactive documents with InDesign ",
+                    "Preparing documents for print or digital output"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Front End Development",
+        "img": "https://i.ibb.co/CsMNvKw/Rectangle-119-1.png",
+        "description": "Welcome to our Frontend Web Development Course! In this course, we will guide you through the fundamentals of web development, starting with the basic building blocks of HTML, CSS, and JavaScript. We'll cover setting up your development environment, including installation of required dependencies and tools. You'll learn about popular frameworks like Bootstrap and Tailwind, and delve into more advanced programming concepts such as loops, objects, and the Document Object Model (DOM). ",
+        "OnlineCourseDuration": "4 months",
+        "OfflineCourseDuration": "4 months",
+        "OnlineEnrolled": "120",
+        "OfflineEnrolled": "180",
+        "rating": "4.7/5",
+        "skill1": "HTML",
+        "skill2": "CSS",
+        "skill3": "Bootstrap",
+        "skill4": "version control",
+        "skill5": "UX Understanding",
+        "skill6": "Web Dev Tools",
+        "skill7": "Javascript",
+        "skill8": "React",
+        "skill9": "React Advanced",
+        "workOne":"You could also work for yourself or do freelance work to make a good living. Every day, people from all over the world post a lot of web development jobs on platforms like Freelancer.com, Upwork, and ThemeForest. You can also do well as an independent if you learn skills in this area.",
+        "workTwo":"On BdJobs or LinkedIn, there are a lot of jobs related to React that come from outside the country or country every day. So, if you take a Front End Development with React course, you can work as a skilled web developer from anywhere in the world at any place. In this way, students are helped by the Career Placement Department of the Nexttech ITC",
+        "softNameOne":"VS Code",
+        "softNameTwo":"Web Browser",
+        "softImgOne":"https://i.ibb.co/ssZ55Ld/VS-Code.png",
+        "softImgTwo":"https://i.ibb.co/6FFBLdT/Web-Browser.png",
+        "possionsWork": [
+            {
+                "works":[
+                    "Frontend Developer/Engineer",
+                    "UI Developer/Engineer",
+                    "Web Designer",
+                    "Frontend Architect",
+                    "UX Developer/Engineer"
+                ]
+            }
+        ],
+        "topics": [
+            {
+                "name": "Module 1: Introduction To Web Development",
+                "subtopics": [
+                    "Explanation of what web development is and why it is important.",
+                    "Basic building blocks of a web page including HTML, CSS, and JavaScript.",
+                    "How these building blocks work together to create a web page.",
+                    "Overview of web development tools and technologies."
+                ]
+            },
+            {
+                "name": "Module 2: Setting up the Development Environment",
+                "subtopics": [
+                    "How to set up a development environment with JavaScript and React.",
+                    "Installation of required dependencies and tools for development.",
+                    "Introduction to popular integrated development environments (IDEs).",
+                    "Configuring and customizing your development environment"
+                ]
+            },
+            {
+                "name": "Module 3: HTML, CSS",
+                "subtopics": [
+                    "Understanding what HTML is and how it is used in web development.",
+                    "Basic syntax and structure of HTML",
+                    "Common HTML tags and how to use them to structure content.",
+                    "Introduction to CSS, including its basic syntax and structure."
+                ]
+            },
+            {
+                "name": "Module 4: Bootstrap",
+                "subtopics": [
+                    "What Bootstrap is and how it is used in web development.",
+                    "What Bootstrap is and how it is used in web development.",
+                    "Overview of Bootstrap's basic components and styles.",
+                    "Customizing Bootstrap to fit your project's needs."
+                ]
+            },
+            {
+                "name": "Module 5: Tailwind",
+                "subtopics": [
+                    "Understanding what Tailwind is and how it is used in web development.",
+                    "How to include Tailwind in a web page.",
+                    "Introduction to Tailwind's basic utility classes.",
+                    "Customizing Tailwind to fit your project's needs."
+                ]
+            },
+            {
+                "name": "Module 6: JavaScript",
+                "subtopics": [
+                    "Overview of what JavaScript is and how it is used in web development.",
+                    "Basic syntax and structure of JavaScript.",
+                    "Common programming concepts such as variables, functions, and control flow.",
+                    "Introduction to JavaScript frameworks and libraries."
+                ]
+            },
+            {
+                "name": "Module 7: Advanced JavaScript",
+                "subtopics": [
+                    "Advanced programming concepts including arrays, objects, and loops.",
+                    "Overview of the Document Object Model (DOM) and how to manipulate HTML and CSS using JavaScript.",
+                    "Introduction to asynchronous programming with JavaScript.",
+                    "Best practices for writing clean and maintainable JavaScript code."
+                ]
+            },
+            {
+                "name": "Module 8: React",
+                "subtopics": [
+                    "What React is and how it is used in web development.",
+                    "Setting up a React project and creating your first component.",
+                    "Introduction to React's component lifecycle methods.",
+                    "Best practices for writing clean and maintainable React code."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Backend Development",
+        "img": "https://i.ibb.co/zx7YtGx/abc.jpg",
+        "description": "This Backend web development course covers the essential skills and knowledge required to build web applications using HTML, CSS, JavaScript, Node.js, MongoDB, and Sequelize ORM. Students will learn how to create responsive web pages, set up a development environment, work with databases, and implement user authentication and authorization. The course includes hands-on exercises and projects to help students gain practical experience in web development. By the end of the course, students will be able to build functional web applications from scratch.",
+        "OnlineCourseDuration": "4 months",
+        "OfflineCourseDuration": "4 months",
+        "OnlineEnrolled": "180",
+        "OfflineEnrolled": "200",
+        "rating": "4.8/5",
+        "skill1": "HTML",
+        "skill2": "CSS",
+        "skill3": "GitHub",
+        "skill4": "Node js",
+        "skill5": "javascipt",
+        "skill6": "Firebase",
+        "skill7": "User authentication",
+        "skill8": "Responsive web Design",
+        "skill9": "web perfomance optimization",
+        "workOne":"Every day, people from outside the country or country post web development jobs on BD Jobs or LinkedIn. So, if you take a training in web development, you can work as a skilled web developer from anywhere in the world for any company. In this way, students are helped by the Career Placement Department of the Nexttech ITC",
+        "workTwo":"You could also work for yourself or do freelance work to make a good living. Every day, people from all over the world post a lot of web development jobs on platforms like Freelancer.com, Upwork, and ThemeForest. You can also do well as an independent if you learn skills in this area.",
+        "softNameOne":"VS Code",
+        "softNameTwo":"Web Browser",
+        "softImgOne":"https://i.ibb.co/ssZ55Ld/VS-Code.png",
+        "softImgTwo":"https://i.ibb.co/6FFBLdT/Web-Browser.png",
+        "possionsWork": [
+            {
+                "works":[
+                    "Backend Developer/Engineer",
+                    "API Developer",
+                    "Database Developer/Administrator",
+                    "Backend Team Lead/Manager"
+                ]
+            }
+        ],
+        "topics": [
+            {
+                "name": "Module 1: Introduction to Web Development",
+                "subtopics": [
+                    "Explanation of what web development is and why it's important",
+                    "Introduction to the basic building blocks of a web page, including HTML, CSS, and JavaScript",
+                    "Understanding how these building blocks work together to create a web page",
+                    "Importance of understanding web development concepts for creating modern web applications"
+                ]
+            },
+            {
+                "name": "Module 2: Setting up the Development Environment",
+                "subtopics": [
+                    "Steps for setting up a development environment using JavaScript, Node.js, and MongoDB",
+                    "Installation of required dependencies and tools for the development environment",
+                    "Understanding how to configure the development environment for optimal performance and productivity",
+                    "Importance of having a well-configured development environment for web development projects"
+                ]
+            },
+            {
+                "name": "Module 3: HTML, CSS",
+                "subtopics": [
+                    "Overview of what HTML is and how it is used in web development",
+                    "Understanding the basic syntax and structure of HTML",
+                    "Common HTML tags and how to use them to structure content, including HTML tables and forms",
+                    "Introduction to CSS and its basic syntax and structure, as well as how to use common CSS properties to style HTML content"
+                ]
+            },
+            {
+                "name": "Module 4: Node.js",
+                "subtopics": [
+                    "Overview of Node.js, including its global object and module system",
+                    "Introduction to server and core modules, as well as streams and buffers",
+                    "Understanding how to use Express.js and its express() function, as well as the app, request, and response objects",
+                    "Introduction to middleware, routers, error handling, file upload, relational data, and JWT authentication using Node.js"
+                ]
+            },
+            {
+                "name": "Module 5: MongoDB",
+                "subtopics": [
+                    "Introduction to MongoDB and its query API, as well as how to create a database and collection",
+                    "Understanding how to insert, find, update, and delete data in MongoDB, as well as query and update operators",
+                    "Overview of search and validation in MongoDB, as well as the MongoDB drivers and Node.js drivers",
+                    "Introduction to charts in MongoDB and how to use them for data visualization"
+                ]
+            },
+            {
+                "name": "Module 6: Introduction to Sequelize ORM and MySQL",
+                "subtopics": [
+                    "Basic concepts of Sequelize ORM and how to connect it with a MySQL database",
+                    "Understanding the advantages of using an ORM over raw SQL queries",
+                    "Introduction to Sequelize syntax and how to define models for a MySQL database",
+                    "Overview of common use cases for Sequelize ORM and MySQL in web development projects"
+                ]
+            },
+            {
+                "name": "Module 7: Creating Database Models",
+                "subtopics": [
+                    "Understanding how to create database models using Sequelize ORM",
+                    "Overview of the structure of a model and the different data types that can be used",
+                    "Understanding how to define relationships between models and use associations in Sequelize ORM",
+                    "Importance of creating well-designed database models for effective data management in web development projects"
+                ]
+            },
+            {
+                "name": "Module 8: Defining Associations Between Models",
+                "subtopics": [
+                    "Defining associations between models using Sequelize ORM, including one-to-one, one-to-many, and many-to-many relationships",
+                    "Understanding how to use foreign keys and constraints to enforce data integrity in Sequelize ORM",
+                    "Overview of when to use different types of associations in web development projects",
+                    "Importance of understanding database relationships for effective data management and application design."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "name": "UI UX Design Course For Beginners",
+        "img": "https://i.ibb.co/GkpcqTB/5811308.jpg",
+        "description": "In this course, you will learn the fundamentals of user interface and user experience design. You will gain a strong understanding of user-centered design principles and processes, and develop skills in user research, information architecture, interaction design, visual design, and usability testing. Through hands-on projects and exercises, you will learn how to create effective and engaging designs for websites, mobile apps, and other digital products. By the end of the course, you will have a strong portfolio of work and the skills to succeed in the exciting field of UI/UX design.",
+        "OnlineCourseDuration": "4 months",
+        "OfflineCourseDuration": "4 months",
+        "OnlineEnrolled": "120",
+        "OfflineEnrolled": "280",
+        "rating": "4.5/5",
+        "skill1": "User Experience (UX)",
+        "skill2": "UX Research",
+        "skill3": "UX Research",
+        "skill4": "Usability Testing",
+        "skill5": "Prototype",
+        "skill6": "Prototype",
+        "skill7": "Figma",
+        "skill8": "Adobe XD",
+        "skill9": "UX design jobs",
+        "workOne":"UX/UI designers create company websites, apps, banners, and posters. As a result, many domestic and international firms need UX/UI design work. You can work as a UX/UI designer in any company, locally or overseas, after completing a course. Nexttech ITC Institute's Career Placement Department helps students find suitable jobs.",
+        "workTwo":"57% of artists and designers are freelancers, according to a poll. Freelancers can work autonomously and earn well. UX/UI tasks from around the world appear on Fiverr, Upwork, ThemeForest, and others daily. UX/UI designers can freelance successfully.",
+        "softNameOne":"Adobe Illustrator",
+        "softNameTwo":"Adobe XD",
+        "softImgOne":"https://i.ibb.co/xF6dmT7/Adobe-Illustrator.png",
+        "softImgTwo":"https://i.ibb.co/74CkR0S/Adobe-XD.png",
+        "possionsWork": [
+            {
+                "works":[
+                    "UI UX Design ",
+                    "UX Researcher",
+                    "UI Designer",
+                    "Usability Specialist"
+                ]
+            }
+        ],
+        "topics": [
+            {
+                "name": "Module 1: Introduction to UI/UX Design",
+                "subtopics": [
+                    "Understanding the difference between UI and UX",
+                    "Overview of the design process",
+                    "User-centered design approach"
+                ]
+            },
+            {
+                "name": "Module 2: User Research and Analysis",
+                "subtopics": [
+                    "Understanding user needs and behaviors",
+                    "Conducting user interviews and surveys",
+                    "Analyzing user data",
+                    "Creating user personas and scenarios"
+                ]
+            },
+            {
+                "name": "Module 3: Information Architecture and Interaction Design",
+                "subtopics": [
+                    "Organizing information and content",
+                    "Creating site maps and user flows",
+                    "Developing interaction models",
+                    "Wireframing and prototyping"
+                ]
+            },
+            {
+                "name": "Module 4: Visual Design",
+                "subtopics": [
+                    "Color theory and typography",
+                    "Design principles and elements",
+                    "Branding and style guides",
+                    "Designing for multiple devices"
+                ]
+            },
+            {
+                "name": "Module 5: Usability Testing and Evaluation",
+                "subtopics": [
+                    "Conducting user testing and evaluation",
+                    "Analyzing usability test data",
+                    "Iterative design process",
+                    "Continuous improvement and optimization"
+                ]
+            },
+            {
+                "name": "Module 6: Tools and Technologies",
+                "subtopics": [
+                    "Sketch, Adobe XD, Figma, InVision, etc.",
+                    "HTML, CSS, and JavaScript basics",
+                    "Content Management Systems (CMS)",
+                    "Content Management Systems (CMS)"
+                ]
+            },
+            {
+                "name": "Module 7: Final Project",
+                "subtopics": [
+                    "Applying all the skills learned in the course to design and create a final project",
+                    "Presenting the final project and receiving feedback",
+                    "Create detailed designs and specifications for the key components of your project",
+                    "Build a prototype of your project to test its functionality and usability"
+                ]
+            },
+            {
+                "name": "Module 8: Design and Prototyping",
+                "subtopics": [
+                    "Develop a concept design for your project that addresses the identified needs and issues",
+                    "Create detailed designs and specifications for the key components of your project",
+                    "Build a prototype of your project to test its functionality and usability",
+                    "Refine the design and prototype based on feedback and testing results"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Freelancing",
+        "img": "https://i.ibb.co/kxDbNTt/Whats-App-Image-2023-03-30-at-21-29-37-1.jpg",
+        "description": "This freelancing course is designed to equip aspiring freelancers with the skills and knowledge needed to thrive in the growing industry. It covers the advantages and disadvantages of freelancing, different types of freelancing, getting started as a freelancer, finding freelance work, managing freelance projects, building a sustainable freelance business, and avoiding burnout.",
+        "OnlineCourseDuration": "1 months",
+        "OfflineCourseDuration": "2 months",
+        "OnlineEnrolled": "180",
+        "OfflineEnrolled": "200",
+        "rating": "4.8/5",
+        "skill1": "Freelancing",
+        "skill2": "Types",
+        "skill3": "Niche",
+        "skill4": "Marketing",
+        "skill5": "Online presence",
+        "skill6": "Finding work",
+        "skill7": "Portfolio",
+        "skill8": "Communication",
+        "workOne":"Fiverr is an online marketplace that connects freelancers with clients worldwide. It provides a streamlined process for communication, project management, and secure payment transactions, making it a popular choice for both freelancers and clients. Upwork is an online marketplace that connects businesses and clients with freelancers from around the world. ",
+        "workTwo": "Upwork is an online marketplace connecting businesses and clients with freelancers from around the world, offering tools for communication, collaboration, project management, time tracking, payment protection, and dispute resolution.",
+        "softNameOne":"Fiverr",
+        "softNameTwo":"UpWork",
+        "softNameThree":"",
+        "softImgOne":"https://i.ibb.co/jyNm1mr/250299890-312194827385484-1057367972603221841-n.png",
+        "softImgTwo":"https://i.ibb.co/KqgsJS9/346113434-248545751049417-3144323894461082899-n.png",
+        "softImgThree":"",
+        "possionsWork": [
+            {
+                "works":[
+                    "Graphic Design Freelancing",
+                    "Web Development Freelancing",
+                    "UI UX Design Freelancing"
+                ]
+            }
+        ],
+        "topics": [
+            {
+                "name": "Module 1:  Introduction to Freelancing",
+                "subtopics": [
+                    "Definition and explanation of freelancing as a career path",
+                    "The growing popularity of freelancing and the reasons behind it",
+                    "Pros and cons of freelancing",
+                    "Different types of freelancing"
+                ]
+            },
+            {
+                "name": "Module 2:  Getting Started as a Freelancer",
+                "subtopics": [
+                    "Identifying your niche or skill set",
+                    "Understanding your target market",
+                    "Building an online presence",
+                    "Setting your rates and managing legal considerations"
+                ]
+            },
+            {
+                "name": "Module 3: Finding Freelance Work",
+                "subtopics": [
+                    "Methods for finding freelance work",
+                    "Crafting effective proposals and pitches",
+                    "Creating a portfolio",
+                    "Managing rejection and competition"
+                ]
+            },
+            {
+                "name": "Module 4: Managing Freelance Projects",
+                "subtopics": [
+                    "Best practices for managing freelance projects",
+                    "Strategies for managing multiple projects simultaneously",
+                    "Tools for tracking time and tasks",
+                    "Importance of clear communication and project documentation"
+                ]
+            },
+            {
+                "name": "Module 5: Building a Sustainable Freelance Business",
+                "subtopics": [
+                    "Building long-term relationships with clients",
+                    "Building a referral network",
+                    "Scaling your business through outsourcing and automation",
+                    "Planning for growth and diversification"
+                ]
+            },
+            {
+                "name": "Module 6:  Self-Marketing",
+                "subtopics": [
+                    "Personal branding",
+                    "Social media marketing",
+                    "Creating and managing a blog",
+                    "Email marketing"
+                ]
+            },
+            {
+                "name": "Module 7: Financial Management for Freelancers",
+                "subtopics": [
+                    "Setting up a budget",
+                    "Managing taxes and expenses",
+                    "Creating a payment schedule",
+                    "Creating financial goals and plans"
+                ]
+            },
+            {
+                "name": "Module 8: Self-Care and Professional Development",
+                "subtopics": [
+                    "Importance of self-care for freelancers",
+                    "Continuous learning and professional development",
+                    "Setting career goals",
+                    "Balancing work and personal life."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Mobile Testing(APPIUM)",
+        "img": "https://i.ibb.co/PQLQLqj/trading-stock-market-smartphone-blue-business-investment-graph-chart-background-3d-rendering-min.jpg",
+        "description": "This comprehensive mobile testing (Appium) course covers all the essential skills and knowledge needed to automate native and hybrid apps, browser apps, and mobile gestures. You will also learn how to design and implement industry-standard frameworks using Appium, TestNG, Maven, Jenkins, GitHub, Apache Log4J2, and Extent Reports, as well as how to integrate your framework with CI/CD and automate testing on the cloud.",
+        "OnlineCourseDuration": "1 months",
+        "OfflineCourseDuration": "2 months",
+        "OnlineEnrolled": "180",
+        "OfflineEnrolled": "200",
+        "rating": "4.8/5",
+        "skill1": "Mobile automation",
+        "skill2": "Appium framework design",
+        "skill3": "API testing",
+        "skill4": "CI/CD integration",
+        "skill5": "Object inspection",
+        "skill6": "Gesture automation",
+        "skill7": "Hybrid app testing",
+        "skill8": "Native app testing",
+        "skill9": "Cloud automation",
+        "workOne":"As a Mobile QA Tester, your job would be to test mobile apps on different systems, like Android and iOS, using Appium and other tools. You would be in charge of making test cases, running test scripts, finding and reporting bugs, and making sure that mobile apps are high-quality and work well. Mobile QA testers work closely with development teams and partners to test how well an app works, how the user feels about it, and if it works with other apps.",
+        "workTwo":"Test Automation Engineers are in charge of making and keeping up-to-date automated test scripts and systems for mobile apps. With your knowledge of Appium, you can automate test cases, add them to continuous integration/continuous delivery (CI/CD) pipelines, and make sure that testing processes are efficient and reliable. Test Automation Engineers work with teams from different departments to find opportunities for automating tests, improve test coverage, and improve the testing approach as a whole.",
+        "softNameOne":"appium",
+        "softNameTwo":"Android Studio",
+        "softImgOne":"https://i.ibb.co/ZXRPWvS/appium.png",
+        "softImgTwo":"https://i.ibb.co/Fhghw5n/346112747-1032863011030553-6639118887594291128-n.png",
+        "possionsWork": [
+            {
+                "works":[
+                    "Mobile QA Tester",
+                    "Mobile Test Automation Engineer",
+                    "Mobile Test Lead/Manager",
+                    "Quality Assurance Analyst"
+                ]
+            }
+        ],
+        "topics": [
+            {
+                "name": "Module 1: Introduction to Appium",
+                "subtopics": [
+                    "Overview of Appium features",
+                    "Appium internal architecture",
+                    "Installation and setup for running tests on Android and iOS simulators/emulators",
+                    "Installation and setup for running tests on Android and iOS real devices"
+                ]
+            },
+            {
+                "name": "Module 2: Native App Automation with Appium",
+                "subtopics": [
+                    "Understanding native app automation",
+                    "How to automate native Android apps using Appium",
+                    "How to automate native iOS apps using Appium",
+                    "Best practices for native app automation with Appium"
+                ]
+            },
+            {
+                "name": "Module 3: Hybrid App Automation with Appium",
+                "subtopics": [
+                    "Understanding hybrid app automation",
+                    "How to automate hybrid Android apps using Appium",
+                    "How to automate hybrid iOS apps using Appium",
+                    "Best practices for hybrid app automation with Appium"
+                ]
+            },
+            {
+                "name": "Module 4: Appium API and Commands",
+                "subtopics": [
+                    "Overview of Appium API and commands",
+                    "How to use Appium commands for mobile testing",
+                    "Advanced Appium commands and their usage",
+                    "Troubleshooting Appium API and commands issues"
+                ]
+            },
+            {
+                "name": "Module 5: Mobile Gestures Automation with Appium",
+                "subtopics": [
+                    "Understanding mobile gestures automation",
+                    "How to automate scroll and swipe actions using Appium",
+                    "How to automate longpress and tap actions using Appium",
+                    "How to automate touch actions using Appium"
+                ]
+            },
+            {
+                "name": "Module 6: Automating Browser Apps with Appium",
+                "subtopics": [
+                    "Understanding browser app automation",
+                    "How to automate browser apps on Android using Appium",
+                    "How to automate browser apps on iOS using Appium",
+                    "Best practices for automating browser apps with Appium"
+                ]
+            },
+            {
+                "name": "Module 7: Object Inspection on Apps and Mobile Browsers",
+                "subtopics": [
+                    "Overview of object inspection tools",
+                    "How to inspect objects on apps with uiautomatorviewer",
+                    "How to inspect objects on mobile browsers with Appium Inspector",
+                    "Tips and tricks for object inspection on apps and mobile browsers"
+                ]
+            },
+            {
+                "name": "Module 8: Appium Framework Design and Implementation",
+                "subtopics": [
+                    "Overview of Appium framework design",
+                    "How to design and implement an Appium hybrid framework from scratch",
+                    "Best practices for designing and implementing industry-standard frameworks using Appium, TestNG, Maven, Jenkins, GitHub, Apache Log4J2, and Extent Reports",
+                    "Appium framework CI/CD integration and cloud automation with BrowserStack"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "name": "CCNA - Cisco Certified Network Associate",
+        "img": "https://i.ibb.co/5M8NsLR/346109107-1018113859594946-1066635470020867875-n.jpg",
+        "description": "CCNA is mostly a training program for people who want to work with computer networks or start a job in the networking industry. Having a CCNA diploma in the networking field makes you qualified for any entry-level job in the field. So the CCNA Certification from Nexttech ITC will help you lay the groundwork for your IT job. CCNA is the first step toward getting other Cisco certifications. ",
+        "OnlineCourseDuration": "3 months",
+        "OfflineCourseDuration": "3 months",
+        "OnlineEnrolled": "280",
+        "OfflineEnrolled": "250",
+        "workOne":"Every day, people from outside the country or country look for networking jobs on BDI Jobs or LinkedIn. If you take the CCNA training, you can work as a Network Specialist for any company.",
+        "workTwo":"You could also work for yourself or do freelance work to make a good living. Cisco CCNA works every day on many different markets, such as Freelancer.com, Fiverr, and Upwork, from all over the world. You can also do well as an independent if you learn skills in this area.",
+        "softNameOne":"Wireshark",
+        "softNameTwo":"CISCO-IOS",
+        "softImgOne":"https://i.ibb.co/rw1YG2C/Wireshark.png",
+        "softImgTwo":"https://i.ibb.co/fN8MVnp/CISCO-IOS.png",
+        "possionsWork": [
+            {
+                "works":[
+                    "Network Administrator",
+                    "Network Support Engineer",
+                    "Network Technician",
+                    "Network Engineer"
+                ]
+            }
+        ],
+        "rating": "4.9/5",
+        "skill1": "Networking Fundamentals",
+        "skill2": "Network Design",
+        "skill3": "Routing and Switching",
+        "skill4": "IP Addressing and Subnetting",
+        "skill5": "Network Security",
+        "skill6": "Wireless Networking",
+        "skill7": "Network Troubleshooting",
+        "skill8": "Network Management",
+        "skill9": "WAN Technologies",
+        "topics": [
+            {
+                "name": "Module 1: Introduction",
+                "subtopics": [
+                    "CCNA Courses Introduction",
+                    "The Study Plan of CCNA Courses",
+                    "Recommended Training and Exam Guide Lines",
+                    "Why Need CCNA for Network Professional",
+                    "Computer Network Concept"
+                ]
+            },
+            {
+                "name": "Module 2: Introduction to Computer Network Fundamentals",
+                "subtopics": [
+                    "Computer Network",
+                    "Networking Fundamental",
+                    "Parts of Computer Network",
+                    "Networking Devices",
+                    "Communication Medium",
+                    "Network Topology",
+                    "Tolls and Required Software"
+                ]
+            },
+            {
+                "name": "Module 3: Communication Medium",
+                "subtopics": [
+                    "Communication Medium Detai",
+                    "Network Cabling Basic",
+                    "Basic Network Design",
+                    "Network Devices Connection Details",
+                    "Basic Configuration and Comm"
+                ]
+            },
+            {
+                "name": "Module 4: TCP/IP Protocol Suite & OSI Model",
+                "subtopics": [
+                    "Communication Protocol (OSI)",
+                    "TCP/IP Protocol Suite",
+                    "IP & IP Header",
+                    "IP Address (IPv4 & IPv6)",
+                    "IP Assigning in Routers"
+                ]
+            },
+            {
+                "name": "Module 5: IP Addressin",
+                "subtopics": [
+                    "Numbering System (Decimal to Binary / Binary to",
+                    "IPV4 Fundamental",
+                    "Host bit and Network bi",
+                    "IP Calculatio",
+                    "Subnet Mas"
+                ]
+            },
+            {
+                "name": "Module 6: Subnetting",
+                "subtopics": [
+                    "Subnetting Overview",
+                    "Subnetting Practise",
+                    "CIDR - Classless Inter Domain Routin",
+                    "VLSM - Variable Length Subnet",
+                    "Assessment on VLSM",
+                    "Supernetting Concep"
+                ]
+            },
+            {
+                "name": "Module 7: Basic Router/Switch Configuration",
+                "subtopics": [
+                    "Router/Switch Mode Introduction",
+                    "Router/Switch Basic",
+                    "Router/Switch Basic",
+                    "Packet Introduction, DNS, NAT, ARP, NTP, SNMP etc",
+                    "Command Practises",
+                    "Short Projects"
+                ]
+            },
+            {
+                "name": "Module 8: Switching Fundamentals",
+                "subtopics": [
+                    "Basic Switch Configuratio",
+                    "VLAN Introduction",
+                    "VLAN Configuration",
+                    "Access & Trunk Ports"
+                ]
+            },
+            {
+                "name": "Module 9: Routing Fundamental",
+                "subtopics": [
+                    "Types of Routing",
+                    "Configure Static Route",
+                    "Configure Dynamic Route- RIP (V1 & V2, OSPF, EIGRP)",
+                    "Configure Default Rout",
+                    "Short Projects"
+                ]
+            },
+            {
+                "name": "Module 10: Server Configuration",
+                "subtopics": [
+                    "Concept of Servers",
+                    "Concept about important Protocols and Port",
+                    "FTP, DNS, WEB, Mail, DHCP, TFTP, SysLog et"
+                ]
+            },
+            {
+                "name": "Module 11: Access Control List (ACL)",
+                "subtopics": [
+                    "Concept of ACL",
+                    "Process of ACL",
+                    "Standard ACL Configuration",
+                    "Standard ACL Configuration"
+                ]
+            }
+        ]
+    }
+]

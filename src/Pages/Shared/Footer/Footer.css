@@ -95,8 +95,8 @@
 @media only screen and (min-width: 588px) and (max-width:992px) {
     .footerBackground {
         background-color: #1E2452;
-        height: 400px;
-        display: none;
+        height: 500px;
+        
     
 
     }
@@ -111,7 +111,7 @@
 
         font-family: 'Heebo', sans-serif;
         color: #FFFFFF;
-        display: none;
+        
 
     }
 
@@ -122,13 +122,13 @@
         font-size: 14px;
         line-height: 100%;
         /* identical to box height, or 20px */
-        display: none;
+        
 
         color: #FFFFFF;
     }
 
     .comPera {
         margin-top: 15px;
-        display: none;
+        
     }
 }

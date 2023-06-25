@@ -1,0 +1,72 @@
+.CourseAllBackground {
+    position: relative;
+    background-image: url(https://i.ibb.co/q92f2N0/course-THREE.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+  }
+  
+  .CourseAllBackground::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+    border-radius: 12px;
+    /* Adjust the opacity as needed */
+  }
+  .CourseHeadingMainOne{
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 85px;
+    color: white;
+    z-index: 1;
+  }
+
+  .CoursePera{
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    color: white;
+    z-index: 1;
+  }
+  @media only screen and (max-width:588px) {
+    .CourseAllBackground {
+        height: 350px;
+        width: 500px;
+      }
+      .CourseHeadingMainOne{
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+      }
+      .CoursePera{
+       display: none;
+      }
+      
+
+}
+
+@media only screen and (min-width: 588px) and (max-width:992px) {
+    .CourseAllBackground {
+        height: 500px;
+        width: 900px;
+      }
+      .CourseHeadingMainOne{
+        font-size: 40px;
+        line-height: 45px;
+        text-align: center;
+      }
+      .CoursePera{
+       display: none;
+      }
+}

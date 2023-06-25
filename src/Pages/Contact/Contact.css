@@ -1,3 +1,36 @@
+.ContactAllBackground {
+    position: relative;
+    background-image: url(https://i.ibb.co/DpPqmRq/contact-Two.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+  }
+  
+  .ContactAllBackground::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+    border-radius: 12px;
+    /* Adjust the opacity as needed */
+  }
+
+  .ContactHeadingMainOne{
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 35px;
+    color: white;
+    z-index: 1;
+  }
+
+
 .emailCard {
 
     width: 1340px;
@@ -97,8 +130,37 @@
     opacity: 0.5;
     /* W3C */
 }
+.contactImg{
+    width: 1340px;
+}
+
+
 
 @media only screen and (max-width:588px) {
+    .ContactAllBackground {
+        width: 300px;
+        height: 300px;
+     
+      }
+      .ContactHeadingMainOne{
+        font-size: 26px;
+        line-height: 88px;
+        color: white;
+        text-align: center;
+        z-index: 1;
+      }
+      .emialcardText {
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 115%;
+        /* or 55px */
+    
+    
+        color: #FFFFFF;
+    }
+    
 .emailCard{
     width: 370px;
     height: 1000px;
@@ -121,4 +183,15 @@
         height: 800px;
         padding: 10px;
     }
+    .ContactAllBackground {
+        width: 500px;
+        height: 350px;
+      }
+      .ContactHeadingMainOne{
+        font-size: 36px;
+        line-height: 88px;
+        text-align: center;
+        color: white;
+        z-index: 1;
+      }
 }

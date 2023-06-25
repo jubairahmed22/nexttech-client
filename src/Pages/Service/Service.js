@@ -165,9 +165,18 @@ const Service = () => {
             loading? <ViewSpin></ViewSpin> :
             <div>
             <div className="">
+            <div className='ServiceAllBackground rounded-xl'>
+                        <div className='max-w-[1150px] h-56  mx-auto '>
+                        <h1 className="ServiceHeadingMainOne text-left pt-48 lg:mt-20">Service <span className="text-orange-500">we offer</span></h1>
+                        <p className="ServicePera mt-10">Take your digital transformation to the next level with Nexttech ITC's advanced and reliable IT solutions</p>
+
+                        </div>
+                {/* <h1 className='text-center pt-20  text-white lg:mt-20'>Featured <span className='text-orange-600'>Courses</span>
+                </h1> */}
+             </div>
 
 
-                <Swiper
+                {/* <Swiper
                     pagination={{
                         dynamicBullets: true,
                     }}
@@ -186,14 +195,15 @@ const Service = () => {
                         </div>
 
                     </SwiperSlide>
-                </Swiper>
+                </Swiper> */}
 
 
-
+           </div> 
 
                 {/* All Services Start */}
 
-                <div className="flex flex-col items-center justify-center">
+     <div className="max-w-[1345px] mx-auto">
+     <div className="flex flex-col items-center justify-center">
                     <div className=" flex items-center justify-center">
                         <h1 className="text-center aboutText lg:mt-10 ">Our <span className="text-orange-500">Services</span></h1>
 
@@ -226,7 +236,7 @@ const Service = () => {
                         }
                     </div>
                 </div>
-            </div>
+            
 
             {/* All Services End */}
             <h1 className="text-center aboutText">Our Portfolio</h1>
@@ -290,7 +300,7 @@ const Service = () => {
                               
 
                                     <div className="">
-                                        <h2 className="TogetherCardTitle p-5 mt-5">IT Training Center</h2>
+                                        <h2 className="text-3xl font-bold bg-orange-400 p-5 mt-5">IT Training Center</h2>
                                         <Link to="/aboutUs">
                                             <div className="inline-flex items-center">
                                                 <h2 className="TogetherCardTitleTwo py-5">More About Us</h2>
@@ -386,6 +396,8 @@ const Service = () => {
 
                 </div>
             </div>
+     </div>
+    
             {/* Experience site end */}
            <Footer></Footer>
            </div>

@@ -1,3 +1,36 @@
+.courseAllBackground {
+    position: relative;
+    background-image: url(https://i.ibb.co/v1JJKG5/29822988-q-abstract-3d-background-4-Converted-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.courseAllBackground::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    /* Adjust the opacity as needed */
+}
+
+.HeadingTittleOne {
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 35px;
+    color: white;
+    z-index: 1;
+}
+
+
+
+
 .subHeading {
     font-family: 'Heebo', sans-serif;
 
@@ -10,6 +43,141 @@
     color: #444444;
 
 }
+
+/* countIitems Start */
+.countOne {
+
+    width: 400px;
+    height: 180px;
+    background: #7E8DFC;
+    border-radius: 10px;
+}
+
+.countTwo {
+
+    width: 400px;
+    height: 180px;
+    background: #9680EF;
+    border-radius: 10px;
+}
+
+.countThree {
+
+    width: 400px;
+    height: 180px;
+    background: #45AFD9;
+    border-radius: 10px;
+}
+
+.countText {
+
+
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.countTextPera {
+
+    width: 260px;
+    height: 63px;
+    margin-top: 20px;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+
+/* countIitems end */
+
+
+/* project start */
+.projectText {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 112px;
+
+    color: #1E2452;
+}
+
+.projectImg {
+    width: 1373px;
+    height: 341px;
+
+    border-radius: 30px;
+}
+
+.projectTextTwo {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+
+    color: #444444;
+
+}
+
+/* project end */
+
+
+/* lifetime start */
+.lifetimeHeading {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    color: #1E2452;
+}
+
+.lifetimePera{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+letter-spacing: 0.04em;
+
+color: #666666;
+}
+
+.lifetimeImg{
+    width: 692.58px;
+height: 390px;
+}
+
+/* lifetime end */
+.eventTxt{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 60px;
+/* identical to box height */
+
+
+/* Primary Blue */
+
+color: #1E2452;
+}
+
+/* event end */
+
 
 .boxCard {
     width: 300px;
@@ -74,7 +242,7 @@
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.05em;
-    
+
     color: #999999;
 
 }
@@ -91,10 +259,10 @@
     font-size: 26px;
     line-height: 30px;
     letter-spacing: 0.05em;
-  
+
     color: #333333;
     margin-bottom: 10px;
- 
+
 }
 
 .boxImgTwo {
@@ -132,9 +300,13 @@
 
 @media only screen and (max-width:588px) {
     .mainHeading {
-     
+
         font-size: 40px;
         line-height: 50px;
+    }
+    .HeadingTittleOne{
+        font-size: 30px;
+       
     }
 
     .workTittle {
@@ -192,11 +364,20 @@
     .boxImgOnelist {
 
         font-size: 16px;
-         text-align: center;
+        text-align: center;
 
         color: #333333;
 
     }
+ 
+        .projectText{
+            font-size: 40px;
+           
+        line-height: 76px;
+        margin-bottom: 10px;
+        text-align: center;
+        }
+ 
 
 }
 
@@ -266,25 +447,55 @@
         color: #333333;
 
     }
+    .projectText{
+        font-size: 36px;
+       
+    line-height: 6px;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
     .subHeading {
-   
-    
+
+
         color: white;
-    
+
     }
-    .mainHeading  {
-        color: white;
-    }
-    .cardTittle{
+    .projectText {
         color: white;
     }
-    .cardPera{
+    .projectTextTwo{
         color: white;
     }
-    .Support, .supportPera, .boxImgOnelist, .workTittle, .workText{
+    .lifetimePera{
         color: white;
     }
-  }
+    .lifetimeHeading{
+        color: white;
+    }
+    .eventTxt{
+        color: white;
+    }
+
+
+
+    .mainHeading {
+        color: white;
+    }
+
+    .cardTittle {
+        color: white;
+    }
+
+    .cardPera {
+        color: white;
+    }
+
+    .Support,
+    .supportPera,
+    .boxImgOnelist,
+    .workTittle,
+    .workText {
+        color: white;
+    }
+}

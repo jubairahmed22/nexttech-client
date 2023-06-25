@@ -33,6 +33,25 @@
 
 }
 
+.cardCol{
+    background: linear-gradient(90deg, rgba(38,0,66,1) 0%, rgba(82,1,140,1) 44%, rgba(99,0,171,1) 100%);
+
+}
+.iconCol{
+    color: orange;
+}
+.cetaText{
+    transition: all 0.2s ease-in-out;  
+}
+.cetaText:hover{
+    color: #fdec6e;
+    text-shadow:0px 0px 30px #fdec6e;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
 .blogDes {
     font-family: 'Heebo', sans-serif;
     font-style: normal;
@@ -46,6 +65,23 @@
 
     color: #555555;
 }
+
+.recentPostPera{
+    text-decoration: none;
+    text-align: left;
+    transition: all 0.2s ease-in-out;  
+    border-radius: 10px;
+}
+.recentPostPera:hover{
+    text-decoration: none;
+    color: #fdec6e;
+    text-shadow:0px 0px 30px #fdec6e;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
 
 @media only screen and (max-width:588px) {
     .cardMajer {
